@@ -1,20 +1,6 @@
 # Welcome to BobaDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the programming and ________ training documentation for Boba Bots 253.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-!!! warning
-	this is broken kek
+!!! note
+	We are moving at a significantly faster pace than any computer science course offered at the school, and it's okay to get stuck or not know something. The Programming team veterans are here to help, please ask us questions!
