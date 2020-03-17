@@ -2,6 +2,7 @@ site_name: BobaDocs
 nav:
   - Home: index.md
   - About: about.md
-theme: material
+theme: 
+  name: material
 markdown_extensions: 
   - admonition
