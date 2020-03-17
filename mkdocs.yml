@@ -1,0 +1,7 @@
+site_name: BobaDocs
+nav:
+  - Home: index.md
+  - About: about.md
+theme: material
+markdown_extensions: 
+  - admonition
