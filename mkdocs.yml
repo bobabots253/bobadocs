@@ -42,8 +42,6 @@ markdown_extensions:
 
 plugins:
   - search
-  - git-revision-date-localized:
-      type: datetime
 
 site_name: 'BobaDocs'
 site_description: 'Boba Bots 253 Documentation'
