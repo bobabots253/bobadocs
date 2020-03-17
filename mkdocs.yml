@@ -1,8 +1,52 @@
 site_name: BobaDocs
+
 nav:
   - Home: index.md
   - About: about.md
+
 theme: 
   name: material
+  palette: 
+    primary: teal
+    accent: cyan
+  feature:
+    tabs: true
+  logo: img/logo.png
+  favicon: img/logo.png
+
 markdown_extensions: 
   - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - codehilite
+
+
+
+repo_name: "MillsRoboticsTeam253/bobadocs"
+repo_url: "https://github.com/MillsRoboticsTeam253/bobadocs"
+
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'instagram'
+      link: 'https://www.instagram.com/bobabots253/?hl=en'
+    - type: 'github'
+      link: 'https://github.com/MillsRoboticsTeam253/bobadocs'
+    
