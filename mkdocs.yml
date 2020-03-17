@@ -2,7 +2,10 @@ site_name: BobaDocs
 
 nav:
   - Home: index.md
-  - About: about.md
+  - Programming: 
+    - Introduction: home.md
+    - Yeet: about.md
+  - Resources: resources.md
 
 theme: 
   name: material
@@ -10,7 +13,7 @@ theme:
     primary: teal
     accent: cyan
   feature:
-    tabs: true
+    tabs: false
   logo: img/logo.png
   favicon: img/logo.png
 
@@ -37,7 +40,14 @@ markdown_extensions:
   - pymdownx.tilde
   - codehilite
 
+plugins:
+  - search
+  - git-revision-date-localized
 
+site_name: 'BobaDocs'
+site_description: 'Boba Bots 253 Documentation'
+site_author: 'Boba Bots 253'
+site_url: 'https://bobadocs.readthedocs.io/en/latest/'
 
 repo_name: "MillsRoboticsTeam253/bobadocs"
 repo_url: "https://github.com/MillsRoboticsTeam253/bobadocs"
