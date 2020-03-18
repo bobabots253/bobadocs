@@ -5,13 +5,14 @@ nav:
   - Programming: 
     - Introduction: home.md
     - Yeet: about.md
+  - Contributing: contributing/contributing.md
   - Resources: resources.md
 
 theme: 
   name: material
   palette: 
     primary: teal
-    accent: cyan
+    accent: pink
   feature:
     tabs: false
   logo: img/logo.png
