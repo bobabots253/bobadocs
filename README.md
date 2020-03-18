@@ -3,3 +3,5 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 # bobadocs
 Documentation for programming subteam of Boba Bots 253
+
+https://bobadocs.readthedocs.io/en/latest/
