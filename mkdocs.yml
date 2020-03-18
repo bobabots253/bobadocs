@@ -1,4 +1,13 @@
 site_name: BobaDocs
+site_description: Software Documentation for Boba Bots 253
+site_author: Boba Bots 253 Software Team 
+site_url: https://bobadocs.readthedocs.io/en/latest/
+
+repo_name: "MillsRoboticsTeam253/bobadocs"
+repo_url: "https://github.com/MillsRoboticsTeam253/bobadocs"
+
+copyright: 'Copyright &copy; 2020 Elegant Rose Royal Tea '
+
 
 nav:
   - Home: index.md
@@ -44,17 +53,11 @@ markdown_extensions:
 plugins:
   - search
 
-site_name: 'BobaDocs'
-site_description: 'Boba Bots 253 Documentation'
-site_author: 'Boba Bots 253'
-site_url: 'https://bobadocs.readthedocs.io/en/latest/'
-
-repo_name: "MillsRoboticsTeam253/bobadocs"
-repo_url: "https://github.com/MillsRoboticsTeam253/bobadocs"
-
 extra:
   manifest: 'manifest.webmanifest'
   social:
+    - type: 'globe'
+      link: https://www.bobabots253.org/
     - type: 'instagram'
       link: 'https://www.instagram.com/bobabots253/?hl=en'
     - type: 'github'
