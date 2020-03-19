@@ -9,7 +9,7 @@ If you do not have Python installed, download it from the official website and f
 !!! tip
 	Make sure to add python to PATH during the install process, it makes life a bit easier.
 
-A TextEditor such as Sublime Text3 or some other text editor is highly recommended. 
+A TextEditor such as Sublime Text 3 or some other text editor is highly recommended. 
 
 ### Source Code
 
