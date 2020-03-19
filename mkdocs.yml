@@ -14,8 +14,11 @@ nav:
   - Programming: 
     - Introduction: home.md
     - Yeet: about.md
-  - Contributing: contributing/contributing.md
-  - Resources: resources.md
+  - Contributing: 
+    - Introduction: contributing/contributing.md
+    - With Python: contributing/with-python.md
+    - Contributing Resources: contributing/contresources.md
+  - Software Resources: resources.md
 
 theme: 
   name: material
