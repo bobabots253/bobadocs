@@ -6,7 +6,7 @@ site_url: https://bobadocs.readthedocs.io/en/latest/
 repo_name: "MillsRoboticsTeam253/bobadocs"
 repo_url: "https://github.com/MillsRoboticsTeam253/bobadocs"
 
-copyright: 'Copyright &copy; 2020 Elegant Rose Royal Tea '
+#copyright: 'Copyright &copy; 2020 Elegant Rose Royal Tea'
 
 
 nav:
@@ -28,8 +28,8 @@ theme:
     accent: pink
   feature:
     tabs: false
-  logo: img/logo.png
-  favicon: img/logo.png
+  logo: resources/logo.png
+  favicon: resources/logo.png
 
 markdown_extensions: 
   - admonition
