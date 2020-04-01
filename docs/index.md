@@ -11,4 +11,13 @@ We are moving at a significantly faster pace than engineering course offered at 
 !!! attention
 	WPILib has significantly changed their code structure for 2020. See the [New for 2020 Documentation](https://docs.wpilib.org/en/latest/docs/software/wpilib-overview/new-for-2020.html#new-for-2020) for more details. 
 
-<center>![Boba Bot](img/logo.png)</center>
+<p>
+    <img src="resources/logo.png" alt="Boba Bot" style="width:50%"/>
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</p>
