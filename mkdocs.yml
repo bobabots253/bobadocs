@@ -12,14 +12,14 @@ repo_url: "https://github.com/MillsRoboticsTeam253/bobadocs"
 nav:
   - Home: index.md
   - Programming: 
-    - Introduction: home.md
-    - Yeet: about.md
+    - Introduction: programming/introduction.md
+    - Yeet: programming/Yeet.md
   - Contributing: 
     - Introduction: contributing/contributing.md
     - With Python: contributing/with-python.md
     - Up to Date: contributing/updating.md
     - Contributing Resources: contributing/contresources.md
-  - Software Resources: resources.md
+  - Software Resources: software_resources.md
 
 theme: 
   name: material
