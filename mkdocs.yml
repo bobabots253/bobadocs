@@ -11,7 +11,12 @@ repo_url: "https://github.com/MillsRoboticsTeam253/bobadocs"
 
 nav:
   - Home: index.md
-  - Programming: 
+  - Learn Java:
+    - Quickstart: learn java/quickstart.md
+    - Resources: learn java/resources.md
+  - Git and Github:
+    - Quickstart: git and github/quickstart.md
+  - Programming:
     - Introduction: programming/introduction.md
     - Yeet: programming/Yeet.md
   - Contributing: 
