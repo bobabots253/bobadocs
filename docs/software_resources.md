@@ -31,7 +31,7 @@ REV Robotics provides various electrical components and software libraries for F
 - [SPARK MAX Documentation](http://www.revrobotics.com/sparkmax-software/#code-examples)
 - [REV Documentation](https://github.com/REVrobotics)
 - [REV Examples](https://github.com/REVrobotics)
-- [REV Java DOcs](http://www.revrobotics.com/content/sw/max/sw-docs/java/index.html)
+- [REV Java Docs](http://www.revrobotics.com/content/sw/max/sw-docs/java/index.html)
 
 ## Miscellaneous
 - [navX(Gyroscope)](https://pdocs.kauailabs.com/navx-mxp/software/roborio-libraries/)
