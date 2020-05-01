@@ -28,13 +28,15 @@ theme:
   name: material
   palette: 
     primary: cyan
-    accent: pink
+    accent: teal
+  font:
+    text: Roboto Condensed
   features:
     - instant
   icon:
     repo: fontawesome/brands/github
   logo: assets/logo.png
-  favicon: assets/bbByThemself_vectorized.svg
+  favicon: assets/bbalone_vectorized.svg
 
 markdown_extensions: 
   - admonition
