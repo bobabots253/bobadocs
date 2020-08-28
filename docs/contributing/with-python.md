@@ -20,6 +20,11 @@ Clone the bobadocs repository from Github. https://github.com/MillsRoboticsTeam2
 This site uses the MkDocs Python package to convert Markdown files to a website, and a few more packages to provide additional functionality and theming. You can install all the necessary dependencies by running `pip install -r requirements.txt` while in the root directory of the repository.
 
 Alternatively, run the following in the repository's root directory.
+```
+pip install mkdocs mkdocs-material pymdown-extensions mkdocs-git-revision-date-plugin
+```
+
+**or, to install each dependency individually**
 
 ```
 pip install mkdocs
@@ -34,7 +39,11 @@ pip install pymdown-extensions
 ```
 
 ```
-pip install pygments
+pip install mkdocs-git-revision-date-plugin
+```
+
+```
+pip install mkdocs-git-committers-plugin-2
 ```
 
 ## Development Workflow
@@ -61,7 +70,8 @@ Proofread your documentation and make sure that your documentation displays as i
 
 ### Push changes to Github
 
-All Done? Simply push/merge it to the master branch of the [bobadocs](https://github.com/MillsRoboticsTeam253/bobadocs)repository. ReadTheDocs will automatically update the clone the bobadocs repository and update the documentation within a few minutes.
+All Done? Simply push/merge it to the master branch of the [bobadocs] (https://github.com/MillsRoboticsTeam253/bobadocs)repository. ReadTheDocs will automatically update the clone the bobadocs repository and update the documentation within a few minutes.
 
 !!! fail
 	If the readthedocs site does not update within a few minutes of your Github push, it is likely that the virtual python docs compiler has failed build. Check your local changes for syntax errors and push again. If the issue occurs again, ask your programming lead to check the readthedocs build logs.
+
