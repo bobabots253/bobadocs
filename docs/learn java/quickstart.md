@@ -1,5 +1,5 @@
 <p>
-    <img src="/docs/assets/java_icon.png" alt="Java Icon"/>
+    <img src="../../assets/java_icon.png" alt="Java Icon"/>
     <style>
         img { 
             display: block;
