@@ -22,4 +22,3 @@ We are moving at a significantly faster pace than engineering course offered at 
     </style>
 </p>
 
-Page last revised on: {{ git_revision_date }}

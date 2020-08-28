@@ -63,8 +63,7 @@ markdown_extensions:
 
 plugins:
   - search
-  - git-revision-date:
-      enabled_if_env: CI
+  - git-revision-date
 
 extra:
   manifest: 'manifest.webmanifest'
