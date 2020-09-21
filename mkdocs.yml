@@ -22,6 +22,9 @@ nav:
     - With Python: contributing/with-python.md
     - Up to Date: contributing/updating.md
     - Contributing Resources: contributing/contresources.md
+  - Troubleshooting:
+    - Introduction: troubleshooting/problemsolving.md
+    - Common Issues: troubleshooting/common-issues.md
   - Software Resources: software_resources.md
 
 theme: 

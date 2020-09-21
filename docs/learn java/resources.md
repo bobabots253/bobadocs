@@ -13,6 +13,7 @@
 ## For people who know programming already
 
 - https://learnxinyminutes.com/docs/java/
+- [Java Curriculum Review](https://docs.google.com/document/d/1uvdhZh_KHP2CNnY71-o25Nwcel4Z0Ybq4y5HQbdyGfk/edit?usp=sharing) by Jakin Chan
 
 ## Exercises (practice makes better)
 
