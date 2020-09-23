@@ -32,4 +32,5 @@ In robotics, troubleshooting is a crucial part in insuring that your code, elect
 
 Additional Resources:
 
-- [Guide to debugging things](https://docs.google.com/document/d/1IcQTWgjMQWTC86tlFYdn92ab8jGxHdzFSHhFfe8KXS4/edit?usp=sharing) by Eric Xiao
+- [Guide to Debugging Things](https://docs.google.com/document/d/1IcQTWgjMQWTC86tlFYdn92ab8jGxHdzFSHhFfe8KXS4/edit?usp=sharing) by Eric Xiao
+- WPILIB [Debugging a Robot Program](https://docs.wpilib.org/en/stable/docs/software/wpilib-overview/debugging-robot-program.html)
