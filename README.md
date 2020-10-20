@@ -1,9 +1,22 @@
+<div align="center">
+
+<img src="docs/assets/logo.png" width="30%">
+
+# BobaDocs
+
+```
+yes.
+```
+
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 [![ForTheBadge Documentation Status](https://readthedocs.org/projects/bobadocs/badge/?version=latest)](https://bobadocs.readthedocs.io/en/latest/?badge=latest)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-# bobadocs
+
+
+</div>
+
+## About
+
 Documentation for programming subteam of Boba Bots 253.
 
-Yes
-
-https://bobadocs.readthedocs.io/en/latest/
+[bobadocs.readthedocs.io](https://bobadocs.readthedocs.io/en/latest/)
