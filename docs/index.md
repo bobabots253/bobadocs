@@ -6,8 +6,8 @@
 	<h1> 
 		<strong>BobaDocs</strong> <small>for Boba Bots 253</small> 
 	</h1>
-	<a class="md-button" href="/learn-java/quickstart/">Learn Java</a>
-	<a class="md-button" href="/programming/gitstuff/">Learn Git</a>
+	<a class="md-button" href="/en/latest/learn-java/quickstart/">Learn Java</a>
+	<a class="md-button" href="/en/latest/programming/gitstuff/">Learn Git</a>
 	<div class="spacer"></div>
 </div>
 
