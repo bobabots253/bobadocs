@@ -12,8 +12,8 @@ repo_url: "https://github.com/MillsRoboticsTeam253/bobadocs"
 nav:
   - Home: index.md
   - Learn Java:
-    - Quickstart: learn java/quickstart.md
-    - Resources: learn java/resources.md
+    - Quickstart: learn-java/quickstart.md
+    - Resources: learn-java/resources.md
   - Programming:
     - Introduction: programming/introduction.md
     - Github: programming/gitstuff.md
@@ -29,11 +29,15 @@ nav:
 
 theme: 
   name: material
+  highlightjs: true
+  hljs_languages:
+      - java
+      - python
   palette: 
     primary: cyan
     accent: teal
   font:
-    text: Roboto Condensed
+    text: Inter
   features:
     - instant
   icon:
