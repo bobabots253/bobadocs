@@ -22,7 +22,7 @@ In robotics, troubleshooting is a crucial part in insuring that your code, elect
 
 5. Verify functionality.
 	- Ensure the problem has been resolved and the system performs as designed. Side effects should be minimized.
-	- Implement measures to prevent the issue from happeening again.
+	- Implement measures to prevent the issue from happening again.
 
 6. Document the issue and process.
 	- Chances are the issue will pop up again. Documenting the process and issue allows others to quickly resolve the issue without frustration. This can save time during future troubleshooting and prevent others from taking the same missteps you may have taken.
