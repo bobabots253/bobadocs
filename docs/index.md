@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="/assets/main.css">
+<link rel="stylesheet" href="/assets/css/main.css">
 
 <div style="text-align: center">
     <img src="assets/logo.png" alt="Boba Bot" style="width:40%"/>
