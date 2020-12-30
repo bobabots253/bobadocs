@@ -7,6 +7,7 @@
 
 ## For complete beginners to programming
 
+- <a href="../../assets/BJP.pdf">APCS Textbook</a>
 - [Free Codecademy Java course for beginners](https://www.codecademy.com/learn/learn-java/)
 - [A playlist of videos on java covering installation to lambdas to threading](https://www.youtube.com/playlist?list=PLfu_Bpi_zcDPNy6qznvbkGZi7eP_0EL77)
 
