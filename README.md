@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/logo.png" width="30%">
+<img src="docs/assets/icons/logo.png" width="30%">
 
 # BobaDocs
 

@@ -42,8 +42,8 @@ theme:
     - instant
   icon:
     repo: fontawesome/brands/github
-  logo: assets/logo.png
-  favicon: assets/bbalone_vectorized.svg
+  logo: assets/icons/logo.png
+  favicon: assets/icons/bbalone_vectorized.svg
 
 markdown_extensions: 
   - admonition
