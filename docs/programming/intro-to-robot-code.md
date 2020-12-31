@@ -30,19 +30,19 @@ Next, set up your username (your real name) and email in Git by following these 
 
 Bring up the Visual Studio Code command palette with Control+Shift+P:
 
-<img src="https://docs.wpilib.org/en/stable/_images/command-palette.png" alt="">
+<img src="https://docs.wpilib.org/en/stable/_images/command-palette.png">
 
 Then, type “WPILib” into the prompt. Since all WPILib commands start with “WPILib,” this will bring up the list of WPILib-specific VS Code commands:
 
-<img src="https://docs.wpilib.org/en/stable/_images/wpilib-commands.png" alt="">
+<img src="https://docs.wpilib.org/en/stable/_images/wpilib-commands.png">
 
 Now, select the “Create a new project” command:
 
-<img src="https://docs.wpilib.org/en/stable/_images/create-new-project.png" alt="">
+<img src="https://docs.wpilib.org/en/stable/_images/create-new-project.png">
 
 This will bring up the “New Project Creator Window:”
 
-<img src="https://docs.wpilib.org/en/stable/_images/new-project-creator.png" alt="">
+<img src="https://docs.wpilib.org/en/stable/_images/new-project-creator.png">
 
 Some elements we care about are explained below:
 

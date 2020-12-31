@@ -24,5 +24,5 @@ The following is a set of guidelines for contributing on Github for our team. Th
 - If writing test code, create a new branch or add onto another. 
 - The `README` should be updated with useful information about the repository or programming team (ie. branch descriptions, checklists, etc.)
 - Write useful commit messages; Describe what changes you made. (<action\>, <changes\>) is a good format. For example,
-`"add subsystems"` is good, `"aaron didnt f*cking push and the room is closing. im writing this as we are putting this into the car so this commit makes no sense"` is not good.
+`"add initial drivetrain logic"` is good, `"robot drive haha yes"` is not good.
     - Keep commit messages in present-tense. ie: ~~"Added shooter PID""~~ should instead be `"Add shooter PID"`

@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="/assets/css/main.css">
 
 <div style="text-align: center">
-    <img src="assets/icons/logo.png" alt="Boba Bot" style="width:40%"/>
+    <img src="assets/icons/logo.png" alt="Boba Bot Logo" style="width:40%"/>
 	<h1> 
 		<strong>BobaDocs</strong> <small>for Boba Bots 253</small> 
 	</h1>

@@ -1,4 +1,4 @@
-name: mkdocs build
+name: CI
 
 on:
   push:

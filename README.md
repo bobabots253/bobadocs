@@ -1,22 +1,21 @@
-<div align="center">
+<div style="text-align: center">
 
-<img src="docs/assets/icons/logo.png" width="30%">
+<img src="docs/assets/icons/logo.png" style="width:30%" alt="Boba Bot Logo">
 
 # BobaDocs
 
-```
-yes.
-```
-
-[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
-[![ForTheBadge Documentation Status](https://readthedocs.org/projects/bobadocs/badge/?version=latest)](https://bobadocs.readthedocs.io/en/latest/?badge=latest)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-
+[![Build Status][GHAction-image]][GHAction-link]
+[![LICENSE][LICENSE-image]][LICENSE-link]
 
 </div>
 
 ## About
 
-Documentation for programming subteam of Boba Bots 253.
+Documentation for the Boba Bots 253.
 
-[bobadocs.readthedocs.io](https://bobadocs.readthedocs.io/en/latest/)
+https://bobadocs.readthedocs.io/en/latest/
+
+[GHAction-image]: https://github.com/MillsRoboticsTeam253/bobadocs/workflows/CI/badge.svg?branch=master&event=push
+[GHAction-link]: https://github.com/MillsRoboticsTeam253/bobadocs/actions?query=event%3Apush+branch%3Amaster
+[LICENSE-image]: https://img.shields.io/github/license/MillsRoboticsTeam253/bobadocs
+[LICENSE-link]: https://github.com/MillsRoboticsTeam253/bobadocs/blob/master/LICENSE
