@@ -74,7 +74,6 @@ plugins:
   - git-revision-date
 
 extra:
-  manifest: 'manifest.webmanifest'
   social:
     - icon: fontawesome/solid/globe
       link: 'https://www.bobabots253.org/'
