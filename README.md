@@ -1,4 +1,4 @@
-<div style="text-align: center">
+<div align="center">
 
 <img src="docs/assets/icons/logo.png" width="30%" alt="Boba Bot Logo">
 
