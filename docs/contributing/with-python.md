@@ -42,10 +42,6 @@ pip install pymdown-extensions
 pip install mkdocs-git-revision-date-plugin
 ```
 
-```
-pip install mkdocs-git-committers-plugin-2
-```
-
 ## Development Workflow
 
 ### Local Changes
