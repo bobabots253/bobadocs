@@ -18,7 +18,6 @@ nav:
     - Intro to Robot Code: programming/intro-to-robot-code.md
     - Github: programming/gitstuff.md
     - FAQ: programming/faq.md
-    - TEST: Broken/link.md
   - Robot Troubleshooting:
     - Introduction: troubleshooting/problemsolving.md
     - Common Issues: troubleshooting/common-issues.md
