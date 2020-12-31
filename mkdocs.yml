@@ -15,8 +15,9 @@ nav:
     - Quickstart: learn-java/quickstart.md
     - Resources: learn-java/resources.md
   - Programming:
-    - Introduction: programming/introduction.md
+    - Intro to Robot Code: programming/intro-to-robot-code.md
     - Github: programming/gitstuff.md
+    - FAQ: programming/faq.md
   - Robot Troubleshooting:
     - Introduction: troubleshooting/problemsolving.md
     - Common Issues: troubleshooting/common-issues.md
