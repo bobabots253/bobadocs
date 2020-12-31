@@ -11,9 +11,6 @@ repo_url: "https://github.com/MillsRoboticsTeam253/bobadocs"
 
 nav:
   - Home: index.md
-  - Learn Java:
-    - Quickstart: learn-java/quickstart.md
-    - Resources: learn-java/resources.md
   - Programming:
     - Intro to Robot Code: programming/intro-to-robot-code.md
     - Github: programming/gitstuff.md
