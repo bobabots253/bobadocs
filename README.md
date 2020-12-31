@@ -1,6 +1,6 @@
 <div style="text-align: center">
 
-<img src="docs/assets/icons/logo.png" style="width:30%" alt="Boba Bot Logo">
+<img src="docs/assets/icons/logo.png" width="30%" alt="Boba Bot Logo">
 
 # BobaDocs
 
