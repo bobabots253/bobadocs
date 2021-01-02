@@ -42,7 +42,7 @@ Week 3:
 
 ### For complete beginners to programming
 
-- <a href="../../assets/BJP.pdf">APCS Textbook</a>
+- [APCS Textbook](../assets/BJP.pdf)
 - [Free Codecademy Java course](https://www.codecademy.com/learn/learn-java/)
 - [A playlist of YouTube videos on Java](https://www.youtube.com/playlist?list=PLfu_Bpi_zcDPNy6qznvbkGZi7eP_0EL77)
 
