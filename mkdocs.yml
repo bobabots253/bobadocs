@@ -44,7 +44,8 @@ theme:
   logo: assets/icons/logo.png
   favicon: assets/icons/bbalone_vectorized.svg
 
-markdown_extensions: 
+markdown_extensions:
+  - attr_list
   - admonition
   - footnotes
   - toc:
