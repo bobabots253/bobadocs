@@ -60,7 +60,7 @@ Once all the above have been configured, click “Generate Project” and the ro
 
 After successfully creating your project, VS Code will give the option of opening the project as shown below. We can choose to do that now or later by typing <kbd>Ctrl-K</kbd> then <kbd>Ctrl-O</kbd> (or just <kbd>Command+O</kbd> on macOS) and select the folder where we saved our project.
 
-Once opened we will see the project hierarchy on the left. Double clicking on a file will open that file in the editor.
+Once opened, we will see the project hierarchy on the left. Double-clicking on a file will open that file in the editor.
 
 ## Code Structure
 
