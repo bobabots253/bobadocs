@@ -16,6 +16,7 @@ nav:
     - Intro to Robot Code: programming/intro-to-robot-code.md
     - Github: programming/gitstuff.md
     - FAQ: programming/faq.md
+    - Resources: programming/resources.md
   - Robot Troubleshooting:
     - Introduction: troubleshooting/problemsolving.md
     - Common Issues: troubleshooting/common-issues.md
@@ -24,7 +25,6 @@ nav:
     - With Python: contributing/with-python.md
     - Up to Date: contributing/updating.md
     - Contributing Resources: contributing/contresources.md
-  - Software Resources: software_resources.md
 
 theme: 
   name: material

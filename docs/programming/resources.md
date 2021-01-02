@@ -1,5 +1,3 @@
-# Resources
-
 ## Team Resources
 - [Boba Bots Github](https://github.com/MillsRoboticsTeam253)
 
@@ -39,5 +37,3 @@ REV Robotics provides various electrical components and software libraries for F
 - [Limelight(Vision)](https://docs.limelightvision.io/en/latest/)
 - [PID Demo](https://sites.google.com/site/fpgaandco/pid)
 - [Scouting Web-App(WIP) Demo](https://cbg.zws.im/)
-
-
