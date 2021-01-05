@@ -6,6 +6,7 @@
 	</h1>
     <!-- These buttons will break on local builds since en/latest/ is a readthedocs thing -->
 	<a class="md-button" href="/en/latest/programming/version-control/">Learn Git</a>
+    <a class="md-button" href="/en/latest/programming/resources/">Software Resources</a>
 	<div class="spacer"></div>
 </div>
 
