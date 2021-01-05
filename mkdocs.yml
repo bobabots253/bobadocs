@@ -25,6 +25,9 @@ nav:
     - Up to Date: contributing/updating.md
     - Contributing Resources: contributing/contresources.md
 
+extra_css:
+  - stylesheets/extra.css
+
 theme: 
   name: material
   highlightjs: true

@@ -1,13 +1,11 @@
 
-<link rel="stylesheet" href="assets/css/main.css">
-
 <div style="text-align: center">
     <img src="assets/icons/logo.png" alt="Boba Bot Logo" style="width:40%"/>
 	<h1> 
 		<strong>BobaDocs</strong> <small>for Boba Bots 253</small> 
 	</h1>
-	<a class="md-button" href="/en/latest/learn-java/quickstart/">Learn Java</a>
-	<a class="md-button" href="/en/latest/programming/gitstuff/">Learn Git</a>
+    <!-- These buttons will break on local builds since en/latest/ is a readthedocs thing -->
+	<a class="md-button" href="/en/latest/programming/version-control/">Learn Git</a>
 	<div class="spacer"></div>
 </div>
 
