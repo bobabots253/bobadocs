@@ -15,6 +15,6 @@ This site uses the Material Design theme for MkDocs. You can find more informati
 ## Markdown Extensions
 In addition to default Markdown, the site also uses some extensions to provide additional functionality. All the enabled extensions can be found in the [`markdown_extensions`](https://github.com/MillsRoboticsTeam253/bobadocs/blob/master/mkdocs.yml#L34) list in [`mkdocs.yml`](https://github.com/MillsRoboticsTeam253/bobadocs/blob/master/mkdocs.yml). 
 
-Currently, information about all the extensions we use can be found here: <https://squidfunk.github.io/mkdocs-material/extensions/admonition/>
+Currently, information about all the extensions we use can be found here: <https://squidfunk.github.io/mkdocs-material/reference/admonitions/>
 
 If you add an extension that requires a new Python package to be installed, be sure to add that package to [`requirements.txt`](https://github.com/MillsRoboticsTeam253/bobadocs/blob/master/requirements.txt).
