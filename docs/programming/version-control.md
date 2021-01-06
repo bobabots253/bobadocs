@@ -7,7 +7,7 @@ Surely, we don't take turns passing around a computer to type in our lines. Ente
 Once you're done, we'll do some exercises to see if you've got it.
 
 !!! note
-    We'll be using [VS Code's built-in version control tools in this tutorial](https://code.visualstudio.com/docs/editor/versioncontrol), but there are many other good tools too, including [Github Desktop](https://desktop.github.com/), [Gitkraken](https://www.gitkraken.com/git-client), and of course, the ol' command line. 
+    We'll be using [VS Code's built-in version control tools in this tutorial](https://code.visualstudio.com/docs/editor/versioncontrol), but there are many other good tools too, including [Sourcetree](https://www.sourcetreeapp.com/), [Github Desktop](https://desktop.github.com/), [Gitkraken](https://www.gitkraken.com/git-client), and of course, the ol' command line. 
     You don't need to know how to use the command line for FRC, but it's a useful, if not essential, skill if you want to go beyond.
 
 ## Practice
