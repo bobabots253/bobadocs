@@ -9,6 +9,10 @@ The WPILib suite installs the IDE we write our code in as well as the tools need
 Follow the instructions on [the official WPILib documentation](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html) for your respective OS.
 This will install WPILib and all its required tooling, as well as the VSCode IDE that we use to write code.
 
+??? warning "Mac only (maybe Linux too)"
+    As of writing this, WPILib has not included an installer with their Mac package.
+    Follow the instructions [here](https://docs.wpilib.org/en/2020/docs/getting-started/getting-started-frc-control-system/wpilib-setup.html) to setup your WPILib install.
+
 ### Git and Github
 
 We use Git and Github to keep track of and collaborate on code.
