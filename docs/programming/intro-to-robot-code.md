@@ -322,3 +322,4 @@ Again in the `RobotContainer.java` file, modify the `bindIO()` method to set the
     ```
 
 Again, deploy your code to the robot to see if it worked!
+Once you're satisfied with your changes, read the [Git Flow](git-flow.md) page to push your changes.
