@@ -217,6 +217,8 @@ We will be mostly using the library's `edu.wpi.first.wpilibj` package, and you c
 
 ### Practice
 
+First has [a pretty good write-up on command-based programming](https://docs.wpilib.org/en/latest/docs/software/commandbased/index.html#command-based-programming), so we'll read that. Once you're done, we'll practice writing some basic commands.
+
 !!! warning "Before you start"
     If you have access to a robot and would like to test your code, you will need the following items:
     
@@ -231,6 +233,9 @@ If you are new to git, read the [intro to git](version-control.md) section befor
 
 Clone the [TrainingRobot project](https://github.com/MillsRoboticsTeam253/TrainingRobot), and open it in VSCode.
 You can check if you have got the right project open by deploying the project to the robot and pressing the ++x++ button on the controller. If the motor spins, you've got the right code!
+
+!!! note
+    VSCode may prompt you to "import project to 2020". Don't do this.
 
 !!! warning
     Please don't actually push any of your changes to the Github repository.
@@ -275,12 +280,17 @@ Once you think you figured it out, follow the above [Deploying robot code](#depl
 #### Part 2: Default commands
 
 Right now, our motor only has two states: half power, or completely off. 
-Let's make the motor's speed correspond to more granular controller input using the joystick.
+Let's make the motor's speed correspond to more granular controller input using a joystick.
 
 Again in the `RobotContainer.java` file, modify the `bindIO()` method to set the default command of the `Motors` subsystem to the `RunMotors` command.
 
 ??? question "Hint"
+    Get the joystick's Y-value from the `XboxController` we already have defined.
+
+??? question "Hint"
     `Motors` is an implementation of the [`Subsystem`](https://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj2/command/Subsystem.html) interface.
+
+    Pass the `Motors` subsystem into the command and have it drive the motors to the Y-value of the joystick when executed. Use the prewritten code, the [command-based programming tutorial](https://docs.wpilib.org/en/latest/docs/software/commandbased/index.html#command-based-programming), and the WPILib JavaDocs for help.
 
 ??? check "Example Solution"
     This is one way to implement this step. Yours may look a little different, but the same logic should appear here.
