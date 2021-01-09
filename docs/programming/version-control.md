@@ -20,8 +20,9 @@ Navigate to this file in the repo (`docs/programming/version-control.md`) and ad
 !!! success "People who have added their name"
     <!-- Remember to add a comma after your name! -->
     <!-- Use a newline to write your name -->
-    Sebastian Law, 
-    [Nathan Choi](https://www.youtube.com/watch?v=dQw4w9WgXcQ), William Bruce, 
+    Sebastian Law,
+    [Nathan Choi](https://www.youtube.com/watch?v=dQw4w9WgXcQ),
+    William Bruce,
 
 
 Now stage and commit your changes with the message `add [your name]`, and then push your changes. Refer to the [Git tutorial](https://guides.github.com/introduction/git-handbook/) and [VS Code tutorial](https://code.visualstudio.com/docs/editor/versioncontrol) if needed.
