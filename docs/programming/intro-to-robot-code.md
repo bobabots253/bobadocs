@@ -66,7 +66,7 @@ After successfully creating your project, VS Code will give the option of openin
 
 Once opened, we will see the project hierarchy on the left. Double-clicking on a file will open that file in the editor.
 
-## Code Structure
+## Project Structure
 
 A typical robot project may look like [this](https://github.com/MillsRoboticsTeam253/Code2020):
 ```
