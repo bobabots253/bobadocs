@@ -23,7 +23,6 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip setuptools wheel
-          pip install codespell
           pip install -r requirements.txt
       - name: Build docs
         run: mkdocs build --clean --strict --verbose
@@ -32,5 +31,21 @@ jobs:
         with:
           name: bobadocs-site
           path: site/
+  spell-check:
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.x
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Cache pip
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install -U codespell
       - name: Run Spell Checker
         run: codespell docs/
