@@ -32,6 +32,8 @@ jobs:
           name: bobadocs-site
           path: site/
   spell-check:
+    runs-on: ubuntu-latest
+    name: codespell
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python 3.x
