@@ -14,7 +14,7 @@ nav:
     - Intro to Git & Github: programming/version-control.md
     - Intro to Robot Code: programming/intro-to-robot-code.md
     - Git Flow: programming/git-flow.md
-    - Github: programming/gitstuff.md
+    - Collaboration: programming/collaboration.md
     - FAQ: programming/faq.md
     - Resources: programming/resources.md
   - Robot Troubleshooting:
