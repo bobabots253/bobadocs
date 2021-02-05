@@ -32,10 +32,6 @@ extra_css:
 
 theme: 
   name: material
-  highlightjs: true
-  hljs_languages:
-      - java
-      - python
   palette: 
     primary: cyan
     accent: teal
