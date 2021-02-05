@@ -9,6 +9,7 @@ repo_url: "https://github.com/MillsRoboticsTeam253/bobadocs"
 
 nav:
   - Home: index.md
+  - FRC Competition Overview: frc-competition-overview.md
   - Programming:
     - Introduction: programming/learn-java.md
     - Intro to Git & Github: programming/version-control.md
