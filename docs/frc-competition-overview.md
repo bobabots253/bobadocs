@@ -17,7 +17,7 @@ The FIRST Robotics Competition was founded in 1989 by inventor and entrepreneur 
 Dean Kamen was unhappy with the number of women and minorities who did not consider STEM (Science, Technology, Engineering, Mathematics) careers.
 The first competition season was held in 1992.
 
-![Woodie Flowers And Dean Kamen](assets/images/woodie_and_dean.png)
+![Woodie Flowers And Dean Kamen](assets/images/frc/woodie_and_dean.png)
 
 *Woodie Flowers (left) and Dean Kamen (right).*
 
@@ -30,7 +30,7 @@ The FIRST Organization also holds competitions for students of varying ages. The
 3. FIRST Tech Challenge (FTC): grades 7-12
 4. FIRST Robotics Challenge  (FRC): grades 9-12 (that's us!)
 
-![FRC Pathway](assets/images/frc_pathway.png)
+![FRC Pathway](assets/images/frc/frc_pathway.png)
 
 ### Events
 
@@ -52,7 +52,7 @@ The winner is automatically given a ticket to the next year’s championship. Pa
 Competition events will oftentimes include extra activities for members to participate in. These include **workshops and panels**, where students and mentors present and discuss FRC related topics.
 Competition is also expensive (transportation, food, housing, sign-up fees, etc.), so teams spend time fundraising throughout the year.  
 
-![Blue Banners](assets/images/blue_banners.png)
+![Blue Banners](assets/images/frc/blue_banners.png)
 
 Winners for both regional and championship competitions, as well as select awards are awarded with a blue banner.
 
@@ -90,10 +90,10 @@ The idea is founded on the philosophy that teams can and should help and coopera
 Coopertition involves both learning from and teaching teammates.
 It is learning from mentors, both managing and being managed. 
 
-![Coopertition Quote](assets/images/coopertition.png)
+![Coopertition Quote](assets/images/frc/coopertition.png)
 
 ### FIRST Core Values
 
-![FIRST Core Values](assets/images/FIRST_core_values.png)
+![FIRST Core Values](assets/images/frc/FIRST_core_values.png)
 
 To learn more about the FRC, check out the FAQ [here](https://firstnevada.org/wp-content/uploads/2019/10/FIRST-HQ-FAQ.pdf).
