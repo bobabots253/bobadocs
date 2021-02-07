@@ -28,7 +28,7 @@ nav:
     - Contributing Resources: contributing/contresources.md
 
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css
 
 theme: 
   name: material
