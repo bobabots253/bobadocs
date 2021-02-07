@@ -81,7 +81,7 @@ People who practice Gracious Professionalism learn how to both compete fiercely,
 
     \- FIRST Website
 
-<iframe title="Woodie Flowers explains Gracious Professionalism" width="400" height="225" src="https://www.youtube.com/embed/h2e6gxczMxc" allowfullscreen></iframe>
+<iframe title="Woodie Flowers explains Gracious Professionalism" src="https://www.youtube.com/embed/h2e6gxczMxc" allowfullscreen></iframe>
 
 ### Coopertition
 

@@ -29,6 +29,7 @@ nav:
 
 extra_css:
   - assets/stylesheets/extra.css
+  - assets/stylesheets/iframe.css
 
 theme: 
   name: material
