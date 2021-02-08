@@ -22,6 +22,14 @@ nav:
   - Robot Troubleshooting:
     - Introduction: troubleshooting/problemsolving.md
     - Common Issues: troubleshooting/common-issues.md
+  - Onshape:
+    - Useful Shortcuts: onshape/useful-shortcuts.md
+    - Lessons:
+      - 1. Intro to Onshape: onshape/intro.md
+      - 2. Sketching: onshape/sketching.md
+      - 3. Creating Basic Parts: onshape/basic-parts.md
+      - 4. Creating Complex Parts: onshape/complex-parts.md
+      - 5. Navigating Assemblies: onshape/navigating-assemblies.md
   - Contributing:
     - Introduction: contributing/contributing.md
     - With Python: contributing/with-python.md
