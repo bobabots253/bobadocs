@@ -1,63 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://bobadocs.readthedocs.io/en/latest/</loc>
-     <lastmod>2021-02-05</lastmod>
+     <lastmod>2021-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bobadocs.readthedocs.io/en/latest/frc-competition-overview/</loc>
-     <lastmod>2021-02-05</lastmod>
+     <lastmod>2021-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bobadocs.readthedocs.io/en/latest/programming/learn-java/</loc>
-     <lastmod>2021-02-05</lastmod>
+     <lastmod>2021-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bobadocs.readthedocs.io/en/latest/programming/version-control/</loc>
-     <lastmod>2021-02-05</lastmod>
+     <lastmod>2021-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bobadocs.readthedocs.io/en/latest/programming/intro-to-robot-code/</loc>
-     <lastmod>2021-02-05</lastmod>
+     <lastmod>2021-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bobadocs.readthedocs.io/en/latest/programming/git-flow/</loc>
-     <lastmod>2021-02-05</lastmod>
+     <lastmod>2021-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bobadocs.readthedocs.io/en/latest/programming/collaboration/</loc>
-     <lastmod>2021-02-05</lastmod>
+     <lastmod>2021-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bobadocs.readthedocs.io/en/latest/programming/faq/</loc>
-     <lastmod>2021-02-05</lastmod>
+     <lastmod>2021-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bobadocs.readthedocs.io/en/latest/programming/resources/</loc>
-     <lastmod>2021-02-05</lastmod>
+     <lastmod>2021-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bobadocs.readthedocs.io/en/latest/troubleshooting/problemsolving/</loc>
-     <lastmod>2021-02-05</lastmod>
+     <lastmod>2021-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bobadocs.readthedocs.io/en/latest/troubleshooting/common-issues/</loc>
-     <lastmod>2021-02-05</lastmod>
+     <lastmod>2021-02-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://bobadocs.readthedocs.io/en/latest/onshape/useful-shortcuts/</loc>
+     <lastmod>2021-02-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://bobadocs.readthedocs.io/en/latest/onshape/intro/</loc>
+     <lastmod>2021-02-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://bobadocs.readthedocs.io/en/latest/onshape/sketching/</loc>
+     <lastmod>2021-02-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://bobadocs.readthedocs.io/en/latest/onshape/basic-parts/</loc>
+     <lastmod>2021-02-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://bobadocs.readthedocs.io/en/latest/onshape/complex-parts/</loc>
+     <lastmod>2021-02-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://bobadocs.readthedocs.io/en/latest/onshape/navigating-assemblies/</loc>
+     <lastmod>2021-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bobadocs.readthedocs.io/en/latest/contributing/contributing/</loc>
-     <lastmod>2021-02-05</lastmod>
+     <lastmod>2021-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bobadocs.readthedocs.io/en/latest/contributing/with-python/</loc>
-     <lastmod>2021-02-05</lastmod>
+     <lastmod>2021-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bobadocs.readthedocs.io/en/latest/contributing/updating/</loc>
-     <lastmod>2021-02-05</lastmod>
+     <lastmod>2021-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://bobadocs.readthedocs.io/en/latest/contributing/contresources/</loc>
-     <lastmod>2021-02-05</lastmod>
+     <lastmod>2021-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
