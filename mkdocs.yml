@@ -5,6 +5,7 @@ site_url: https://bobadocs.readthedocs.io/en/latest/
 
 repo_name: "MillsRoboticsTeam253/bobadocs"
 repo_url: "https://github.com/MillsRoboticsTeam253/bobadocs"
+edit_uri: ""
 
 
 nav:
