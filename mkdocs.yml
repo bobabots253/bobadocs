@@ -39,7 +39,7 @@ theme:
   font:
     text: Inter
   features:
-    - instant
+    - navigation.instant
   icon:
     repo: fontawesome/brands/github
   logo: assets/icons/logo.png
@@ -70,7 +70,8 @@ markdown_extensions:
   - codehilite
 
 plugins:
-  - search
+  - search:
+      prebuild_index: true
   - git-revision-date
 
 extra:
