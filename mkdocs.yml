@@ -50,7 +50,8 @@ theme:
   font:
     text: Inter
   features:
-    - navigation.instant
+    # - navigation.instant
+    # we often change docs and don't want it getting cached by browsers
     - navigation.sections
     - navigation.tabs
   icon:
