@@ -31,6 +31,7 @@ nav:
 extra_css:
   - assets/stylesheets/extra.css
   - assets/stylesheets/iframe.css
+  - assets/stylesheets/video-admonition.css
 
 theme: 
   name: material
