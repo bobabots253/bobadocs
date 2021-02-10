@@ -10,7 +10,7 @@ edit_uri: ""
 
 nav:
   - Home: index.md
-  - FRC Competition Overview: frc-competition-overview.md
+  - FRC Overview: frc-competition-overview.md
   - Programming:
     - Introduction: programming/learn-java.md
     - Intro to Git & Github: programming/version-control.md
