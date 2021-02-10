@@ -1,7 +1,7 @@
 site_name: BobaDocs
 site_description: Documentation for Boba Bots 253
 site_author: Boba Bots 253 Software Team 
-site_url: https://bobadocs.readthedocs.io/en/latest/
+site_url: https://bobadocs.readthedocs.io/
 
 repo_name: "MillsRoboticsTeam253/bobadocs"
 repo_url: "https://github.com/MillsRoboticsTeam253/bobadocs"
