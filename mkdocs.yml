@@ -19,9 +19,9 @@ nav:
     - Collaboration: programming/collaboration.md
     - FAQ: programming/faq.md
     - Resources: programming/resources.md
-  - Robot Troubleshooting:
-    - Introduction: troubleshooting/problemsolving.md
-    - Common Issues: troubleshooting/common-issues.md
+    - Robot Troubleshooting:
+      - Introduction: programming/troubleshooting/problemsolving.md
+      - Common Issues: programming/troubleshooting/common-issues.md
   - Onshape:
     - Lessons:
       - 1. Intro to Onshape: onshape/intro.md
