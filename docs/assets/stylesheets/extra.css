@@ -9,3 +9,54 @@
 .spacer {
 	height: 40px;
 }
+
+:root {
+    --bb-main-color: #01b0bb;
+    --bb-main-color-light: #9edede;
+    --bb-dark-accent: #08888e;
+    --bb-light-accent: #e6f6ff;
+    --bb-treads: #7a7a7a;
+    --bb-body: #b6b6b6;
+}
+
+a { font-family: Roboto Condensed, sans-serif !important; }
+body { font-family: Roboto Condensed, sans-serif !important; }
+div { font-family: Roboto Condensed, sans-serif !important; }
+p { font-family: Roboto Condensed, sans-serif !important; }
+
+/*
+    Headers
+*/
+
+h1 { font-family: Quicksand Bold, sans-serif !important; }
+h2 { font-family: Quicksand Bold, sans-serif !important; }
+h3 { font-family: Quicksand Bold, sans-serif !important; }
+h4 { font-family: Quicksand Bold, sans-serif !important; }
+h5 { font-family: Quicksand Bold, sans-serif !important; }
+h6 { font-family: Quicksand Bold, sans-serif !important; }
+
+.md-typeset h1 {
+    color: var(--bb-dark-accent);
+    font-weight: 600;
+}
+
+.md-typeset h2 {
+    color: var(--bb-dark-accent);
+    font-weight: 400;
+}
+
+.md-typeset h3 {
+    color: var(--bb-dark-accent);
+}
+
+.md-typeset h4 {
+    color: var(--bb-main-color);
+}
+
+.md-typeset h5 {
+    color: var(--bb-main-color);
+}
+
+.md-typeset h6 {
+    color: var(--bb-main-color);
+}
