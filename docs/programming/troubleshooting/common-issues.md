@@ -12,16 +12,7 @@ Below are common issues programmers face, sorted by problem type. Use the *table
 ### Packet Loss
 **Issue:** Loss of control of robot (jerkiness); significant delay between joystick input and corresponding action; sudden robot movements when no input is being applied. The Driver Station log file reports packet loss with orange bars with respect to time.
 
-<p>
-    <img src="https://www.chiefdelphi.com/uploads/default/original/3X/b/7/b742b68df1409ddb1de0390b6493b83c028f46c8.jpeg" alt="Boba Bot" style="width:50%"/>
-    <style>
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    </style>
-</p>
+![Boba Bot](https://www.chiefdelphi.com/uploads/default/original/3X/b/7/b742b68df1409ddb1de0390b6493b83c028f46c8.jpeg)
 
 **Cause:** Lost communication packets between your computer/FMS and your robot's radio and roboRIO. Additionally, your robot could have lost power for a brief period before reconnecting.
 
