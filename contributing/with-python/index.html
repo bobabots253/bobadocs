@@ -13,8 +13,6 @@
         <meta name="author" content="Boba Bots 253 Software Team">
       
       
-        <link rel="canonical" href="https://bobadocs.readthedocs.io/contributing/with-python/">
-      
       <link rel="shortcut icon" href="../../assets/icons/bbalone_vectorized.svg">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
     
@@ -87,7 +85,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
-    <a href="https://bobadocs.readthedocs.io/" title="BobaDocs" class="md-header-nav__button md-logo" aria-label="BobaDocs">
+    <a href="../.." title="BobaDocs" class="md-header-nav__button md-logo" aria-label="BobaDocs">
       
   <img src="../../assets/icons/logo.png" alt="logo">
 
@@ -234,6 +232,22 @@
         
   
   
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../robots/2020/" class="md-tabs__link">
+        Robots
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
     
   
 
@@ -271,7 +285,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://bobadocs.readthedocs.io/" title="BobaDocs" class="md-nav__button md-logo" aria-label="BobaDocs">
+    <a href="../.." title="BobaDocs" class="md-nav__button md-logo" aria-label="BobaDocs">
       
   <img src="../../assets/icons/logo.png" alt="logo">
 
@@ -414,18 +428,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../programming/faq/" class="md-nav__link">
-        FAQ
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../programming/resources/" class="md-nav__link">
         Resources
       </a>
@@ -443,14 +445,14 @@
     <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-8" type="checkbox" id="nav-3-8" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-7" type="checkbox" id="nav-3-7" >
       
-      <label class="md-nav__link" for="nav-3-8">
+      <label class="md-nav__link" for="nav-3-7">
         Robot Troubleshooting
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Robot Troubleshooting" data-md-level="2">
-        <label class="md-nav__title" for="nav-3-8">
+        <label class="md-nav__title" for="nav-3-7">
           <span class="md-nav__icon md-icon"></span>
           Robot Troubleshooting
         </label>
@@ -662,6 +664,49 @@
 
   
   
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+      
+      <label class="md-nav__link" for="nav-5">
+        Robots
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Robots" data-md-level="1">
+        <label class="md-nav__title" for="nav-5">
+          <span class="md-nav__icon md-icon"></span>
+          Robots
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../robots/2020/" class="md-nav__link">
+        2020
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
     
   
   
@@ -669,14 +714,14 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
       
-      <label class="md-nav__link" for="nav-5">
+      <label class="md-nav__link" for="nav-6">
         Contributing
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Contributing" data-md-level="1">
-        <label class="md-nav__title" for="nav-5">
+        <label class="md-nav__title" for="nav-6">
           <span class="md-nav__icon md-icon"></span>
           Contributing
         </label>
@@ -940,23 +985,11 @@
 <p>Clone the bobadocs repository from Github. <a href="https://github.com/MillsRoboticsTeam253/bobadocs.git">https://github.com/MillsRoboticsTeam253/bobadocs.git</a></p>
 <h3 id="python-dependencies">Python Dependencies<a class="headerlink" href="#python-dependencies" title="Permanent link">&para;</a></h3>
 <p>This site uses the MkDocs Python package to convert Markdown files to a website, and a few more packages to provide additional functionality and theming. You can install all the necessary dependencies by running <code>pip install -r requirements.txt</code> while in the root directory of the repository.</p>
-<p>Alternatively, run the following in the repository's root directory.
-<div class="highlight"><pre><span></span><code>pip install mkdocs mkdocs-material pymdown-extensions mkdocs-git-revision-date-plugin
-</code></pre></div></p>
-<p><strong>or, to install each dependency individually</strong></p>
-<div class="highlight"><pre><span></span><code>pip install mkdocs
-</code></pre></div>
-<div class="highlight"><pre><span></span><code>pip install mkdocs-material
-</code></pre></div>
-<div class="highlight"><pre><span></span><code>pip install pymdown-extensions
-</code></pre></div>
-<div class="highlight"><pre><span></span><code>pip install mkdocs-git-revision-date-plugin
-</code></pre></div>
 <h2 id="development-workflow">Development Workflow<a class="headerlink" href="#development-workflow" title="Permanent link">&para;</a></h2>
 <h3 id="local-changes">Local Changes<a class="headerlink" href="#local-changes" title="Permanent link">&para;</a></h3>
 <p>To develop locally, run <code>mkdocs serve</code> in the root directory of the project. This will generate a local version of the website from the code at <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> and will autorefresh whenever changes are made in docs/.</p>
 <p>Adding or modifying the documentation is fairly simple, each page of the website is contained within its own <code>.md</code> file. Adding new pages are as simple as creating new <code>.md</code> files</p>
-<p>Make sure your Markdown files are placed in the correct subfolders. For example, <code>javabasics.md</code> should be placed in the Intro to Java folder in the repository. This helps others find your documentation later when they want to edit or add information.</p>
+<p>Make sure your Markdown files are placed in the correct subfolders. For example, <code>navigating-assemblies.md</code> should be placed in the <code>onshape</code> folder in the repository. This helps others find your documentation later when they want to edit or add information.</p>
 <p>Page settings are configured in the <code>mkdocs.yml</code> YAML file. All the settings have already been setup for you, simply edit the nav section when making changes</p>
 <div class="admonition attention">
 <p class="admonition-title">Attention</p>
@@ -982,7 +1015,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-02-10
+      Last update: 2021-02-14
     
   </small>
 </div>

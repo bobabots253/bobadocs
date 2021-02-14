@@ -13,8 +13,6 @@
         <meta name="author" content="Boba Bots 253 Software Team">
       
       
-        <link rel="canonical" href="https://bobadocs.readthedocs.io/programming/troubleshooting/common-issues/">
-      
       <link rel="shortcut icon" href="../../../assets/icons/bbalone_vectorized.svg">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
     
@@ -87,7 +85,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
-    <a href="https://bobadocs.readthedocs.io/" title="BobaDocs" class="md-header-nav__button md-logo" aria-label="BobaDocs">
+    <a href="../../.." title="BobaDocs" class="md-header-nav__button md-logo" aria-label="BobaDocs">
       
   <img src="../../../assets/icons/logo.png" alt="logo">
 
@@ -242,6 +240,22 @@
   
   
     <li class="md-tabs__item">
+      <a href="../../../robots/2020/" class="md-tabs__link">
+        Robots
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
       <a href="../../../contributing/contributing/" class="md-tabs__link">
         Contributing
       </a>
@@ -271,7 +285,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://bobadocs.readthedocs.io/" title="BobaDocs" class="md-nav__button md-logo" aria-label="BobaDocs">
+    <a href="../../.." title="BobaDocs" class="md-nav__button md-logo" aria-label="BobaDocs">
       
   <img src="../../../assets/icons/logo.png" alt="logo">
 
@@ -416,18 +430,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../faq/" class="md-nav__link">
-        FAQ
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../resources/" class="md-nav__link">
         Resources
       </a>
@@ -447,14 +449,14 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-8" type="checkbox" id="nav-3-8" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-7" type="checkbox" id="nav-3-7" checked>
       
-      <label class="md-nav__link" for="nav-3-8">
+      <label class="md-nav__link" for="nav-3-7">
         Robot Troubleshooting
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Robot Troubleshooting" data-md-level="2">
-        <label class="md-nav__title" for="nav-3-8">
+        <label class="md-nav__title" for="nav-3-7">
           <span class="md-nav__icon md-icon"></span>
           Robot Troubleshooting
         </label>
@@ -800,11 +802,54 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
       
       <label class="md-nav__link" for="nav-5">
+        Robots
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Robots" data-md-level="1">
+        <label class="md-nav__title" for="nav-5">
+          <span class="md-nav__icon md-icon"></span>
+          Robots
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../robots/2020/" class="md-nav__link">
+        2020
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
+      
+      <label class="md-nav__link" for="nav-6">
         Contributing
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Contributing" data-md-level="1">
-        <label class="md-nav__title" for="nav-5">
+        <label class="md-nav__title" for="nav-6">
           <span class="md-nav__icon md-icon"></span>
           Contributing
         </label>
@@ -1010,17 +1055,7 @@
 <h2 id="robot-operation">Robot Operation<a class="headerlink" href="#robot-operation" title="Permanent link">&para;</a></h2>
 <h3 id="packet-loss">Packet Loss<a class="headerlink" href="#packet-loss" title="Permanent link">&para;</a></h3>
 <p><strong>Issue:</strong> Loss of control of robot (jerkiness); significant delay between joystick input and corresponding action; sudden robot movements when no input is being applied. The Driver Station log file reports packet loss with orange bars with respect to time.</p>
-<p>
-    <img src="https://www.chiefdelphi.com/uploads/default/original/3X/b/7/b742b68df1409ddb1de0390b6493b83c028f46c8.jpeg" alt="Boba Bot" style="width:50%"/>
-    <style>
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    </style>
-</p>
-
+<p><img alt="Boba Bot" src="https://www.chiefdelphi.com/uploads/default/original/3X/b/7/b742b68df1409ddb1de0390b6493b83c028f46c8.jpeg" /></p>
 <p><strong>Cause:</strong> Lost communication packets between your computer/FMS and your robot's radio and roboRIO. Additionally, your robot could have lost power for a brief period before reconnecting.</p>
 <p><strong>Solution:</strong></p>
 <ul>
@@ -1070,7 +1105,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-02-10
+      Last update: 2021-02-14
     
   </small>
 </div>
