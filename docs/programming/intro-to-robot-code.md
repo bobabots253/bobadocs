@@ -32,7 +32,7 @@ Next, set up your username (your real name) and email in Git by following these 
 
 ### With VSCode
 
-Bring up the Visual Studio Code command palette with Control+Shift+P:
+Bring up the Visual Studio Code command palette with ++ctrl+shift+p++:
 
 ![command palette](https://docs.wpilib.org/en/stable/_images/command-palette.png)
 
