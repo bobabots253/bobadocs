@@ -29,6 +29,8 @@ nav:
       - 5. Navigating Assemblies: onshape/navigating-assemblies.md
     - Misc:
       - Useful Shortcuts: onshape/useful-shortcuts.md
+  - Robots:
+    - 2020: robots/2020.md
   - Contributing:
     - Introduction: contributing/contributing.md
     - With Python: contributing/with-python.md
