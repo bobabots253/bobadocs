@@ -57,4 +57,4 @@ Below are common issues programmers face, sorted by problem type. Use the *table
 **Solution:** Make sure that the default compressor settings are not being overridden. Specifically, check that `compressor.stop()` is not present, as this will disable the automatic pressure control of the Pneumatics Control Module (PCM)
 
 !!! note ""
-	Compressors do not need to be instantiated to function at a basic level. Refer to the [Java Docs](https://first.wpi.edu/FRC/roborio/beta/docs/java/edu/wpi/first/wpilibj/Compressor.html) to learn about advanced compressor functionality.
+	Compressors do not need to be instantiated to function at a basic level. Refer to the [Javadocs](https://first.wpi.edu/wpilib/allwpilib/docs/release/java/edu/wpi/first/wpilibj/Compressor.html) to learn about advanced compressor functionality.
