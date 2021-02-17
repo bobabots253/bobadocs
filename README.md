@@ -15,6 +15,8 @@ Documentation for the Boba Bots 253.
 
 https://bobadocs.readthedocs.io/
 
+https://docs.bobabots253.org/
+
 [GHAction-image]: https://github.com/MillsRoboticsTeam253/bobadocs/workflows/CI/badge.svg?branch=master&event=push
 [GHAction-link]: https://github.com/MillsRoboticsTeam253/bobadocs/actions?query=event%3Apush+branch%3Amaster
 [LICENSE-image]: https://img.shields.io/github/license/MillsRoboticsTeam253/bobadocs
