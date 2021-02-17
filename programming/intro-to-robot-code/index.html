@@ -1349,7 +1349,7 @@ You can read more about it <a href="https://docs.wpilib.org/en/stable/docs/softw
 It contains the classic <code>main</code> method, which is run at startup and starts up the rest of the robot code.</p>
 <h4 id="robotjava">Robot.java<a class="headerlink" href="#robotjava" title="Permanent link">&para;</a></h4>
 <p>This file is the control center of the robot. It has the methods that are called to run the robot.
-Documentation on each of the methods within it can be found <a href="https://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/IterativeRobotBase.html">here</a>.</p>
+Documentation on each of the methods within it can be found <a href="https://first.wpi.edu/wpilib/allwpilib/docs/release/java/edu/wpi/first/wpilibj/IterativeRobotBase.html">here</a>.</p>
 <h4 id="constantsjava">Constants.java<a class="headerlink" href="#constantsjava" title="Permanent link">&para;</a></h4>
 <p>This file contains all the numbers that don't change and are relevant to the whole robot. 
 This includes all ports and joystick buttons, which correlate to motor controllers, solenoids, and commands in the code.</p>
@@ -1400,7 +1400,7 @@ If you click on any of the constructors or methods, you get directed to a sectio
 <a href="https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html">Here's a Javadoc of a class you should be familiar with: ArrayList</a>.</p>
 <h3 id="wpilib_1">WPILib<a class="headerlink" href="#wpilib_1" title="Permanent link">&para;</a></h3>
 <p>WPILib is the name of the library FRC provides us to control the robot with. 
-<a href="https://first.wpi.edu/FRC/roborio/release/docs/java/index.html">Its JavaDocs are located here</a> (and you can also find a link to them in the <a href="../resources/">Resources page</a> of this site). 
+<a href="https://first.wpi.edu/wpilib/allwpilib/docs/release/java/index.html">Its JavaDocs are located here</a> (and you can also find a link to them in the <a href="../resources/">Resources page</a> of this site). 
 We will be mostly using the library's <code>edu.wpi.first.wpilibj</code> package, and you can search for a class or method using the search bar located in the top right corner of the javadocs page.</p>
 <h3 id="practice">Practice<a class="headerlink" href="#practice" title="Permanent link">&para;</a></h3>
 <p>First has <a href="https://docs.wpilib.org/en/latest/docs/software/commandbased/index.html#command-based-programming">a pretty good write-up on command-based programming</a>, so we'll read that. Once you're done, we'll practice writing some basic commands.</p>
@@ -1457,7 +1457,7 @@ Let's make the motor's speed correspond to more granular controller input using 
 <p>Again in the <code>RobotContainer.java</code> file, modify the <code>bindIO()</code> method to set the default command of the <code>Motors</code> subsystem to the <code>RunMotors</code> command.</p>
 <details class="question"><summary>Hint</summary><p>Get the joystick's Y-value from the <code>XboxController</code> we already have defined.</p>
 </details>
-<details class="question"><summary>Hint</summary><p><code>Motors</code> is an implementation of the <a href="https://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj2/command/Subsystem.html"><code>Subsystem</code></a> interface.</p>
+<details class="question"><summary>Hint</summary><p><code>Motors</code> is an implementation of the <a href="https://first.wpi.edu/wpilib/allwpilib/docs/release/java/edu/wpi/first/wpilibj2/command/Subsystem.html"><code>Subsystem</code></a> interface.</p>
 <p>Pass the <code>Motors</code> subsystem into the command and have it drive the motors to the Y-value of the joystick when executed. Use the prewritten code, the <a href="https://docs.wpilib.org/en/latest/docs/software/commandbased/index.html#command-based-programming">command-based programming tutorial</a>, and the WPILib JavaDocs for help.</p>
 </details>
 <details class="check"><summary>Example Solution</summary><p>This is one way to implement this step. Yours may look a little different, but the same logic should appear here.</p>
