@@ -9,6 +9,6 @@
 
 # Welcome
 
-to the documentation for Boba Bots 253.
+Welcome to the documentation for Boba Bots 253.
 
 We are moving at a significantly faster pace than engineering courses offered at the school, and it's okay to get stuck or not know something. The team veterans are here to help, please ask us questions!
