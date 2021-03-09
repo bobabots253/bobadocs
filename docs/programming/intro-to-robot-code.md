@@ -9,9 +9,9 @@ The WPILib suite installs the IDE we write our code in as well as the tools need
 Follow the instructions on [the official WPILib documentation](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html) for your respective OS.
 This will install WPILib and all its required tooling, as well as the VSCode IDE that we use to write code.
 
-??? warning "Mac only (maybe Linux too)"
+<!-- ??? warning "Mac only (maybe Linux too)"
     As of writing this, WPILib has not included an installer with their Mac package.
-    Follow the instructions [here](https://docs.wpilib.org/en/2020/docs/getting-started/getting-started-frc-control-system/wpilib-setup.html) to setup your WPILib install.
+    Follow the instructions [here](https://docs.wpilib.org/en/2020/docs/getting-started/getting-started-frc-control-system/wpilib-setup.html) to setup your WPILib install. -->
 
 ### Git and Github
 
@@ -32,7 +32,7 @@ Next, set up your username (your real name) and email in Git by following these 
 
 ### With VSCode
 
-Bring up the Visual Studio Code command palette with Control+Shift+P:
+Bring up the Visual Studio Code command palette with ++ctrl+shift+p++:
 
 ![command palette](https://docs.wpilib.org/en/stable/_images/command-palette.png)
 
@@ -66,7 +66,7 @@ After successfully creating your project, VS Code will give the option of openin
 
 Once opened, we will see the project hierarchy on the left. Double-clicking on a file will open that file in the editor.
 
-## Code Structure
+## Project Structure
 
 A typical robot project may look like [this](https://github.com/MillsRoboticsTeam253/Code2020):
 ```
@@ -146,7 +146,7 @@ It contains the classic `main` method, which is run at startup and starts up the
 #### Robot.java
 
 This file is the control center of the robot. It has the methods that are called to run the robot.
-Documentation on each of the methods within it can be found [here](https://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/IterativeRobotBase.html).
+Documentation on each of the methods within it can be found [here](https://first.wpi.edu/wpilib/allwpilib/docs/release/java/edu/wpi/first/wpilibj/IterativeRobotBase.html).
 
 #### Constants.java
 
@@ -212,7 +212,7 @@ If you click on any of the constructors or methods, you get directed to a sectio
 
 ### WPILib
 WPILib is the name of the library FRC provides us to control the robot with. 
-[Its JavaDocs are located here](https://first.wpi.edu/FRC/roborio/release/docs/java/index.html) (and you can also find a link to them in the [Resources page](resources.md) of this site). 
+[Its JavaDocs are located here](https://first.wpi.edu/wpilib/allwpilib/docs/release/java/index.html) (and you can also find a link to them in the [Resources page](resources.md) of this site). 
 We will be mostly using the library's `edu.wpi.first.wpilibj` package, and you can search for a class or method using the search bar located in the top right corner of the javadocs page.
 
 ### Practice
@@ -288,7 +288,7 @@ Again in the `RobotContainer.java` file, modify the `bindIO()` method to set the
     Get the joystick's Y-value from the `XboxController` we already have defined.
 
 ??? question "Hint"
-    `Motors` is an implementation of the [`Subsystem`](https://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj2/command/Subsystem.html) interface.
+    `Motors` is an implementation of the [`Subsystem`](https://first.wpi.edu/wpilib/allwpilib/docs/release/java/edu/wpi/first/wpilibj2/command/Subsystem.html) interface.
 
     Pass the `Motors` subsystem into the command and have it drive the motors to the Y-value of the joystick when executed. Use the prewritten code, the [command-based programming tutorial](https://docs.wpilib.org/en/latest/docs/software/commandbased/index.html#command-based-programming), and the WPILib JavaDocs for help.
 

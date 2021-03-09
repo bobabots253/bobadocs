@@ -12,16 +12,7 @@ Below are common issues programmers face, sorted by problem type. Use the *table
 ### Packet Loss
 **Issue:** Loss of control of robot (jerkiness); significant delay between joystick input and corresponding action; sudden robot movements when no input is being applied. The Driver Station log file reports packet loss with orange bars with respect to time.
 
-<p>
-    <img src="https://www.chiefdelphi.com/uploads/default/original/3X/b/7/b742b68df1409ddb1de0390b6493b83c028f46c8.jpeg" alt="Boba Bot" style="width:50%"/>
-    <style>
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    </style>
-</p>
+![Boba Bot](https://www.chiefdelphi.com/uploads/default/original/3X/b/7/b742b68df1409ddb1de0390b6493b83c028f46c8.jpeg)
 
 **Cause:** Lost communication packets between your computer/FMS and your robot's radio and roboRIO. Additionally, your robot could have lost power for a brief period before reconnecting.
 
@@ -66,4 +57,4 @@ Below are common issues programmers face, sorted by problem type. Use the *table
 **Solution:** Make sure that the default compressor settings are not being overridden. Specifically, check that `compressor.stop()` is not present, as this will disable the automatic pressure control of the Pneumatics Control Module (PCM)
 
 !!! note ""
-	Compressors do not need to be instantiated to function at a basic level. Refer to the [Java Docs](https://first.wpi.edu/FRC/roborio/beta/docs/java/edu/wpi/first/wpilibj/Compressor.html) to learn about advanced compressor functionality.
+	Compressors do not need to be instantiated to function at a basic level. Refer to the [Javadocs](https://first.wpi.edu/wpilib/allwpilib/docs/release/java/edu/wpi/first/wpilibj/Compressor.html) to learn about advanced compressor functionality.

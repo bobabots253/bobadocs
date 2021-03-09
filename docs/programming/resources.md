@@ -1,4 +1,5 @@
 ## Team Resources
+
 - [Boba Bots Github](https://github.com/MillsRoboticsTeam253)
 
 ## WPILib 
@@ -9,7 +10,7 @@ WPILib provides the core libraries for creating robot programs with the roboRIO.
 	
 - [WPILib Docs](https://docs.wpilib.org/)
 - [WPILib Github/Example Code](https://github.com/wpilibsuite/allwpilib)
-- [WPILib Java Docs](https://first.wpi.edu/FRC/roborio/release/docs/java/index.html)
+- [WPILib Java Docs](https://first.wpi.edu/wpilib/allwpilib/docs/release/java/index.html)
 
 
 ## CTRE

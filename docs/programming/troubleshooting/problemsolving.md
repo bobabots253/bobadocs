@@ -27,8 +27,8 @@ In robotics, troubleshooting is a crucial part in insuring that your code, elect
 6. Document the issue and process.
 	- Chances are the issue will pop up again. Documenting the process and issue allows others to quickly resolve the issue without frustration. This can save time during future troubleshooting and prevent others from taking the same missteps you may have taken.
 
-		!!! tip
-			Add your documented issues to the [placeholder] common issues page for others to reference.
+	!!! tip
+		Add your documented issues to the [common issues page](common-issues.md) for others to reference.
 
 Additional Resources:
 

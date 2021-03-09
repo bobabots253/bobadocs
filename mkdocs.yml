@@ -1,25 +1,36 @@
 site_name: BobaDocs
-site_description: Software Documentation for Boba Bots 253
+site_description: Documentation for Boba Bots 253
 site_author: Boba Bots 253 Software Team 
-site_url: https://bobadocs.readthedocs.io/en/latest/
 
 repo_name: "MillsRoboticsTeam253/bobadocs"
 repo_url: "https://github.com/MillsRoboticsTeam253/bobadocs"
+edit_uri: ""
 
 
 nav:
   - Home: index.md
+  - FRC Overview: frc-competition-overview.md
   - Programming:
     - Introduction: programming/learn-java.md
     - Intro to Git & Github: programming/version-control.md
     - Intro to Robot Code: programming/intro-to-robot-code.md
     - Git Flow: programming/git-flow.md
-    - Github: programming/gitstuff.md
-    - FAQ: programming/faq.md
+    - Collaboration: programming/collaboration.md
     - Resources: programming/resources.md
-  - Robot Troubleshooting:
-    - Introduction: troubleshooting/problemsolving.md
-    - Common Issues: troubleshooting/common-issues.md
+    - Robot Troubleshooting:
+      - Introduction: programming/troubleshooting/problemsolving.md
+      - Common Issues: programming/troubleshooting/common-issues.md
+  - Onshape:
+    - Lessons:
+      - 1. Intro to Onshape: onshape/intro.md
+      - 2. Sketching: onshape/sketching.md
+      - 3. Creating Basic Parts: onshape/basic-parts.md
+      - 4. Creating Complex Parts: onshape/complex-parts.md
+      - 5. Navigating Assemblies: onshape/navigating-assemblies.md
+    - Misc:
+      - Useful Shortcuts: onshape/useful-shortcuts.md
+  - Robots:
+    - 2020: robots/2020.md
   - Contributing:
     - Introduction: contributing/contributing.md
     - With Python: contributing/with-python.md
@@ -27,21 +38,22 @@ nav:
     - Contributing Resources: contributing/contresources.md
 
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css
+  - assets/stylesheets/iframe.css
+  - assets/stylesheets/video-admonition.css
 
 theme: 
   name: material
-  highlightjs: true
-  hljs_languages:
-      - java
-      - python
   palette: 
     primary: cyan
     accent: teal
   font:
     text: Inter
   features:
-    - instant
+    # - navigation.instant
+    # we often change docs and don't want it getting cached by browsers
+    - navigation.sections
+    - navigation.tabs
   icon:
     repo: fontawesome/brands/github
   logo: assets/icons/logo.png
@@ -72,7 +84,8 @@ markdown_extensions:
   - codehilite
 
 plugins:
-  - search
+  - search:
+      prebuild_index: true
   - git-revision-date
 
 extra:

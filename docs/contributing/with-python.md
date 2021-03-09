@@ -19,29 +19,6 @@ Clone the bobadocs repository from Github. https://github.com/MillsRoboticsTeam2
 
 This site uses the MkDocs Python package to convert Markdown files to a website, and a few more packages to provide additional functionality and theming. You can install all the necessary dependencies by running `pip install -r requirements.txt` while in the root directory of the repository.
 
-Alternatively, run the following in the repository's root directory.
-```
-pip install mkdocs mkdocs-material pymdown-extensions mkdocs-git-revision-date-plugin
-```
-
-**or, to install each dependency individually**
-
-```
-pip install mkdocs
-```
-
-```
-pip install mkdocs-material
-```
-
-```
-pip install pymdown-extensions
-```
-
-```
-pip install mkdocs-git-revision-date-plugin
-```
-
 ## Development Workflow
 
 ### Local Changes
@@ -50,7 +27,7 @@ To develop locally, run `mkdocs serve` in the root directory of the project. Thi
 
 Adding or modifying the documentation is fairly simple, each page of the website is contained within its own `.md` file. Adding new pages are as simple as creating new `.md` files
 
-Make sure your Markdown files are placed in the correct subfolders. For example, `javabasics.md` should be placed in the Intro to Java folder in the repository. This helps others find your documentation later when they want to edit or add information.
+Make sure your Markdown files are placed in the correct subfolders. For example, `navigating-assemblies.md` should be placed in the `onshape` folder in the repository. This helps others find your documentation later when they want to edit or add information.
 
 Page settings are configured in the `mkdocs.yml` YAML file. All the settings have already been setup for you, simply edit the nav section when making changes
 
