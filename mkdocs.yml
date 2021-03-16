@@ -20,6 +20,9 @@ nav:
     - Robot Troubleshooting:
       - Introduction: programming/troubleshooting/problemsolving.md
       - Common Issues: programming/troubleshooting/common-issues.md
+  - Electronics:
+    - Skills: electronics/skills.md
+    - Sensors: electronics/sensors.md
   - Onshape:
     - Lessons:
       - 1. Intro to Onshape: onshape/intro.md
