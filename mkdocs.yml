@@ -23,6 +23,12 @@ nav:
   - Electronics:
     - Skills: electronics/skills.md
     - Sensors: electronics/sensors.md
+  - Construction: 
+    - Skills: construction/skills.md
+    - Tools: 
+      - Fasteners: construction/tools/fasteners.md
+      - Hand Tools: construction/tools/handtools.md
+      - Power Tools: construction/tools/powertools.md
   - Onshape:
     - Lessons:
       - 1. Intro to Onshape: onshape/intro.md
