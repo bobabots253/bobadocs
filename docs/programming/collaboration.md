@@ -1,6 +1,6 @@
 # Git and Github
 
-git is a tool our software team uses to collaborate
+Git is a tool our software team uses to collaborate
 
 - [Intro to git](version-control.md)
 
