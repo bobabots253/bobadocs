@@ -24,7 +24,7 @@ Look into LiDAR more with the following links:
 
 Optical Encoders are made up of four components: a light source, a sensor, a movable disk, and a fixed mask. Rotary encoders use a sensor to identify position change as light passes through a patterned encoder wheel or disk. It detects when light has passed through or not, with the rate of light passing through and being blocked being measured. Forces such as velocity, rotation, and position can be measured using an optical encoder.
 
-![Optical Encoder](../assets/images/frc/optical-encoder.png)
+![Optical Encoder](../assets/images/frc/optical_encoder.png)
 
 *Example of an Optical Encoder*
 
@@ -41,7 +41,7 @@ A magnetic encoder is made up of three major components: a sensing circuit, a ro
 
 The encoder works by placing tiny north and south poles evenly around a rotating wheel. A sensor is then used to detect the tiny changes in magnetic direction, giving feedback on rotary information. Uses either hall effect or magneto resistive detection.
 
-![Magnetic Encoder](../assests/images/frc/magnetic_encoder.png)
+![Magnetic Encoder](../assets/images/frc/magnetic_encoder.png)
 
 *Example of Magnetic Encoder*
 
@@ -76,7 +76,7 @@ Look into hall effect sensors more with the following links:
 
 Ultrasonic sensors measure distance by using ultrasonic waves. The sensor head emits an ultrasonic wave and receives the wave that is reflected back. They measure distance by calculating time between emission and the reception, very similar to echolocation.
 
-![Ultrasonic Basics](../assets/images/frc/unltrasonic_basics.png)
+![Ultrasonic Basics](../assets/images/frc/ultrasonic_basics.png)
 
 *Example of Ultrasonic Sensor*
 
