@@ -8,7 +8,7 @@ A LiDAR(Light Detection And Ranging) sensor emits pulsed light waves into the su
 
 These are useful for measuring the distances between the sensor and the object. For example, it can be equipped on drones to survey the terrain and create a 3d model.
 
-![LiDAR modelling](../assets/images/frc/LiDAR_model.png)
+![LiDAR modelling](../assets/images/sensors/LiDAR_model.png)
 
 *Example of LiDAR Model*
 
@@ -24,7 +24,7 @@ Look into LiDAR more with the following links:
 
 Optical Encoders are made up of four components: a light source, a sensor, a movable disk, and a fixed mask. Rotary encoders use a sensor to identify position change as light passes through a patterned encoder wheel or disk. It detects when light has passed through or not, with the rate of light passing through and being blocked being measured. Forces such as velocity, rotation, and position can be measured using an optical encoder.
 
-![Optical Encoder](../assets/images/frc/optical_encoder.png)
+![Optical Encoder](../assets/images/sensors/optical_encoder.png)
 
 *Example of an Optical Encoder*
 
@@ -35,13 +35,13 @@ Though this can account for precise motion measurement, it has problems with deb
 
 A magnetic encoder is made up of three major components: a sensing circuit, a rotating wheel, and magnetic poles (north+south) spaced evenly around the wheel.
 
-![Magnetic Encoder Parts](../assets/images/frc/magnetic_encoder_parts.png)
+![Magnetic Encoder Parts](../assets/images/sensors/magnetic_encoder_parts.png)
 
 *Parts for Magnetic Encoders*
 
 The encoder works by placing tiny north and south poles evenly around a rotating wheel. A sensor is then used to detect the tiny changes in magnetic direction, giving feedback on rotary information. Uses either hall effect or magneto resistive detection.
 
-![Magnetic Encoder](../assets/images/frc/magnetic_encoder.png)
+![Magnetic Encoder](../assets/images/sensors/magnetic_encoder.png)
 
 *Example of Magnetic Encoder*
 
@@ -58,13 +58,13 @@ Look into optical and magnetic encoders more with the following links:
 
 A Hall effect sensor is a type of sensor that measures magnetism. Electricity is moved through a semi-conductive material, such as silicon, in a straight line. When a magnetic field is introduced, the electrons moving through the material deviate from their straight line and move to a positive or negative pole (beling attracted or repelled) on the material. The changes in voltage that come from the new curved electricity path is then measured.
 
-![Hall Effect Principles](../assets/images/frc/hall_effect_principles.gif)
+![Hall Effect Principles](../assets/images/sensors/hall_effect_principles.gif)
 
 *Example of Hall Effect Sensor*
 
 Hall effect sensors are used to detect the motion of an object. For example, the position of a motor can be sensed by measuring the slight change in the magnetic field as the motor rotates. Hall effect sensors are also used in some magnetic encoders, as a sensor is required to detect the changes in magnetic fields on the disk.
 
-![Hall Effect Sensor](../assets/images/frc/hall-effect-sensor.jpg)
+![Hall Effect Sensor](../assets/images/sensors/hall-effect-sensor.jpg)
 
 Look into hall effect sensors more with the following links:
 
@@ -76,12 +76,12 @@ Look into hall effect sensors more with the following links:
 
 Ultrasonic sensors measure distance by using ultrasonic waves. The sensor head emits an ultrasonic wave and receives the wave that is reflected back. They measure distance by calculating time between emission and the reception, very similar to echolocation.
 
-![Ultrasonic Basics](../assets/images/frc/ultrasonic_basics.png)
+![Ultrasonic Basics](../assets/images/sensors/ultrasonic_basics.png)
 
 *Example of Ultrasonic Sensor*
 
 Ultrasonic sensors are used to measure the distance between the sensor and an object. We used it in an arduino lesson, where we took the output from this sensor and displayed the measured distance to the console. Check [this](https://docs.google.com/presentation/d/19o4NYb6BRZlHKXEtQFi8vAW7o6CekYDQpzCjqVORx2g/edit#slide=id.p) lesson out. 
 
-![Ultrasonic Sensor](../assets/images/frc/ultrasonic_sensor.jpg)
+![Ultrasonic Sensor](../assets/images/sensors/ultrasonic_sensor.jpg)
 
 ###
