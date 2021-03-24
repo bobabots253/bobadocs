@@ -1,9 +1,9 @@
-### Arduino Syntax Documentation
+# Arduino Syntax Documentation
 
 ## General Coding Structure
 *Anything listed under here is general coding structure that are found in many different coding languages, including Java, C, C++, and Python*
 
-# For-loop structure
+### For-loop structure
 * Repeats a set amount of code a certain number of times
     * General syntax
         ```cpp
@@ -22,7 +22,7 @@
     * Condition is a statement condition, think back to if statement conditions
     * Increments are the code that runs if the condition it true
 
-# If statement structure (conditional statements)
+### If statement structure (conditional statements)
 * General Syntax
     ```cpp
     if (condition) {
@@ -58,7 +58,7 @@
 * if (x > 120) is NOT true:
     * Skips this if conditional statement and moves on to the rest of the code
 
-# Basics
+### Basics
 
 * setup() 
     * Use it get your code started
@@ -95,7 +95,7 @@
     * Don’t include a semicolon after the command
     * Make sure you put it at the very top of the code!
 
-# Commonly Used Arduino Functions
+### Commonly Used Arduino Functions
 
 * pinMode(pin, mode)
     * Pin = 0,1,2,3 etc (for analog pins, put an ‘A’ in front of the pin number
