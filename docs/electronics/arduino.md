@@ -161,7 +161,7 @@
         * Digital pins with a `~` besides their number can work as analog pins as well
     * Example:
 
-![pwm ports](../assets/images/examples/pwmports.png)
+        ![pwm ports](../assets/images/examples/pwmports.png)
 
 * `analogRead(pin)`
     * Pin = the analog pin number you want to read
