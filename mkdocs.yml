@@ -23,6 +23,7 @@ nav:
   - Electronics:
     - Skills: electronics/skills.md
     - Sensors: electronics/sensors.md
+    - Arduino: electronics/arduino.md
   - Construction: 
     - Skills: construction/skills.md
     - Tools: 
