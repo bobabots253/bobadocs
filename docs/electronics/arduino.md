@@ -193,7 +193,7 @@
     ```
     * Prints out the message to the Serial monitor, useful for when you want to say something
 
-* `delay(milliseconds`
+* `delay(milliseconds)`
     * Pauses the execution of further code for a certain milliseconds
     * 1000 milliseconds = 1 second
     * Example:
@@ -207,3 +207,53 @@
     * Pauses execution of further code for 1000 milliseconds (keeps ledPin HIGH for 1 second)
     * Sets ledPin to 0v (LOW)
     * Pauses execution of further code for 1000 milliseconds (keeps ledPin LOW for 1 second)
+
+### Servo Methods
+
+* Disclaimer: to use these Servo method, you must import the Servo library using #include at the beginning of of your code
+* To use a Servo, you must declare a variable with a name (myServo) for example with the “Servo” type 
+    * Your servo name goes before .<method>; for example, if your Servo is called myBestServo, the attach method would be: myBestServo.attach(pin)
+    * Our servo in this documentation is called myServo
+
+* myServo.attach(pin)
+    * Pin = pin# servo is attached to 
+    * Similar to pinMode() but for servo motors
+    * Lets the arduino know that on the specified pin, there is a servo connected
+    * Pin must be a PWM pin (refer to analogWrite() for info on PWM pins)
+    * Example:
+    ```cpp
+    #include <Servo.h>
+    Servo myServo;
+
+    void setup (){
+        myServo.attach(9);
+    }
+    ```
+    * Created a Servo type variable called myServo
+    * Attaches myServo to pin 9
+
+* myServo.write(angle)
+    * Angle = a degree angle between 0 - 180
+    * Moves the servo shaft to that angle 
+    * Example:
+    ```cpp
+    void loop(){
+        myServo.write(90);
+        myServo.write(0);
+    }
+    ```
+    * Moves the servo shaft to 90 degrees position
+    * Moves the servo shaft back to 0 degrees position
+
+### Miscellaneous Information
+
+* Duty Cycle
+
+![duty cycle](../assets/images/examples/dutycycle.png)
+
+![duty cycle 2](../assets/images/examples/dutycycle2.png)
+
+* How often the power is ON and OFF
+* Digital way of simulating an analog wave
+* For example, when you light an led with 50% duty cycle, it wil appear 50% brightness to the human eye.
+
