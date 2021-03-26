@@ -18,7 +18,7 @@
     
     
       
-        <title>Arduino Syntax Documentation - BobaDocs</title>
+        <title>Arduino - BobaDocs</title>
       
     
     
@@ -101,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Arduino Syntax Documentation
+              Arduino
             
           </span>
         </div>
@@ -210,13 +210,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../skills/" class="md-tabs__link">
+      <a href="../skills/" class="md-tabs__link md-tabs__link--active">
         Electronics
       </a>
     </li>
@@ -528,12 +530,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       <label class="md-nav__link" for="__nav_4">
         Electronics
@@ -566,6 +570,104 @@
       <a href="../sensors/" class="md-nav__link">
         Sensors
       </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Arduino
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Arduino
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-coding-structure" class="md-nav__link">
+    General Coding Structure
+  </a>
+  
+    <nav class="md-nav" aria-label="General Coding Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-loop-structure" class="md-nav__link">
+    For-loop structure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-statement-structure-conditional-statements" class="md-nav__link">
+    If statement structure (conditional statements)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#basics" class="md-nav__link">
+    Basics
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commonly-used-arduino-functions" class="md-nav__link">
+    Commonly Used Arduino Functions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#servo-methods" class="md-nav__link">
+    Servo Methods
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#miscellaneous-information" class="md-nav__link">
+    Miscellaneous Information
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1309,21 +1411,21 @@
 </ul>
 <h3 id="servo-methods">Servo Methods<a class="headerlink" href="#servo-methods" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Disclaimer: to use these Servo method, you must import the Servo library using #include at the beginning of of your code</li>
+<li><strong>Disclaimer</strong>: to use these Servo methods, you must import the Servo library using <code>#include</code> at the beginning of of your code</li>
 <li>
-<p>To use a Servo, you must declare a variable with a name (myServo) for example with the “Servo” type </p>
+<p>To use a Servo, you must declare a variable with a name (myServo) for example with the <code>Servo</code> type </p>
 <ul>
-<li>Your servo name goes before .<method>; for example, if your Servo is called myBestServo, the attach method would be: myBestServo.attach(pin)</li>
-<li>Our servo in this documentation is called myServo</li>
+<li>Your servo name goes before <code>.&lt;method&gt;</code>; for example, if your Servo is called myBestServo, the attach method would be: <code>myBestServo.attach(pin)</code></li>
+<li>Our servo in this documentation is called "myServo"</li>
 </ul>
 </li>
 <li>
-<p>myServo.attach(pin)</p>
+<p><code>myServo.attach(pin)</code></p>
 <ul>
 <li>Pin = pin# servo is attached to </li>
-<li>Similar to pinMode() but for servo motors</li>
+<li>Similar to <code>pinMode()</code> but for servo motors</li>
 <li>Lets the arduino know that on the specified pin, there is a servo connected</li>
-<li>Pin must be a PWM pin (refer to analogWrite() for info on PWM pins)</li>
+<li>Pin must be a PWM pin (refer to <code>analogWrite()</code> for info on PWM pins)</li>
 <li>Example:
 <div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;Servo.h&gt;</span><span class="cp"></span>
 <span class="n">Servo</span> <span class="n">myServo</span><span class="p">;</span>
@@ -1337,7 +1439,7 @@
 </ul>
 </li>
 <li>
-<p>myServo.write(angle)</p>
+<p><code>myServo.write(angle)</code></p>
 <ul>
 <li>Angle = a degree angle between 0 - 180</li>
 <li>Moves the servo shaft to that angle </li>
@@ -1390,6 +1492,39 @@
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../sensors/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Sensors
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../../construction/skills/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Skills
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
