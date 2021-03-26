@@ -54,9 +54,9 @@ Look into optical and magnetic encoders more with the following links:
 - [Encoders Info](https://www.anaheimautomation.com/manuals/forms/encoder-guide.php)
 - [Magnetic VS Optical Encoders](https://www.dynapar.com/technology/optical-encoders/)
 
-### Hall Effect Sensor
+### Hall Effect Sensors
 
-A Hall effect sensor is a type of sensor that measures magnetism. Electricity is moved through a semi-conductive material, such as silicon, in a straight line. When a magnetic field is introduced, the electrons moving through the material deviate from their straight line and move to a positive or negative pole (beling attracted or repelled) on the material. The changes in voltage that come from the new curved electricity path is then measured.
+A hall effect sensor is a type of sensor that measures magnetism. Electricity is moved through a semi-conductive material, such as silicon, in a straight line. When a magnetic field is introduced, the electrons moving through the material deviate from their straight line and move to a positive or negative pole (beling attracted or repelled) on the material. The changes in voltage that come from the new curved electricity path is then measured.
 
 ![Hall Effect Principles](../assets/images/sensors/hall_effect_principles.gif)
 
@@ -72,16 +72,45 @@ Look into hall effect sensors more with the following links:
 - [What is a Hall Effect Sensor?](https://se.rs-online.com/web/generalDisplay.html?id=ideas-and-advice/hall-effect-sensors-guide)
 - [Hall Effect Sensor Applications](https://sensing.honeywell.com/honeywell-sensing-sensors-magnetoresistive-hall-effect-applications-005715-2-en2.pdf)
 
-### Ultrasonic
+### Ultrasonic Sensors
 
 Ultrasonic sensors measure distance by using ultrasonic waves. The sensor head emits an ultrasonic wave and receives the wave that is reflected back. They measure distance by calculating time between emission and the reception, very similar to echolocation.
 
 ![Ultrasonic Basics](../assets/images/sensors/ultrasonic_basics.png)
 
-*Example of Ultrasonic Sensor*
+*Example if Ultrasonic Senor in action*
 
 Ultrasonic sensors are used to measure the distance between the sensor and an object. We used it in an arduino lesson, where we took the output from this sensor and displayed the measured distance to the console. Check [this](https://docs.google.com/presentation/d/19o4NYb6BRZlHKXEtQFi8vAW7o6CekYDQpzCjqVORx2g/edit#slide=id.p) lesson out. 
 
 ![Ultrasonic Sensor](../assets/images/sensors/ultrasonic_sensor.jpg)
 
-###
+*Example of Ultrasonic Sensor*
+
+Be sure to research more about Ultrasonic sensors here:
+
+- [What is an Ultrasonic Sensor](https://www.keyence.com/ss/products/sensor/sensorbasics/ultrasonic/info/)
+- [Comparison between Ultrasonic Sensors and Optical Sensors](https://www.keyence.com/ss/products/sensor/sensorbasics/ultrasonic/comparison/)
+- [What is an Ultrasonic sensor?](https://www.fierceelectronics.com/sensors/what-ultrasonic-sensor)
+
+### Potentiometers
+
+Potentiometers are adjustable rotary analog devices that can also act as variable resistors, which can change resistance with a dial. Potentiometers measure current, which is proportional to the distance. It uses a wiper to adjust the resistance (between 2 out of the three pins) of the potentiometer. The outside pings are the voltage and ground pins, while the inside (middle) pin is the resistive measurement.
+
+![Potentiometer](../assets/images/sensors/potentiometer.png)
+
+*Example of potentiometer*
+
+These are usually used to control speed, voltage, or frequency using a dial that you can rotate. This makes it easy to adjust anything using power whether it be the brightness of a light or the speed at which the intake runs.
+
+![Potentiometer with dial](../assets/images/sensors/potentiometer_with_dial.png)
+
+*Example of adjusting dial*
+
+Potentiometers have reliable output and are also very effiecent at measuring large displacements. It also has the unique ability to vary it's resistance, meaning that it is an analog sensor (wide range of inputs).
+
+To learn more about potentiometers, check out the links here:
+
+- [Potentiometers](https://www.electronics-tutorials.ws/resistor/potentiometer.html)
+- [What is a Potentiometer](https://eepower.com/resistor-guide/resistor-types/potentiometer/#)
+
+### Photoelectric Sensors
