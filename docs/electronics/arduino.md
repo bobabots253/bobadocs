@@ -210,10 +210,10 @@
 
 ### Servo Methods
 
-* **Disclaimer**: to use these Servo methods, you must import the Servo library using `#include` at the beginning of of your code
-* To use a Servo, you must declare a variable with a name (myServo) for example with the `Servo` type 
-    * Your servo name goes before `.<method>`; for example, if your Servo is called myBestServo, the attach method would be: `myBestServo.attach(pin)`
-    * Our servo in this documentation is called "myServo"
+* Disclaimer: to use these Servo method, you must import the Servo library using #include at the beginning of of your code
+* To use a Servo, you must declare a variable with a name (myServo) for example with the “Servo” type 
+    * Your servo name goes before .<method>; for example, if your Servo is called myBestServo, the attach method would be: myBestServo.attach(pin)
+    * Our servo in this documentation is called myServo
 
 * `myServo.attach(pin)`
     * Pin = pin# servo is attached to 
