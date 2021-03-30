@@ -161,7 +161,7 @@
         * Digital pins with a `~` besides their number can work as analog pins as well
     * Example:
 
-        ![pwm ports](../assets/images/examples/pwmports.png)
+        ![pwm ports](../assets/images/tools/electronics/pwmports.png)
 
 * `analogRead(pin)`
     * Pin = the analog pin number you want to read
@@ -249,9 +249,9 @@
 
 * Duty Cycle
 
-![duty cycle](../assets/images/examples/dutycycle.png)
+![duty cycle](../assets/images/tools/electronics/dutycycle.png)
 
-![duty cycle 2](../assets/images/examples/dutycycle2.png)
+![duty cycle 2](../assets/images/tools/electronics/dutycycle2.png)
 
 * How often the power is ON and OFF
 * Digital way of simulating an analog wave
