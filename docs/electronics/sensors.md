@@ -78,7 +78,7 @@ Ultrasonic sensors measure distance by using ultrasonic waves. The sensor head e
 
 ![Ultrasonic Basics](../assets/images/sensors/ultrasonic_basics.png)
 
-*Example if Ultrasonic Senor in action*
+*Example of Ultrasonic Senor in Action*
 
 Ultrasonic sensors are used to measure the distance between the sensor and an object. We used it in an arduino lesson, where we took the output from this sensor and displayed the measured distance to the console. Check [this](https://docs.google.com/presentation/d/19o4NYb6BRZlHKXEtQFi8vAW7o6CekYDQpzCjqVORx2g/edit#slide=id.p) lesson out. 
 
@@ -114,3 +114,89 @@ To learn more about potentiometers, check out the links here:
 - [What is a Potentiometer](https://eepower.com/resistor-guide/resistor-types/potentiometer/#)
 
 ### Photoelectric Sensors
+
+The photoelectric sensor is a light based sensor. There is an emitter emitting light to a receiver. If the receiver does not see the light beam emitted from the emitter (the light beam is blocked), it detects an object. The light beam is typically infrared light. A specific sensor of this type would be a beam break sensor.
+
+![Photoelectric Sensor](../assets/images/sensors/photoelectric_sensor.png)
+
+*Example of photoelectric sensor*
+
+Photoelectric sensors can detect the presence or absence of an object in the light beam’s pathway, the location of nearby and faraway objects, and changes in lighting. They can also detect any item regardless of material, including glass.
+
+To learn more about photoelectric sensors, check out the links here:
+
+- [Photoelectric Sensors Overview](http://www.ia.omron.com/support/guide/43/introduction.html)
+- [Applications of Photoelectric Sensors](https://www.rs-online.com/designspark/seven-uses-for-photoelectric-sensors)
+
+### Limit Switches
+
+A limit switch is a mechanical device operated by a physical force applied by an object that detects the presence or absence of an object. It consists of an actuator which transfers external force to the built in switch. When pressed, the electrical circuit is either closed/opened.
+
+![Limit Switch](../assets/images/sensors/limit_switch.png)
+
+*Example of a limit switch*
+
+Limit switches can be used as a simple control or lock system. Items that also require a stop button due to a limited range of movement can also use a limit switch. For example, on 3D printers the x and y carriages have limit switches on them to prevent them from moving too far and breaking the machine. Limit switches are liked due to their small and simple design, inexpensiveness, and and sturdiness (can last for many clicks). 
+
+![Limit Switch Design](../assets/images/sensors/limit_switch_design)
+
+*Example of the design of a limit switch*
+
+To learn more about limit switches, check out the links here:
+
+- [Limit Switches](https://www.eaton.com/ecm/groups/public/@pub/@electrical/documents/content/pct_1549250.pdf)
+- [Limit Switches Explained](https://realpars.com/limit-switch/)
+- [Technical Explanation for Limit Switches](https://www.ia.omron.com/data_pdf/guide/30/limitswitch_apparatus_tg_e_3_2.pdf)
+
+### Magnetometers
+
+This sensor measures the strength and sometimes the direction of the magnetic fields. It also can be used to calibrate magnets to determine magnetization of materials. There are two types of magnetometers (classified by their calibration methods):
+- Scalar magnetometers
+- Quality of attractive fields
+- Vector magnetometers
+- Direction of heading
+
+![Magnetometer](../assets/images/sensors/megnetometer.png)
+
+*Example of a magnetometer*
+
+Magnetometers are used to measure values such as the earth’s magnetic field. They can detect other magnets in the vicinity and give feedback on them. If an FRC game piece has a magnet in them, you can detect it!
+
+To learn more about magnetometers, check out the links here:
+
+- [Magnetometers](https://www.britannica.com/technology/magnetometer)
+- [what is a Magnetometer](https://www.toppr.com/guides/physics/mechanics/what-is-magnetometer-and-how-does-it-work/)
+
+### Accelerometers
+
+Any motion, even the force of gravity, can be detected by accelerometers. A small bit of silicon detects vibration/force applied to it.
+
+![Accelerometer](../assets/images/sensors/accelerometer.png)
+
+*Example of an accelerometer*
+
+Accelerometers are used to detect linear motion (acceleration of an object, hence the name, accelerometer). Such motions include an increase/decrease in speed, sharp turns, strong impacts, bumps and vibrations. They can also find out the angle the device is tilted at with respect to the earth by measuring the amount of static acceleration due to gravity. By combining multiple accelerometers, you can get more axes of information (not just linear motion, but for pitch or yaw).
+
+To learn more about accelerometers, check out the links here:
+
+- [A Beginner's Guide to Accelerometers](https://www.dimensionengineering.com/info/accelerometers)
+- [What is an Accelerometer](https://www.livescience.com/40102-accelerometers.html)
+
+### Gyroscopes
+
+A gyroscope sensor is a device that can measure and maintain the orientation and angular velocity of an object. It is more advanced than an accelerometer because it can measure tilt and lateral orientation.
+
+![Gyroscope](../assets/images/sensors/gyroscope1.png)
+
+*Example of a gyroscope*
+
+Gyroscopes can be used to to measure the 3 dimensional movement (pitch, yaw, roll) of an object as well as detect motion in many different directions and angles:
+
+![Gyroscope Usage](../assets/images/sensors/gyroscope2.png)
+
+To learn more about gyroscopes, check out the links here:
+
+- [How Gyroscopes Work](https://www5.epsondevice.com/en/information/technical_info/gyro/)
+- [Gyroscope Applications](https://www.elprocus.com/gyroscope-sensor/)
+
+### NavX Sensors
