@@ -2,6 +2,8 @@
 
 ### Tools
 
+
+![wire stripper](../assets/images/examples/wirestripper.png)
 #### Wire Stripper
 * Used to strip the wires of the outer plastic insulator 
 * Steps
@@ -10,6 +12,8 @@
     * If you’re having trouble removing the plastic, try going down one gauge and try again
 * [Specific instructions](https://www.youtube.com/watch?v=fDo-KbKRd4A)
 
+
+![soldering iron](../assets/images/examples/solderingiron.png)
 #### Soldering Iron
 * Used to join two or more items together with solder (melted metal)
 * Steps
@@ -19,6 +23,8 @@
     * If desired, cover up the soldered area with heat shrink or electrical tape
  * [Specific instructions](https://www.youtube.com/watch?v=Qps9woUGkvI)
 
+
+![crimper](../assets/images/examples/crimper.png)
 #### Crimper
 * Used to combine a connector and a wire together through compression
 * Place the stripped ends of the wires you would like to connect inside of the connector
@@ -26,12 +32,16 @@
 * Squeeze like a scissor
 * [Specific instructions](https://youtu.be/Svja8zEcKNQ?t=73)
 
+
+![hammer crimp tool](../assets/images/examples/hammercrimptool.png)
 #### Hammer Crimp Tool
 * Used to join a metal crimp with a wire
     * Place metal crimp along with the wire inside of the crimp in the bottom “valley” of the tool
     * Start hammering on top of the tool, smushing the metal and creating a solid connection on the wire
     * Make sure to hammer down the whole crimp, it should look uniform when done
 
+
+![multimeter](../assets/images/examples/multimeter.png)
 #### Multimeter
 * Used to measure various values such as voltage, current, and resistance
     * Contains the physical multimeter and 2 probes
@@ -41,6 +51,8 @@
         * Note: you will always plug a cable into the middle hole, but there are different holes for measuring current/voltage/ohms
     * Put the probes on what you want to measure, make sure you match the ground and positive values correctly on what you are measuring
 
+
+![battery beak](../assets/images/examples/batterybeak.png)
 #### Battery Beak
 * Used to check various stats of the battery, including internal resistance, charge %, and general status 
 * Make sure that batteries for competition pass these criteria:
@@ -52,28 +64,38 @@
 * For testing, make sure to use crappy batteries that have too high of an internal resistance that they’re not good for comp
 * Specific instructions: *Video coming after we get back to the makerspace*
 
+
+![heat gun](../assets/images/examples/heatgun.png)
 #### Heat Gun
 * A very hot hair dryer used to shrink the heat shrink tubing
 * Make sure that there are no flammable objects nearby the heat gun when in use
 
 ### Utilities
 
+
+![zip ties](../assets/images/examples/zipties.png)
 #### Zip Ties
 * Ties that zip. Zips that tie.
 * Can come in multiple lengths and sizes
 * For use when needing a quick way to join objects together
 * When the zip ties are too short, you can connect multiple zip ties together to create a “zip tie chain”
 
+
+![pwm cables](../assets/images/examples/pwmcables.png)
 #### PWM Cables
 * (Pulse Width Modulation)
 * Sends signals to microcontrollers with different pulse lengths
 * Used to connect certain sensors to the roboRIO (RIO has a couple of PWM ports)
 
+
+![can wires](../assets/images/examples/canwires.png)
 #### CAN Wires
 * Controller Area Network
 * llows microcontrollers to communicate with each without a computer (roboRIO).
 * Used to connect RoboRIO, PCM, speed controllers, PDP
 
+
+![anderson connectors](../assets/images/examples/andersonconnectors.png)
 #### Anderson Connectors (mini and regular)
 * Used to connect wires to one other through small insulated housings
 * Can also be used as the connecting plug from the battery to the robot
@@ -82,13 +104,17 @@
     * Fit/slide the wire and metal contact into the connector housing 
 * [Specific instructions](https://www.youtube.com/watch?v=QzLvdR6X81k)
 
+
+![electrical tape](../assets/images/examples/electricaltape.png)
 #### Electrical Tape 
 * Used to cover/insulate exposed wires
     * Patches up and secures small wire-connected areas
 * General all-purpose use
 * Tip: you can color code the positive and ground with red and black tape :D
 
-# Heat Shrink Tubing
+
+![heat shrink tubing](../assets/images/examples/heatshrinktubing.png)
+#### Heat Shrink Tubing
 * This tubing is a useful alternative to electrical tape
 * Once heated up, the tubing shrinks around the wire and provides insulation and some protection from the environment 
 * There’s different diameters of tubing, so make sure to choose the  correct size for different wire gauges 
