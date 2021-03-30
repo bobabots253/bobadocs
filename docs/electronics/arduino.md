@@ -1,4 +1,4 @@
-# Arduino Syntax Documentation
+# Arduino Syntax
 
 ## General Coding Structure
 *Anything listed under here is general coding structure that are found in many different coding languages, including Java, C, C++, and Python*

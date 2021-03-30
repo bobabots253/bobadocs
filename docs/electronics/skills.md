@@ -1,6 +1,4 @@
-# Electronics Tools Documentation
-
-### Tools
+# Tools
 
 
 ![wire stripper](../assets/images/examples/wirestripper.png)
