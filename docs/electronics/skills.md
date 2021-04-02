@@ -3,23 +3,21 @@
 
 ![wire stripper](../assets/images/tools/electronics/wirestripper.png)
 #### Wire Stripper
-* Used to strip the wires of the outer plastic insulator 
-* Steps
-    * Find the gauge of the wire and place the wire into the appropriate groove
-     * Squeeze like a scissor and pull on the wire to remove the plastic insulation
-    * If you’re having trouble removing the plastic, try going down one gauge and try again
-* [Specific instructions](https://www.youtube.com/watch?v=fDo-KbKRd4A)
+ The wire stripper is used to strip the wires of the outer plastic insulator. To use this, first find 
+ the gauge of the wire and place the wire into the appropriate groove. Then, squeeze the wire stripper
+ like a scissor and pull on the wire to remove the plastic insulation. If you’re having trouble removing 
+ the plastic, try going down one gauge and try again. You can find the specific instructions in this 
+ link: https://www.youtube.com/watch?v=fDo-KbKRd4A.
 
 
 ![soldering iron](../assets/images/tools/electronics/solderingiron.png)
 #### Soldering Iron
-* Used to join two or more items together with solder (melted metal)
-* Steps
-    * Heat up the soldering iron and obtain some solder
-    * Carefully use the heated tip of the soldering iron to melt some solder onto the desired area of choice (ex: on two wires to join them together)
-    * Make sure that the solder forms a solid connection, **don’t use too much solder**
-    * If desired, cover up the soldered area with heat shrink or electrical tape
- * [Specific instructions](https://www.youtube.com/watch?v=Qps9woUGkvI)
+ The soldering iron is used to join two or more items together with solder (melted metal). To use this,
+ first heat up the soldering iron and obtain some solder. Second, Carefully use the heated tip of the soldering 
+ iron to melt some solder onto the desired area of choice. An example is melting some solder on a wire to join two
+ wires together. Make sure to not use too much solder so that the solder forms a solid connection. If desired, cover 
+ up the soldered area with heat shrink or electrical tape. The specific instructions is in the link: https://www.youtube.com/watch?v=Qps9woUGkvI.
+ 
 
 
 ![crimper](../assets/images/tools/electronics/crimper.png)
