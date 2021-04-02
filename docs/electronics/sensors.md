@@ -156,7 +156,7 @@ This sensor measures the strength and sometimes the direction of the magnetic fi
 - Vector magnetometers
 - Direction of heading
 
-![Magnetometer](../assets/images/sensors/megnetometer.png)
+![Magnetometer](../assets/images/sensors/magnetometer.png)
 
 *Example of a magnetometer*
 
