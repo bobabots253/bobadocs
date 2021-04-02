@@ -200,3 +200,11 @@ To learn more about gyroscopes, check out the links here:
 - [Gyroscope Applications](https://www.elprocus.com/gyroscope-sensor/)
 
 ### NavX Sensors
+
+The NavX sensor bundle is a combination of a magnetometer, accelerometer, and gyroscope It can be used to detect many types of motion and get information regarding the orientation and position of the robot.
+
+![NavX](../assets/images/sensors/navX.png)
+
+*Example of NavX2 sensor bundle*
+
+The NavX is space-effiecent and can measure various types of distances and angles. It can also be used to find the speed and orientation of objects. Though this is a powerful sensor bundle, if you do not need every sensor that comes with it, it may be better to use seperate sensors instead.
