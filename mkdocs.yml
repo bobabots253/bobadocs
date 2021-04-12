@@ -9,7 +9,9 @@ edit_uri: ""
 
 nav:
   - Home: index.md
-  - FRC Overview: frc-competition-overview.md
+  - FRC & Competition:
+    - FRC Competition Overview: frc-competition/frc-competition-overview.md
+    - Aspects of Competition: frc-competition/aspects-of-competition.md
   - Programming:
     - Introduction: programming/learn-java.md
     - Intro to Git & Github: programming/version-control.md
