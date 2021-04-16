@@ -43,6 +43,18 @@ nav:
       - Useful Shortcuts: onshape/useful-shortcuts.md
   - Robots:
     - 2020: robots/2020.md
+  - Safety:
+    - General Safety Guidelines: safety/generalsafety.md
+    - PPE: safety/ppe.md
+    - Behavior: safety/behavior.md
+    - Programming: safety/programming.md
+    - Electrical: safety/electrical.md
+    - Construction: safety/contruction.md
+    - Operations: safety/operations.md
+    - Emergencies: safety/emergency.md
+    - Injury Protocol: safety/injuries.md
+    - Evacuation, Checklist, Injury Report Form: safety/misc.md 
+    
   - Contributing:
     - Introduction: contributing/contributing.md
     - With Python: contributing/with-python.md
