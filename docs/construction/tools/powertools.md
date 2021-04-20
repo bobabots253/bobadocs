@@ -15,6 +15,7 @@ When finished using drills/drivers, always *put the bits back* before leaving th
 Jigsaws are hand held power tools, so they're good for cutting irregular curves on big sheets/pieces that are hard to move. When switching out blades, choose which type of blade you need for the job before plugging the tool in. Blue blades are used for cutting metal while red/black blades are used for cutting wood. Another way to distinguish blades is to look at the teeth: smaller teeth (more TPI, or teeth per inch) is used for cutting metal while bigger teeth (less TPI) is used for cutting wood. Also note that the blade must be *facing outwards*  when you are securing it in.
 
 Here are some tips for using jigsaws:
+
 * Clamp down the piece being cut
 * Start the blade before making contact with the part being cut
 * Keep two hands on the jigsaw, one pressing the trigger and the other on the front of the saw (for stability)
@@ -26,6 +27,7 @@ Here are some tips for using jigsaws:
 Circular saws are handheld tools used for cutting metal or wood stock precisely and/or in straight lines (ex. Dowel rods, 2x2's, 2x4's, etc.), or cutting into a part at an angle (used when constructing field elements). 
 
 Here are some tips for using circular saws:
+
 * Securely clamp down the part being cut
 * Start the blade before making contact with the part being cut
 * Firmly move the saw through the piece, making sure that the blade is lined up with the cut line
@@ -35,6 +37,7 @@ Here are some tips for using circular saws:
 Miter saws have a blade mounted on a swing arm that pivots left or right to produce angled cuts. In other words, they're not restircted by angles! They are used when cutting wood and plastic, and can achieve quick and straight or angular cuts.
 
 Here are some tips as well as a link on how to use miter saws: 
+
 * [How to Use a Miter Saw](https://youtu.be/HHOfP8l7Ef0)
 * Secure it to table
 * Unplug from power saw, and install appropriate blade for what you’re cutting
@@ -51,6 +54,7 @@ Bandsaws are used for cutting smaller pieces that can fit on the stand or for cu
 While using the bandsaw, wear gloves because the piece can get hot. Also use the excess pieces to push the piece you’re cutting through the saw (so your fingers aren’t close to the blade). If it gets stcuk on the piece, push it back a little (towards you) and then keep going (if this happens, it usually means you were going too fast). After you're done, always unplug the bandsaw. 
 
 Here are some tips for switching out the blades (do this if you want to switch from metal to wood blades or vice versa)
+
 * Make sure the bandsaw is unplugged
 * Open the bandsaw cover by loosening the knob on the side
 * To loosen the blades, turn the knob at the top. Wear fabric gloves to carefully hold the blade when removing it (there should be one, stretched across two wheels)
@@ -70,6 +74,7 @@ While using, keep one hand on the handle and the other hand on the switch. Hold 
 Drill presses are used for precisely drilling holes into wood or metal. We often use them for drilling bearing holes into parts for the robot.
 
 Here are some tips on how to use drill presses:
+
 * Do NOT wear gloves when using the drill press (gloves can get caught in the bit and pull hand in)
 * Clamp everything securely to the stand
 * Lift up from piece you’re drilling every so often, and drill slowly
