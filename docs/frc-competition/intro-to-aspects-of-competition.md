@@ -29,6 +29,6 @@ Before we look at competition, lets look at some key terminology we use at compe
     - **Defense:** Some alliances will dedicate a bot to protect their alliance’s robots from incoming attackers or prevent enemy bots from scoring.
     - **Endgame:** The period towards the end of the match where teams have the chance to gain extra points by completing a special action.
 
-![1678 Triple Climb](../assets/images/frc/1678_triple_climb)
+![1678 Triple Climb](../assets/images/frc/1678_triple_climb.png)
 
 *Team 1678 performs a three bot climb as part of the endgame phase of 2019’s Deep Space game.*

@@ -72,7 +72,7 @@ To help inform their decision making for awards, FRC judges will approach teams 
 
 At the end of each competition, a closing ceremony is held where the award winners are announced. 
 
-![Imagry Award](../assets/images/frc/team-4802-imagry-award)
+![Imagry Award](../assets/images/frc/team-4802-imagry-award.png)
 
 ## Offseason Competitions
 
