@@ -11,6 +11,7 @@ nav:
   - Home: index.md
   - FRC & Competition:
     - FRC Competition Overview: frc-competition/frc-competition-overview.md
+    - Intro to Competition: frc-competition/intro-to-aspects-of-competition.md
     - Aspects of Competition: frc-competition/aspects-of-competition.md
   - Programming:
     - Introduction: programming/learn-java.md
