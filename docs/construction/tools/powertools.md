@@ -84,7 +84,7 @@ Here are some tips on how to use drill presses:
     * You can turn the handle to bring the drill down onto the piece (without turning the drill press on), to get a precise alignment for the hole you want to drill out
 * To remove the bit, use the key to loosen the chunk, allowing for removal of the drill bit.
 
-![Drill Press Key](../assets/images/construction-skills/drill_press_key.png)
+![Drill Press Key](../../assets/images/construction-skills/drill_press_key.png)
 
 ### Combination Square
 
