@@ -34,7 +34,7 @@ The wrench is use to grip, fasten, turn, tighten, and loosen things like locknut
 ### Mallets
 Mallets are mainly used to hit the center punch. Mallets are also used to apply force to parts to shape or move them with less risk of damaging parts. For example, applying force with the mallet to a bearing to get it into it’s frame, then using the mallet to insert a hexshaft through the bearing(s).
 
-## Rivets Guns
+### Rivets Guns
 Rivet guns are used to drive rivets in to fasten sheet metal or heavy fabric. The thicker side of the rivet goes into the hole, and the slimmer side goes into the rivet gun. When using the rivet gun, keep the rivet and rivet gun straight against the surface. To remove a rivet, drill it out.
 
 
