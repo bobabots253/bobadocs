@@ -190,17 +190,11 @@ This can be used when you want to include outside libraries. Use `#include <Libr
 
 ### Servo Methods
 
-* Disclaimer: to use these Servo method, you must import the Servo library using #include at the beginning of of your code
-* To use a Servo, you must declare a variable with a name (myServo) for example with the “Servo” type 
-    * Your servo name goes before .<method>; for example, if your Servo is called myBestServo, the attach method would be: myBestServo.attach(pin)
-    * Our servo in this documentation is called myServo
+Disclaimer: to use these Servo method, you must import the Servo library using #include at the beginning of of your code.
+To use a Servo, you must declare a variable with a name (myServo) for example with the “Servo” type. Your servo name goes before .<method>; for example, if your Servo is called myBestServo, the attach method would be: myBestServo.attach(pin). Our servo in this documentation is called myServo.
 
-* `myServo.attach(pin)`
-    * Pin = pin# servo is attached to 
-    * Similar to `pinMode()` but for servo motors
-    * Lets the arduino know that on the specified pin, there is a servo connected
-    * Pin must be a PWM pin (refer to `analogWrite()` for info on PWM pins)
-    * Example:
+## myServo.attach(pin)`
+Pin means pin# servo is attached to which is similar to `pinMode()` but for servo motors. It Lets the arduino know that on the specified pin, there is a servo connected. Pin must be a PWM pin (refer to `analogWrite()` for info on PWM pins). An example is:
     ```cpp
     #include <Servo.h>
     Servo myServo;
@@ -209,31 +203,25 @@ This can be used when you want to include outside libraries. Use `#include <Libr
         myServo.attach(9);
     }
     ```
-    * Created a Servo type variable called myServo
-    * Attaches myServo to pin 9
+This creates a Servo type variable called myServo and attaches myServo to pin 9.
 
-* `myServo.write(angle)`
-    * Angle = a degree angle between 0 - 180
-    * Moves the servo shaft to that angle 
-    * Example:
+## myServo.write(angle)`
+Angle is a degree angle between 0 - 180 which moves the servo shaft to that angle.
+An example is:
     ```cpp
     void loop(){
         myServo.write(90);
         myServo.write(0);
     }
     ```
-    * Moves the servo shaft to 90 degrees position
-    * Moves the servo shaft back to 0 degrees position
+This moves the servo shaft to 90 degrees position and moves the servo shaft back to 0 degrees position.
 
 ### Miscellaneous Information
 
-* Duty Cycle
+## Duty Cycle
 
 ![duty cycle](../assets/images/tools/electronics/dutycycle.png)
 
 ![duty cycle 2](../assets/images/tools/electronics/dutycycle2.png)
 
-* How often the power is ON and OFF
-* Digital way of simulating an analog wave
-* For example, when you light an led with 50% duty cycle, it wil appear 50% brightness to the human eye.
-
+Duty Cycle includes: how often the power is ON and OFF and the digital way of simulating an analog wave. For example, when you light an led with 50% duty cycle, it wil appear 50% brightness to the human eye.
