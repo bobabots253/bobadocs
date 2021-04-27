@@ -1,3 +1,16 @@
+In the event of an emergency, it is crucial you know what to do and where to go to ensure that everyone is safe. The following scenarios will go over how you must act when an emergency occurs. Please note that if you are not qualified or prepared to assist in an emergency situation, please do not put yourself or the victim in danger by attempting to do so.
+
+### Battery Spills:
+    - Robot batteries contain Sulfuric Acid, or H2S04
+        - Do NOT touch battery acid. It is extremely dangerous and can cause severe burns when in contact with skin.
+    - Report the spill to a Mentor, Lead, or Safety Captain
+    - Follow the emergency procedures listed in the MSDS sheet for Sulfuric Acid
+    - If you are cleaning up the spill, you must be wearing rubber gloves and educated in handling dangerous materials
+    - Place the battery in a leak-proof contianer
+    - Neutralize the acid with baking soda
+    - Safely dispose of the battery acid
+    - If any chemicals come in contact with any skin, quickly wash it off with water and immediately seek medical attention
+
 ### Earthquakes:
     - If outside, do not go back indoors, and stay away from trees, streetlamps, and other tall structures
     - If indoors, take cover by hiding underneath the nearest sturdy table or any other object that can protect you from falling debris. (e.g. one of the lab/work tables)

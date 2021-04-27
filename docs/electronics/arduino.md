@@ -99,19 +99,13 @@
 ### Commonly Used Arduino Functions
 
 * `pinMode(pin, mode)`
-    * Pin = 0,1,2,3 etc (for analog pins, put an `A` in front of the pin number
-    * Mode = INPUT, OUTPUT
-    * Tells the specified pin to be either INPUT or OUTPUT mode
-    * Used in `setup()`
-    * Example:
+    * The pinMode() function is used to tell the specified pin to be either INPUT or OUTPUT. The format of the function is pinMode(pin, mode). To specify which pin, put down the number of the pin. For analog pins, put an `A` in front of the pin number. to specify which input/ouput you want the pin to be set to, fill the mode slot with wither INPUT or OUTPUT. 
+    * In the example below, you can see how to use the pinMode() function. With the following code, Analog Pin 2 is set to INPUT, Analog Pin 4 is set to OUTPUT, and Digital Pin 13 is set to OUTPUT:
     ``` cpp
     pinMode(A2, INPUT);
     pinMode(A4, OUTPUT);
     pinMode(13, OUTPUT);
     ```
-    * Setting Analog Pin 2 to INPUT
-    * Setting Analog Pin 4 to OUTPUT
-    * Setting Analog Pin 13 to OUTPUT
 
 * `digitalWrite(pin, value)`
     * Value = HIGH, LOW
