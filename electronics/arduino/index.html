@@ -1500,18 +1500,12 @@
 <li>
 <p><code>pinMode(pin, mode)</code></p>
 <ul>
-<li>Pin = 0,1,2,3 etc (for analog pins, put an <code>A</code> in front of the pin number</li>
-<li>Mode = INPUT, OUTPUT</li>
-<li>Tells the specified pin to be either INPUT or OUTPUT mode</li>
-<li>Used in <code>setup()</code></li>
-<li>Example:
+<li>The pinMode() function is used to tell the specified pin to be either INPUT or OUTPUT. The format of the function is pinMode(pin, mode). To specify which pin, put down the number of the pin. For analog pins, put an <code>A</code> in front of the pin number. to specify which input/ouput you want the pin to be set to, fill the mode slot with wither INPUT or OUTPUT. </li>
+<li>In the example below, you can see how to use the pinMode() function. With the following code, Analog Pin 2 is set to INPUT, Analog Pin 4 is set to OUTPUT, and Digital Pin 13 is set to OUTPUT:
 <div class="highlight"><pre><span></span><code><span class="n">pinMode</span><span class="p">(</span><span class="n">A2</span><span class="p">,</span> <span class="n">INPUT</span><span class="p">);</span>
 <span class="n">pinMode</span><span class="p">(</span><span class="n">A4</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
 <span class="n">pinMode</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
 </code></pre></div></li>
-<li>Setting Analog Pin 2 to INPUT</li>
-<li>Setting Analog Pin 4 to OUTPUT</li>
-<li>Setting Analog Pin 13 to OUTPUT</li>
 </ul>
 </li>
 <li>
