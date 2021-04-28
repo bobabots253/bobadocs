@@ -22,10 +22,11 @@ These rules encompass the hazards that occur in the construction department, ran
 * Vacuum the bandsaw and drill press as well as their surrounding areas after use
 * No eating, especially in work areas, if needed, eat at designated Food Table
 
-## Guidelines for Equipment
+## Guidelines for Equipment  
 
 ### Jigsaw
 ![jigsaw](../assets/images/tools/construction/jigsaw.png)
+
 * Used to quickly cut out pieces by hand that don’t require much detail or cannot fit in the band saw
 * Always hold with two hands
 * Clamp down the object that your are cutting, either with the quick-clamps or a C-clamp
@@ -35,6 +36,7 @@ These rules encompass the hazards that occur in the construction department, ran
 
 ### Portable Band Saw
 ![portable band saw](../assets/images/tools/construction/portablebandsaw.png)
+
 * Used for cutting straight lines in a short piece of metal or wood (e.g., pipe, 2x4)
 * Always hold with two hands when in use
 * Clamp down the object that you are cutting
@@ -42,6 +44,7 @@ These rules encompass the hazards that occur in the construction department, ran
 
 ### Drill Press
 ![drill press](../assets/images/tools/construction/drillpress.png)
+
 * Used to accurately drill holes into metal or wood
 * Always clamp down the object you are drilling into
 * Do not wear gloves while using the press, as it can get caught on the drill bit and cause injury
@@ -49,6 +52,7 @@ These rules encompass the hazards that occur in the construction department, ran
 
 ### Belt Sander
 ![belt sander](../assets/images/tools/construction/beltsander.png)
+
 * Used to smooth out rough surfaces
 * Hold it with two hands when in use
 * Always clamp down the object you are sanding
@@ -61,6 +65,7 @@ These rules encompass the hazards that occur in the construction department, ran
 
 ### Circular Saw
 ![circular saw](../assets/images/tools/construction/circularsaw.png)
+
 * Used to cut pieces of metal or wood, better for straight lines
 * Always clamp down the object you are cutting
 * Hold it with two hands when in use
@@ -69,6 +74,7 @@ These rules encompass the hazards that occur in the construction department, ran
 
 ### Band Saw
 ![band saw](../assets/images/tools/construction/bandsaw.png)
+
 * Used to cut both straight lines or rough curves in pieces of metal or wood
 * Wait until the blade reaches full speed before you begin cutting your object
 * Do not wear gloves while using the bandsaw
@@ -79,6 +85,7 @@ These rules encompass the hazards that occur in the construction department, ran
 
 ### Portable Hand Drill
 ![portable hand drill](../assets/images/tools/construction/handdrill.png)
+
 * Used to drill holes into wood or metal
 * If drilling a large hole, start with smaller bit sizes and slowly work your way up
 * If drilling into metal, make sure to use a punch on the spot you want to drill
@@ -89,6 +96,7 @@ These rules encompass the hazards that occur in the construction department, ran
 
 ### Dremel
 ![dremel](../assets/images/tools/construction/dremel.png)
+
 * Used to grind off edges on rough pieces of metal
 * Be wary of kickback when using the dremel, and position yourself away from the direction of kickback
 * Always wear safety goggles when using
@@ -98,6 +106,7 @@ These rules encompass the hazards that occur in the construction department, ran
 
 ### CNC Router
 ![cnc router](../assets/images/tools/construction/cncrouter.png)
+
 * Used to precisely cut metal or wood. Can also be used to mill out parts
 * Make sure to check oil and pressure gauges before use
 * Never put any body parts inside the router when it is turned on
@@ -106,6 +115,7 @@ These rules encompass the hazards that occur in the construction department, ran
 
 ### Soldering Iron
 ![soldering iron](../assets/images/tools/electronics/solderingiron.png)
+
 * Used to connect small metal wire together to create a circuit
 * Never touch the metal tip when it is on
 * Always clamp down the two wires you are soldering
@@ -114,6 +124,7 @@ These rules encompass the hazards that occur in the construction department, ran
 
 ### Heat Gun
 ![heat gun](../assets/images/tools/electronics/heatgun.png)
+
 * Used to shrink heat shrink around wires to ensure that they don’t disconnect
 * The silver metal nozzle at the front of the heat gun can get extremely hot. Never touch it
 * The air that the heat gun produces is also extremely hot. This isn’t just like a blow dryer
