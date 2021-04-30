@@ -4,39 +4,35 @@
 *Anything listed under here is general coding structure that are found in many different coding languages, including Java, C, C++, and Python*
 
 ### For-loop structure
-* Repeats a set amount of code a certain number of times
-    * General syntax
+The for-loop structure repeats a set amount of code a certain number of times.
+#### General syntax
         ```cpp
         for (initialization; condition; increment) {
         // statement(s);
         }
         ```
-    * Useful for when you want to have a large amount of repetition in code
+This structure is useful for when you want to have a large amount of repetition in code.
         ```cpp
         for (int number = 100; number > 100; number -= 1) {
             Serial.println("hi");
         }
         ```
-    * Initialization can be any variable or number
-    * i.e. the variable `number` can be any other name, like `i` or `counter` or `abc`
-    * Condition is a statement condition, think back to if statement conditions
-    * Increments are the code that runs if the condition is true
+Initialization can be any variable or number. For instance, the variable `number` can be any other name, like `i` or `counter` or `abc`. Condition is a statement condition, think back to if statement conditions. Increments are the code that runs if the condition is true.
 
 ### If statement structure (conditional statements)
-* General Syntax
+#### General Syntax
     ```cpp
     if (condition) {
         //statement(s)
     }
     ```
-* The condition is something that can either be `true` or `false`
-    * Called a boolean expression (boolean = 2 outcomes)
-    * i.e. 
+The condition is something that can either be `true` or `false`, called a boolean expression (boolean = 2 outcomes).
+#### Example 
         * `x > 120`
         * `x <= y`
         * `(x + 2) / 4 == 12`
 
-* Conditional operators are used to compare the condition to see if it is `true` or `false`
+Conditional operators are used to compare the condition to see if it is `true` or `false`.
     ```cpp
     x == y (x is equal to y)
     x != y (x is not equal to y)
@@ -46,26 +42,20 @@
     x >= y (x is greater than or equal to y)
     ```
 
-* Example:
+#### Example
     ```cpp
     if (x > 120) {
         digitalWrite(LEDpin1, HIGH);
         digitalWrite(LEDpin2, HIGH);
     }
     ```
-* `if (x > 120)` is true:
-    * Set LEDpin1 to 5v (HIGH)
-    * Set LEDpin2 to 5v (HIGH)
-* `if (x > 120)` is NOT true:
-    * Skips this if conditional statement and moves on to the rest of the code
+If `(x > 120)` is true LEDpin1 and LEDpin2 will be set to 5v (HIGH). If `(x > 120)` is NOT true, this if conditional statement will be skipped and it will move on to the rest of the code.
 
 ### Basics
 
-* `setup()` 
-    * Use it get your code started
-    * Runs only once when you upload new code to it 
-    * Put functions like `pinMode()` in it
-    * Example + what’s happening:
+`setup()` 
+You can use this get your code started. It runs only once when you upload new code to it, and you can put functions like `pinMode()` in it.
+### Example + what’s happening
     ```cpp
     void setup()
     {
@@ -73,13 +63,11 @@
         pinMode(12, INPUT);
     }
     ```
-    * Setting digital pin #13 as OUTPUT
-    * Setting digital pin #12 as INPUT
+Digital pin #13 is set as OUTPUT, digital pin set #12 as INPUT.
 
-* `loop()`
-    * Use it after you run `setup()`
-    * Runs through the code inside of `loop()` from the top to bottom, and then goes back to the top to bottom… you get the idea
-    * Example:
+`loop()`
+You can use this after you run `setup()`. It runs through the code inside of `loop()` from the top to bottom, and then goes back to the top to bottom… you get the idea
+#### Example
     ``` cpp
     void loop()
     {
@@ -89,12 +77,10 @@
         delay(1000); // Wait for 1000 millisecond(s)
     }
     ```
-    * This code is the famous "blinking LED" code. It will turn the LED on and turn it off. Once it hits the bottom of the code, it’ll go back to the top and repeat.
-* `#include`
-    * Used when you want to include outside libraries
-    * Use `#include <LibraryFile.h>`
-    * **Don’t** include a semicolon after the command
-    * Make sure you put it at the very top of the code!
+This code is the famous "blinking LED" code. It will turn the LED on and turn it off. Once it hits the bottom of the code, it’ll go back to the top and repeat.
+
+`#include`
+This can be used when you want to include outside libraries. Use `#include <LibraryFile.h>`. **Don’t** include a semicolon after the command, and make sure you put it at the very top of the code!
 
 ### Commonly Used Arduino Functions
 
