@@ -28,7 +28,6 @@ nav:
     - Sensors: electronics/sensors.md
     - Arduino: electronics/arduino.md
   - Construction: 
-    - Skills: construction/skills.md
     - Tools: 
       - Fasteners: construction/tools/fasteners.md
       - Hand Tools: construction/tools/handtools.md

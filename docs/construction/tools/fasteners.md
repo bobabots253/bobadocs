@@ -8,9 +8,10 @@ Welcome to the tools section of the construction documentation! For the first pa
 Little stripping of screws is acceptable. Scrap any type of stripped screws, nuts, or bolts.
 
 ### Bolts
-Bolts are not used often.
+Bolts are not used often here in robotics. You can read more about them here.
 
 ### Locknuts
+Read about them in teh linked doc. There's not much to say about this.
 
 ### Nuts
 Only use the wrench to grip nuts and bolts.
