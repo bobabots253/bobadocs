@@ -732,26 +732,6 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#myservoattachpin" class="md-nav__link">
-    myServo.attach(pin)
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#myservowriteangle" class="md-nav__link">
-    myServo.write(angle)
-  </a>
-  
-    <nav class="md-nav" aria-label="myServo.write(angle)">
-      <ul class="md-nav__list">
-        
           <li class="md-nav__item">
   <a href="#miscellaneous-information" class="md-nav__link">
     Miscellaneous Information
@@ -1378,26 +1358,6 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#myservoattachpin" class="md-nav__link">
-    myServo.attach(pin)
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#myservowriteangle" class="md-nav__link">
-    myServo.write(angle)
-  </a>
-  
-    <nav class="md-nav" aria-label="myServo.write(angle)">
-      <ul class="md-nav__list">
-        
           <li class="md-nav__item">
   <a href="#miscellaneous-information" class="md-nav__link">
     Miscellaneous Information
@@ -1625,8 +1585,8 @@ If <code>(x &gt; 120)</code> is true LEDpin1 and LEDpin2 will be set to 5v (HIGH
 <h3 id="servo-methods">Servo Methods<a class="headerlink" href="#servo-methods" title="Permanent link">&para;</a></h3>
 <p>Disclaimer: to use these Servo method, you must import the Servo library using #include at the beginning of of your code.
 To use a Servo, you must declare a variable with a name (myServo) for example with the “Servo” type. Your servo name goes before .<method>; for example, if your Servo is called myBestServo, the attach method would be: myBestServo.attach(pin). Our servo in this documentation is called myServo.</p>
-<h2 id="myservoattachpin"><code>myServo.attach(pin)</code><a class="headerlink" href="#myservoattachpin" title="Permanent link">&para;</a></h2>
-<p>Pin means pin# servo is attached to which is similar to <code>pinMode()</code> but for servo motors. It Lets the arduino know that on the specified pin, there is a servo connected. Pin must be a PWM pin (refer to <code>analogWrite()</code> for info on PWM pins). An example is:
+<p><code>myServo.attach(pin)</code>
+Pin means pin# servo is attached to which is similar to <code>pinMode()</code> but for servo motors. It Lets the arduino know that on the specified pin, there is a servo connected. Pin must be a PWM pin (refer to <code>analogWrite()</code> for info on PWM pins). An example is:
     <div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;Servo.h&gt;</span><span class="cp"></span>
 <span class="n">Servo</span> <span class="n">myServo</span><span class="p">;</span>
 
@@ -1635,8 +1595,8 @@ To use a Servo, you must declare a variable with a name (myServo) for example wi
 <span class="p">}</span>
 </code></pre></div>
 This creates a Servo type variable called myServo and attaches myServo to pin 9.</p>
-<h2 id="myservowriteangle"><code>myServo.write(angle)</code><a class="headerlink" href="#myservowriteangle" title="Permanent link">&para;</a></h2>
-<p>Angle is a degree angle between 0 - 180 which moves the servo shaft to that angle.
+<p><code>myServo.write(angle)</code>
+Angle is a degree angle between 0 - 180 which moves the servo shaft to that angle.
 An example is:
     <div class="highlight"><pre><span></span><code><span class="kt">void</span> <span class="nf">loop</span><span class="p">(){</span>
     <span class="n">myServo</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="mi">90</span><span class="p">);</span>
