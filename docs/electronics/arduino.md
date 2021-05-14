@@ -1,48 +1,34 @@
 # Arduino Syntax
 
 ## General Coding Structure
-*Anything listed under here is general coding structure that are found in many different coding languages, including Java, C, C++, and Python*
+Anything listed under here is general coding structure that are found in many different coding languages, including Java, C, C++, and Python*
 
 ### For-loop structure
 The for-loop structure repeats a set amount of code a certain number of times.
-#### General syntax
+General syntax
         ```cpp
         for (initialization; condition; increment) {
         // statement(s);
         }
         ```
-This structure is useful for when you want to have a large amount of repetition in code.
-        ```cpp
-        for (int number = 100; number > 100; number -= 1) {
-            Serial.println("hi");
-        }
-        ```
-Initialization can be any variable or number. For instance, the variable `number` can be any other name, like `i` or `counter` or `abc`. Condition is a statement condition, think back to if statement conditions. Increments are the code that runs if the condition is true.
-
+This structure is useful for when you want to have a large amount of repetition in code. `cpp for (int number = 100; number > 100; number -= 1) { Serial.println("hi"); }` Initialization can be any variable or `number`. For instance, the variable number can be any other name, like `i` or `counter` or `abc`. Condition is a statement condition, think back to if statement conditions. Increments are the code that runs if the condition is true.
 ### If statement structure (conditional statements)
-#### General Syntax
+* General Syntax
     ```cpp
     if (condition) {
         //statement(s)
     }
     ```
 The condition is something that can either be `true` or `false`, called a boolean expression (boolean = 2 outcomes).
-#### Example 
+
+Example
         * `x > 120`
         * `x <= y`
         * `(x + 2) / 4 == 12`
 
-Conditional operators are used to compare the condition to see if it is `true` or `false`.
-    ```cpp
-    x == y (x is equal to y)
-    x != y (x is not equal to y)
-    x <  y (x is less than y)
-    x >  y (x is greater than y)
-    x <= y (x is less than or equal to y)
-    x >= y (x is greater than or equal to y)
-    ```
+Conditional operators are used to compare the condition to see if it is `true` or `false`. `cpp x == y (x is equal to y) x != y (x is not equal to y) x < y (x is less than y) x > y (x is greater than y) x <= y (x is less than or equal to y) x >= y (x is greater than or equal to y)`.
 
-#### Example
+Example
     ```cpp
     if (x > 120) {
         digitalWrite(LEDpin1, HIGH);
@@ -53,9 +39,8 @@ If `(x > 120)` is true LEDpin1 and LEDpin2 will be set to 5v (HIGH). If `(x > 12
 
 ### Basics
 
-`setup()` 
-You can use this get your code started. It runs only once when you upload new code to it, and you can put functions like `pinMode()` in it.
-### Example + what’s happening
+`setup()` You can use this get your code started. It runs only once when you upload new code to it, and you can put functions like `pinMode()` in it.
+ Example + what’s happening:
     ```cpp
     void setup()
     {
@@ -63,11 +48,10 @@ You can use this get your code started. It runs only once when you upload new co
         pinMode(12, INPUT);
     }
     ```
-Digital pin #13 is set as OUTPUT, digital pin set #12 as INPUT.
+ Digital pin #13 is set as OUTPUT, digital pin set #12 as INPUT.
 
-`loop()`
-You can use this after you run `setup()`. It runs through the code inside of `loop()` from the top to bottom, and then goes back to the top to bottom… you get the idea
-#### Example
+`loop()` You can use this after you run `setup()`. It runs through the code inside of loop() from the top to bottom, and then goes back to the top to bottom… you get the idea
+    * Example:
     ``` cpp
     void loop()
     {
@@ -77,21 +61,25 @@ You can use this after you run `setup()`. It runs through the code inside of `lo
         delay(1000); // Wait for 1000 millisecond(s)
     }
     ```
-This code is the famous "blinking LED" code. It will turn the LED on and turn it off. Once it hits the bottom of the code, it’ll go back to the top and repeat.
-
-`#include`
-This can be used when you want to include outside libraries. Use `#include <LibraryFile.h>`. **Don’t** include a semicolon after the command, and make sure you put it at the very top of the code!
-
+    This code is the famous "blinking LED" code. It will turn the LED on and turn it off. Once it hits the bottom of the code, it’ll go back to the top and repeat.
+* `#include` This can be used when you want to include outside libraries. Use `#include <LibraryFile.h>`. Don’t include a semicolon after the command, and make sure you put it at the very top of the code!
+  
 ### Commonly Used Arduino Functions
 
 * `pinMode(pin, mode)`
-    * The pinMode() function is used to tell the specified pin to be either INPUT or OUTPUT. The format of the function is pinMode(pin, mode). To specify which pin, put down the number of the pin. For analog pins, put an `A` in front of the pin number. to specify which input/ouput you want the pin to be set to, fill the mode slot with wither INPUT or OUTPUT. 
-    * In the example below, you can see how to use the pinMode() function. With the following code, Analog Pin 2 is set to INPUT, Analog Pin 4 is set to OUTPUT, and Digital Pin 13 is set to OUTPUT:
+    * Pin = 0,1,2,3 etc (for analog pins, put an `A` in front of the pin number
+    * Mode = INPUT, OUTPUT
+    * Tells the specified pin to be either INPUT or OUTPUT mode
+    * Used in `setup()`
+    * Example:
     ``` cpp
     pinMode(A2, INPUT);
     pinMode(A4, OUTPUT);
     pinMode(13, OUTPUT);
     ```
+    * Setting Analog Pin 2 to INPUT
+    * Setting Analog Pin 4 to OUTPUT
+    * Setting Analog Pin 13 to OUTPUT
 
 * `digitalWrite(pin, value)`
     * Value = HIGH, LOW
@@ -193,7 +181,7 @@ This can be used when you want to include outside libraries. Use `#include <Libr
 Disclaimer: to use these Servo method, you must import the Servo library using #include at the beginning of of your code.
 To use a Servo, you must declare a variable with a name (myServo) for example with the “Servo” type. Your servo name goes before .<method>; for example, if your Servo is called myBestServo, the attach method would be: myBestServo.attach(pin). Our servo in this documentation is called myServo.
 
-## myServo.attach(pin)`
+## `myServo.attach(pin)`
 Pin means pin# servo is attached to which is similar to `pinMode()` but for servo motors. It Lets the arduino know that on the specified pin, there is a servo connected. Pin must be a PWM pin (refer to `analogWrite()` for info on PWM pins). An example is:
     ```cpp
     #include <Servo.h>
@@ -205,7 +193,7 @@ Pin means pin# servo is attached to which is similar to `pinMode()` but for serv
     ```
 This creates a Servo type variable called myServo and attaches myServo to pin 9.
 
-## myServo.write(angle)`
+## `myServo.write(angle)`
 Angle is a degree angle between 0 - 180 which moves the servo shaft to that angle.
 An example is:
     ```cpp
