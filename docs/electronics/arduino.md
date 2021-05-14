@@ -181,7 +181,7 @@ If `(x > 120)` is true LEDpin1 and LEDpin2 will be set to 5v (HIGH). If `(x > 12
 Disclaimer: to use these Servo method, you must import the Servo library using #include at the beginning of of your code.
 To use a Servo, you must declare a variable with a name (myServo) for example with the “Servo” type. Your servo name goes before .<method>; for example, if your Servo is called myBestServo, the attach method would be: myBestServo.attach(pin). Our servo in this documentation is called myServo.
 
-## `myServo.attach(pin)`
+`myServo.attach(pin)`
 Pin means pin# servo is attached to which is similar to `pinMode()` but for servo motors. It Lets the arduino know that on the specified pin, there is a servo connected. Pin must be a PWM pin (refer to `analogWrite()` for info on PWM pins). An example is:
     ```cpp
     #include <Servo.h>
@@ -193,7 +193,7 @@ Pin means pin# servo is attached to which is similar to `pinMode()` but for serv
     ```
 This creates a Servo type variable called myServo and attaches myServo to pin 9.
 
-## `myServo.write(angle)`
+`myServo.write(angle)`
 Angle is a degree angle between 0 - 180 which moves the servo shaft to that angle.
 An example is:
     ```cpp
