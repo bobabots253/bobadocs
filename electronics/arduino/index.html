@@ -711,9 +711,29 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#basics" class="md-nav__link">
     Basics
+  </a>
+  
+    <nav class="md-nav" aria-label="Basics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    setup()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loop" class="md-nav__link">
+    loop()
   </a>
   
 </li>
@@ -725,9 +745,29 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#servo-methods" class="md-nav__link">
     Servo Methods
+  </a>
+  
+    <nav class="md-nav" aria-label="Servo Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#myservoattachpin" class="md-nav__link">
+    myServo.attach(pin)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#myservowriteangle" class="md-nav__link">
+    myServo.write(angle)
   </a>
   
 </li>
@@ -1337,9 +1377,29 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#basics" class="md-nav__link">
     Basics
+  </a>
+  
+    <nav class="md-nav" aria-label="Basics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    setup()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loop" class="md-nav__link">
+    loop()
   </a>
   
 </li>
@@ -1351,9 +1411,29 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#servo-methods" class="md-nav__link">
     Servo Methods
+  </a>
+  
+    <nav class="md-nav" aria-label="Servo Methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#myservoattachpin" class="md-nav__link">
+    myServo.attach(pin)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#myservowriteangle" class="md-nav__link">
+    myServo.write(angle)
   </a>
   
 </li>
@@ -1392,49 +1472,61 @@
                 
                 <h1 id="arduino-syntax">Arduino Syntax<a class="headerlink" href="#arduino-syntax" title="Permanent link">&para;</a></h1>
 <h2 id="general-coding-structure">General Coding Structure<a class="headerlink" href="#general-coding-structure" title="Permanent link">&para;</a></h2>
-<p>Anything listed under here is general coding structure that are found in many different coding languages, including Java, C, C++, and Python*</p>
+<p><em>Anything listed under here is general coding structure that are found in many different coding languages, including Java, C, C++, and Python</em></p>
 <h3 id="for-loop-structure">For-loop structure<a class="headerlink" href="#for-loop-structure" title="Permanent link">&para;</a></h3>
-<p>The for-loop structure repeats a set amount of code a certain number of times.
-General syntax
-        <div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="p">(</span><span class="n">initialization</span><span class="p">;</span> <span class="n">condition</span><span class="p">;</span> <span class="n">increment</span><span class="p">)</span> <span class="p">{</span>
-<span class="c1">// statement(s);</span>
+<p>The for-loop structure repeats a set amount of code a certain number of times.</p>
+<p>General syntax:</p>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="p">(</span><span class="n">initialization</span><span class="p">;</span> <span class="n">condition</span><span class="p">;</span> <span class="n">increment</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// statement(s);</span>
 <span class="p">}</span>
 </code></pre></div>
-This structure is useful for when you want to have a large amount of repetition in code. <code>cpp for (int number = 100; number &gt; 100; number -= 1) { Serial.println("hi"); }</code> Initialization can be any variable or <code>number</code>. For instance, the variable number can be any other name, like <code>i</code> or <code>counter</code> or <code>abc</code>. Condition is a statement condition, think back to if statement conditions. Increments are the code that runs if the condition is true.</p>
+<p>This structure is useful for when you want to have a large amount of repetition in code. <code>cpp for (int number = 100; number &gt; 100; number -= 1) { Serial.println("hi"); }</code> Initialization can be any variable or <code>number</code>. For instance, the variable number can be any other name, like <code>i</code> or <code>counter</code> or <code>abc</code>. Condition is a statement condition, think back to if statement conditions. Increments are the code that runs if the condition is true.</p>
 <h3 id="if-statement-structure-conditional-statements">If statement structure (conditional statements)<a class="headerlink" href="#if-statement-structure-conditional-statements" title="Permanent link">&para;</a></h3>
-<ul>
-<li>General Syntax
-    <div class="highlight"><pre><span></span><code><span class="k">if</span> <span class="p">(</span><span class="n">condition</span><span class="p">)</span> <span class="p">{</span>
+<p>General Syntax:</p>
+<div class="highlight"><pre><span></span><code><span class="k">if</span> <span class="p">(</span><span class="n">condition</span><span class="p">)</span> <span class="p">{</span>
     <span class="c1">//statement(s)</span>
 <span class="p">}</span>
 </code></pre></div>
-The condition is something that can either be <code>true</code> or <code>false</code>, called a boolean expression (boolean = 2 outcomes).</li>
+<p>The condition is something that can either be <code>true</code> or <code>false</code>, called a boolean expression (boolean = 2 outcomes).</p>
+<p>Examples:</p>
+<ul>
+<li><code>x &gt; 120</code></li>
+<li><code>x &lt;= y</code></li>
+<li><code>(x + 2) / 4 == 12</code></li>
 </ul>
-<p>Example
-        * <code>x &gt; 120</code>
-        * <code>x &lt;= y</code>
-        * <code>(x + 2) / 4 == 12</code></p>
-<p>Conditional operators are used to compare the condition to see if it is <code>true</code> or <code>false</code>. <code>cpp x == y (x is equal to y) x != y (x is not equal to y) x &lt; y (x is less than y) x &gt; y (x is greater than y) x &lt;= y (x is less than or equal to y) x &gt;= y (x is greater than or equal to y)</code>.</p>
-<p>Example
-    <div class="highlight"><pre><span></span><code><span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="mi">120</span><span class="p">)</span> <span class="p">{</span>
+<p>Conditional operators are used to compare the condition to see if it is <code>true</code> or <code>false</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="n">x</span> <span class="o">==</span> <span class="n">y</span>  <span class="c1">// (x is equal to y)</span>
+<span class="n">x</span> <span class="o">!=</span> <span class="n">y</span>  <span class="c1">// (x is not equal to y)</span>
+<span class="n">x</span> <span class="o">&lt;</span> <span class="n">y</span>   <span class="c1">// (x is less than y)</span>
+<span class="n">x</span> <span class="o">&gt;</span> <span class="n">y</span>   <span class="c1">// (x is greater than y)</span>
+<span class="n">x</span> <span class="o">&lt;=</span> <span class="n">y</span>  <span class="c1">// (x is less than or equal to y)</span>
+<span class="n">x</span> <span class="o">&gt;=</span> <span class="n">y</span>  <span class="c1">// (x is greater than or equal to y)</span>
+<span class="err">```</span><span class="p">.</span>
+
+<span class="nl">Example</span><span class="p">:</span>
+
+<span class="err">```</span><span class="n">cpp</span>
+<span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="mi">120</span><span class="p">)</span> <span class="p">{</span>
     <span class="n">digitalWrite</span><span class="p">(</span><span class="n">LEDpin1</span><span class="p">,</span> <span class="n">HIGH</span><span class="p">);</span>
     <span class="n">digitalWrite</span><span class="p">(</span><span class="n">LEDpin2</span><span class="p">,</span> <span class="n">HIGH</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div>
-If <code>(x &gt; 120)</code> is true LEDpin1 and LEDpin2 will be set to 5v (HIGH). If <code>(x &gt; 120)</code> is NOT true, this if conditional statement will be skipped and it will move on to the rest of the code.</p>
-<h3 id="basics">Basics<a class="headerlink" href="#basics" title="Permanent link">&para;</a></h3>
-<p><code>setup()</code> You can use this get your code started. It runs only once when you upload new code to it, and you can put functions like <code>pinMode()</code> in it.
- Example + what’s happening:
-    <div class="highlight"><pre><span></span><code><span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
+<p>If <code>(x &gt; 120)</code> is true LEDpin1 and LEDpin2 will be set to 5v (HIGH). If <code>(x &gt; 120)</code> is NOT true, this statement will be skipped and it will move on to the rest of the code.</p>
+<h2 id="basics">Basics<a class="headerlink" href="#basics" title="Permanent link">&para;</a></h2>
+<h3 id="setup"><code>setup()</code><a class="headerlink" href="#setup" title="Permanent link">&para;</a></h3>
+<p>You can use this get your code started. It runs only once when you upload new code to it, and you can put functions like <code>pinMode()</code> in it.</p>
+<p>Example + what’s happening:</p>
+<div class="highlight"><pre><span></span><code><span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span>
 <span class="p">{</span>
     <span class="n">pinMode</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
     <span class="n">pinMode</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="n">INPUT</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div>
- Digital pin #13 is set as OUTPUT, digital pin set #12 as INPUT.</p>
-<p><code>loop()</code> You can use this after you run <code>setup()</code>. It runs through the code inside of loop() from the top to bottom, and then goes back to the top to bottom… you get the idea
-    * Example:
-    <div class="highlight"><pre><span></span><code><span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span>
+<p>Digital pin #13 is set as OUTPUT, digital pin set #12 as INPUT.</p>
+<h3 id="loop"><code>loop()</code><a class="headerlink" href="#loop" title="Permanent link">&para;</a></h3>
+<p>You can use this after you run <code>setup()</code>. It runs through the code inside of loop() from the top to bottom, and then goes back to the top to bottom… you get the idea</p>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><code><span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span>
 <span class="p">{</span>
     <span class="n">digitalWrite</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span> <span class="n">HIGH</span><span class="p">);</span>
     <span class="n">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span> <span class="c1">// Wait for 1000 millisecond(s)</span>
@@ -1442,8 +1534,8 @@ If <code>(x &gt; 120)</code> is true LEDpin1 and LEDpin2 will be set to 5v (HIGH
     <span class="n">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span> <span class="c1">// Wait for 1000 millisecond(s)</span>
 <span class="p">}</span>
 </code></pre></div>
-    This code is the famous "blinking LED" code. It will turn the LED on and turn it off. Once it hits the bottom of the code, it’ll go back to the top and repeat.
-* <code>#include</code> This can be used when you want to include outside libraries. Use <code>#include &lt;LibraryFile.h&gt;</code>. Don’t include a semicolon after the command, and make sure you put it at the very top of the code!</p>
+<p>This code is the famous "blinking LED" code. It will turn the LED on and turn it off. Once it hits the bottom of the code, it’ll go back to the top and repeat.</p>
+<p><code>#include</code> can be used when you want to include outside libraries. Use <code>#include &lt;LibraryFile.h&gt;</code>. Don’t include a semicolon after the command, and make sure you put it at the very top of the code!</p>
 <h3 id="commonly-used-arduino-functions">Commonly Used Arduino Functions<a class="headerlink" href="#commonly-used-arduino-functions" title="Permanent link">&para;</a></h3>
 <ul>
 <li>
@@ -1582,28 +1674,28 @@ If <code>(x &gt; 120)</code> is true LEDpin1 and LEDpin2 will be set to 5v (HIGH
 </ul>
 </li>
 </ul>
-<h3 id="servo-methods">Servo Methods<a class="headerlink" href="#servo-methods" title="Permanent link">&para;</a></h3>
+<h2 id="servo-methods">Servo Methods<a class="headerlink" href="#servo-methods" title="Permanent link">&para;</a></h2>
 <p>Disclaimer: to use these Servo method, you must import the Servo library using #include at the beginning of of your code.
 To use a Servo, you must declare a variable with a name (myServo) for example with the “Servo” type. Your servo name goes before .<method>; for example, if your Servo is called myBestServo, the attach method would be: myBestServo.attach(pin). Our servo in this documentation is called myServo.</p>
-<p><code>myServo.attach(pin)</code>
-Pin means pin# servo is attached to which is similar to <code>pinMode()</code> but for servo motors. It Lets the arduino know that on the specified pin, there is a servo connected. Pin must be a PWM pin (refer to <code>analogWrite()</code> for info on PWM pins). An example is:
-    <div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;Servo.h&gt;</span><span class="cp"></span>
+<h3 id="myservoattachpin"><code>myServo.attach(pin)</code><a class="headerlink" href="#myservoattachpin" title="Permanent link">&para;</a></h3>
+<p>Pin means pin# servo is attached to which is similar to <code>pinMode()</code> but for servo motors. It Lets the arduino know that on the specified pin, there is a servo connected. Pin must be a PWM pin (refer to <code>analogWrite()</code> for info on PWM pins). An example is:</p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;Servo.h&gt;</span><span class="cp"></span>
 <span class="n">Servo</span> <span class="n">myServo</span><span class="p">;</span>
 
 <span class="kt">void</span> <span class="nf">setup</span> <span class="p">(){</span>
     <span class="n">myServo</span><span class="p">.</span><span class="n">attach</span><span class="p">(</span><span class="mi">9</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div>
-This creates a Servo type variable called myServo and attaches myServo to pin 9.</p>
-<p><code>myServo.write(angle)</code>
-Angle is a degree angle between 0 - 180 which moves the servo shaft to that angle.
-An example is:
-    <div class="highlight"><pre><span></span><code><span class="kt">void</span> <span class="nf">loop</span><span class="p">(){</span>
+<p>This creates a Servo type variable called myServo and attaches myServo to pin 9.</p>
+<h3 id="myservowriteangle"><code>myServo.write(angle)</code><a class="headerlink" href="#myservowriteangle" title="Permanent link">&para;</a></h3>
+<p>Angle is a degree angle between 0 - 180 which moves the servo shaft to that angle.
+An example is:</p>
+<div class="highlight"><pre><span></span><code><span class="kt">void</span> <span class="nf">loop</span><span class="p">(){</span>
     <span class="n">myServo</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="mi">90</span><span class="p">);</span>
     <span class="n">myServo</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div>
-This moves the servo shaft to 90 degrees position and moves the servo shaft back to 0 degrees position.</p>
+<p>This moves the servo shaft to 90 degrees position and moves the servo shaft back to 0 degrees position.</p>
 <h3 id="miscellaneous-information">Miscellaneous Information<a class="headerlink" href="#miscellaneous-information" title="Permanent link">&para;</a></h3>
 <h2 id="duty-cycle">Duty Cycle<a class="headerlink" href="#duty-cycle" title="Permanent link">&para;</a></h2>
 <p><img alt="duty cycle" src="../../assets/images/tools/electronics/dutycycle.png" /></p>
