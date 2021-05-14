@@ -5,7 +5,7 @@ Welcome to the tools section of the construction documentation! For the first pa
 [For a quick look at a variety of fasteners!](https://www.boltdepot.com/fastener-information/Printable-Tools/Type-Chart.pdf)
 
 ### Screws
-Little stripping of screws is acceptable. Scrap any type of stripped screws, nuts, or bolts.
+Little stripping of screws is acceptable. Remember to scrap any type of stripped screws, nuts, or bolts.
 
 ### Bolts
 Bolts are not used often here in robotics. You can read more about them here.
