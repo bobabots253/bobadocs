@@ -13,9 +13,9 @@
 
 Documentation for the Boba Bots 253.
 
-https://bobadocs.readthedocs.io/
-
 https://docs.bobabots253.org/
+
+https://bobadocs.readthedocs.io/ (readthedocs mirror)
 
 [GHAction-image]: https://github.com/bobabots253/bobadocs/workflows/CI/badge.svg?branch=master&event=push
 [GHAction-link]: https://github.com/bobabots253/bobadocs/actions?query=event%3Apush+branch%3Amaster
