@@ -13,7 +13,7 @@ Once you're done, we'll do some exercises to see if you've got it.
 ## Practice
 
 VS Code is the text editor we will be using to write and run our code, and should have been installed with the WPILib suite during setup. 
-Open up VS Code and follow the "Cloning a repository" section of [the VS Code git tutorial](https://code.visualstudio.com/docs/editor/versioncontrol#_cloning-a-repository) to clone [this repo](https://github.com/MillsRoboticsTeam253/bobadocs).
+Open up VS Code and follow the "Cloning a repository" section of [the VS Code git tutorial](https://code.visualstudio.com/docs/editor/versioncontrol#_cloning-a-repository) to clone [this repo](https://github.com/bobabots253/bobadocs).
 
 Navigate to this file in the repo (`docs/programming/version-control.md`) and add your name to the list below.
 

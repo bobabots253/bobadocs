@@ -2,8 +2,8 @@ site_name: BobaDocs
 site_description: Documentation for Boba Bots 253
 site_author: Boba Bots 253 Software Team 
 
-repo_name: "MillsRoboticsTeam253/bobadocs"
-repo_url: "https://github.com/MillsRoboticsTeam253/bobadocs"
+repo_name: "bobabots253/bobadocs"
+repo_url: "https://github.com/bobabots253/bobadocs"
 edit_uri: ""
 
 
@@ -119,5 +119,5 @@ extra:
     - icon: fontawesome/brands/instagram
       link: 'https://www.instagram.com/bobabots253/'
     - icon: fontawesome/brands/github
-      link: 'https://github.com/MillsRoboticsTeam253/'
+      link: 'https://github.com/bobabots253/'
     

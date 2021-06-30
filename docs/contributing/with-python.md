@@ -13,7 +13,7 @@ A TextEditor such as Sublime Text 3 or some other text editor is highly recommen
 
 ### Source Code
 
-Clone the bobadocs repository from Github. https://github.com/MillsRoboticsTeam253/bobadocs.git
+Clone the bobadocs repository from Github. https://github.com/bobabots253/bobadocs.git
 
 ### Python Dependencies 
 
@@ -43,7 +43,7 @@ Proofread your documentation and make sure that your documentation displays as i
 
 ### Push changes to Github
 
-All Done? Simply push/merge it to the master branch of the [bobadocs](https://github.com/MillsRoboticsTeam253/bobadocs) repository. ReadTheDocs will automatically update the clone the bobadocs repository and update the documentation within a few minutes.
+All Done? Simply push/merge it to the master branch of the [bobadocs](https://github.com/bobabots253/bobadocs) repository. ReadTheDocs will automatically update the clone the bobadocs repository and update the documentation within a few minutes.
 
 !!! fail
 	If the readthedocs site does not update within a few minutes of your Github push, it is likely that the virtual python docs compiler has failed build. Check your local changes for syntax errors and push again. If the issue occurs again, ask your programming lead to check the readthedocs build logs.

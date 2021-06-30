@@ -1,6 +1,6 @@
 ## Team Resources
 
-- [Boba Bots Github](https://github.com/MillsRoboticsTeam253)
+- [Boba Bots Github](https://github.com/bobabots253)
 
 ## WPILib 
 WPILib provides the core libraries for creating robot programs with the roboRIO. WPILib uses Gradle to build and deploy code.

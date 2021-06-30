@@ -21,7 +21,7 @@ Follow the instructions for your respective OS to [download Git](https://git-scm
 
 If you do not have a [Github](https://github.com/) account, create one now.
 
-Once you have your account, tell a programming mentor or programming lead your username so they may add you to our [GitHub organization](https://github.com/MillsRoboticsTeam253).
+Once you have your account, tell a programming mentor or programming lead your username so they may add you to our [GitHub organization](https://github.com/bobabots253).
 
 Next, set up your username (your real name) and email in Git by following these instructions:
 
@@ -68,7 +68,7 @@ Once opened, we will see the project hierarchy on the left. Double-clicking on a
 
 ## Project Structure
 
-A typical robot project may look like [this](https://github.com/MillsRoboticsTeam253/Code2020):
+A typical robot project may look like [this](https://github.com/bobabots253/Code2020):
 ```
 Code2020/
 ├── build.gradle
@@ -231,7 +231,7 @@ First has [a pretty good write-up on command-based programming](https://docs.wpi
 
 If you are new to git, read the [intro to git](version-control.md) section before proceeding.
 
-Clone the [TrainingRobot project](https://github.com/MillsRoboticsTeam253/TrainingRobot), and open it in VSCode.
+Clone the [TrainingRobot project](https://github.com/bobabots253/TrainingRobot), and open it in VSCode.
 You can check if you have got the right project open by deploying the project to the robot and pressing the ++x++ button on the controller. If the motor spins, you've got the right code!
 
 !!! note
