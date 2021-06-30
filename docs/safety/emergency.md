@@ -6,7 +6,7 @@ In the event of an emergency, it is crucial you know what to do and where to go 
 - Report the spill to a Mentor, Lead, or Safety Captain
 - Follow the emergency procedures listed in the MSDS sheet for Sulfuric Acid
 - If you are cleaning up the spill, you must be wearing rubber gloves and educated in handling dangerous materials
-- Place the battery in a leak-proof contianer
+- Place the battery in a leak-proof container
 - Neutralize the acid with baking soda
 - Safely dispose of the battery acid
 - If any chemicals come in contact with any skin, quickly wash it off with water and immediately seek medical attention

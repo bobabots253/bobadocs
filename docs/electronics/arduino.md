@@ -250,4 +250,4 @@ This moves the servo shaft to 90 degrees position and moves the servo shaft back
 
 ![duty cycle 2](../assets/images/tools/electronics/dutycycle2.png)
 
-Duty Cycle includes: how often the power is ON and OFF and the digital way of simulating an analog wave. For example, when you light an led with 50% duty cycle, it wil appear 50% brightness to the human eye.
+Duty Cycle includes: how often the power is ON and OFF and the digital way of simulating an analog wave. For example, when you light an led with 50% duty cycle, it will appear 50% brightness to the human eye.

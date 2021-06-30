@@ -1,6 +1,6 @@
 # Intro to Sensors
 
-So now you have the basic sense of what electronics does and have looked at some of the tools that they use. Very nice. Now you can look at one of the most important aspects of Electronics: dealing with sensors. There are a myraid of things you can do with sensors and there are many different types of sensors. There are a lot of sensors and we will never use all of them at one time when making a robot, let alone do everything we possibly can with them at one time. However, there are some sensors you should know about and other pieces of info that you should know when dealing with sensors in electronics. Lets take a look.
+So now you have the basic sense of what electronics does and have looked at some of the tools that they use. Very nice. Now you can look at one of the most important aspects of Electronics: dealing with sensors. There are a myriad of things you can do with sensors and there are many different types of sensors. There are a lot of sensors and we will never use all of them at one time when making a robot, let alone do everything we possibly can with them at one time. However, there are some sensors you should know about and other pieces of info that you should know when dealing with sensors in electronics. Lets take a look.
 
 ### LiDAR
 
@@ -56,7 +56,7 @@ Look into optical and magnetic encoders more with the following links:
 
 ### Hall Effect Sensors
 
-A hall effect sensor is a type of sensor that measures magnetism. Electricity is moved through a semi-conductive material, such as silicon, in a straight line. When a magnetic field is introduced, the electrons moving through the material deviate from their straight line and move to a positive or negative pole (beling attracted or repelled) on the material. The changes in voltage that come from the new curved electricity path is then measured.
+A hall effect sensor is a type of sensor that measures magnetism. Electricity is moved through a semi-conductive material, such as silicon, in a straight line. When a magnetic field is introduced, the electrons moving through the material deviate from their straight line and move to a positive or negative pole (being attracted or repelled) on the material. The changes in voltage that come from the new curved electricity path is then measured.
 
 ![Hall Effect Principles](../assets/images/sensors/hall_effect_principles.gif)
 
@@ -207,4 +207,4 @@ The NavX sensor bundle is a combination of a magnetometer, accelerometer, and gy
 
 *Example of NavX2 sensor bundle*
 
-The NavX is space-effiecent and can measure various types of distances and angles. It can also be used to find the speed and orientation of objects. Though this is a powerful sensor bundle, if you do not need every sensor that comes with it, it may be better to use seperate sensors instead.
+The NavX is space-effiecent and can measure various types of distances and angles. It can also be used to find the speed and orientation of objects. Though this is a powerful sensor bundle, if you do not need every sensor that comes with it, it may be better to use separate sensors instead.

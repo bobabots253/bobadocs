@@ -11,13 +11,13 @@ Little stripping of screws is acceptable. Remember to scrap any type of stripped
 Bolts are not used often here in robotics. You can read more about them here.
 
 ### Locknuts
-Read about them in teh linked doc. There's not much to say about this.
+Read about them in the linked doc. There's not much to say about this.
 
 ### Nuts
 Only use the wrench to grip nuts and bolts.
 
 ### Washer
-Washers should be used with screws, bolts, and nuts to prevent loosing and to distribute the weight between the washer and screws, bolts, or nuts over a larger area.
+Washers should be used with screws, bolts, and nuts to prevent loosening and to distribute the weight between the washer and screws, bolts, or nuts over a larger area.
 
 ### Spacers
 Spacers come in different sizes (1/8", 1/4", 2", etc.). Acetal Hex Spacers are used to maintain space between components.
