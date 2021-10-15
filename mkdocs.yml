@@ -54,7 +54,10 @@ nav:
     - Operations: safety/operations.md
     - Emergencies: safety/emergency.md
     - Injury Protocol: safety/injuries.md
-    - Evacuation, Checklist, Injury Report Form: safety/misc.md 
+    - Evacuation, Checklist, Injury Report Form: safety/misc.md
+  - Tapioca:
+    - Contributing:
+      - Setup: tapioca/contributing/setup.md
     
   - Contributing:
     - Introduction: contributing/contributing.md
