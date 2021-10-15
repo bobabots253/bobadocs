@@ -58,6 +58,7 @@ nav:
   - Tapioca:
     - Contributing:
       - Setup: tapioca/contributing/setup.md
+      - Building: tapioca/contributing/building.md
     
   - Contributing:
     - Introduction: contributing/contributing.md
