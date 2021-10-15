@@ -13,21 +13,21 @@
         <meta name="author" content="Boba Bots 253 Software Team">
       
       
-        <link rel="canonical" href="https://docs.bobabots253.org/programming/gitstuff/">
+        <link rel="canonical" href="https://docs.bobabots253.org/tapioca/contributing/building/">
       
-      <link rel="icon" href="../../assets/icons/bbalone_vectorized.svg">
-      <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.9">
+      <link rel="icon" href="../../../assets/icons/bbalone_vectorized.svg">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.3">
     
     
       
-        <title>Git and Github - BobaDocs</title>
+        <title>Building - BobaDocs</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.ca7ac06f.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.5143246d.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.f1a3b89f.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.3f5d1f46.min.css">
         
           
           
@@ -46,11 +46,11 @@
     
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/extra.css">
     
-      <link rel="stylesheet" href="../../assets/stylesheets/iframe.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/iframe.css">
     
-      <link rel="stylesheet" href="../../assets/stylesheets/video-admonition.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/video-admonition.css">
     
     
       
@@ -69,28 +69,25 @@
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="cyan" data-md-color-accent="teal">
   
     
-    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#git-and-github" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
     </div>
     
-      <header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="BobaDocs" class="md-header__button md-logo" aria-label="BobaDocs" data-md-component="logo">
       
-  <img src="../../assets/icons/logo.png" alt="logo">
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="BobaDocs" class="md-header__button md-logo" aria-label="BobaDocs" data-md-component="logo">
+      
+  <img src="../../../assets/icons/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -106,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Git and Github
+              Building
             
           </span>
         </div>
@@ -123,14 +120,18 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-      </button>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
@@ -160,6 +161,7 @@
       </div>
     
   </nav>
+  
 </header>
     
     <div class="md-container" data-md-component="container">
@@ -167,6 +169,7 @@
       
         
           
+            
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
@@ -177,7 +180,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../.." class="md-tabs__link">
+    <a href="../../.." class="md-tabs__link">
       Home
     </a>
   </li>
@@ -192,7 +195,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../frc-competition/frc-competition-overview/" class="md-tabs__link">
+      <a href="../../../frc-competition/frc-competition-overview/" class="md-tabs__link">
         FRC & Competition
       </a>
     </li>
@@ -208,7 +211,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../learn-java/" class="md-tabs__link">
+      <a href="../../../programming/learn-java/" class="md-tabs__link">
         Programming
       </a>
     </li>
@@ -224,7 +227,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../electronics/skills/" class="md-tabs__link">
+      <a href="../../../electronics/skills/" class="md-tabs__link">
         Electronics
       </a>
     </li>
@@ -245,7 +248,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../construction/tools/fasteners/" class="md-tabs__link">
+      <a href="../../../construction/tools/fasteners/" class="md-tabs__link">
         Construction
       </a>
     </li>
@@ -268,7 +271,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../onshape/intro/" class="md-tabs__link">
+      <a href="../../../onshape/intro/" class="md-tabs__link">
         Onshape
       </a>
     </li>
@@ -286,7 +289,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../robots/2020/" class="md-tabs__link">
+      <a href="../../../robots/2020/" class="md-tabs__link">
         Robots
       </a>
     </li>
@@ -302,10 +305,35 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../safety/generalsafety/" class="md-tabs__link">
+      <a href="../../../safety/generalsafety/" class="md-tabs__link">
         Safety
       </a>
     </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../setup/" class="md-tabs__link md-tabs__link--active">
+        Tapioca
+      </a>
+    </li>
+  
+
   
 
       
@@ -318,7 +346,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../contributing/contributing/" class="md-tabs__link">
+      <a href="../../../contributing/contributing/" class="md-tabs__link">
         Contributing
       </a>
     </li>
@@ -328,6 +356,7 @@
     </ul>
   </div>
 </nav>
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -345,9 +374,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="BobaDocs" class="md-nav__button md-logo" aria-label="BobaDocs" data-md-component="logo">
+    <a href="../../.." title="BobaDocs" class="md-nav__button md-logo" aria-label="BobaDocs" data-md-component="logo">
       
-  <img src="../../assets/icons/logo.png" alt="logo">
+  <img src="../../../assets/icons/logo.png" alt="logo">
 
     </a>
     BobaDocs
@@ -376,7 +405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -396,10 +425,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
       
-      <label class="md-nav__link" for="__nav_2">
-        FRC & Competition
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          FRC & Competition
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="FRC & Competition" data-md-level="1">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
@@ -408,40 +441,46 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../frc-competition/frc-competition-overview/" class="md-nav__link">
+      <a href="../../../frc-competition/frc-competition-overview/" class="md-nav__link">
         FRC Competition Overview
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../frc-competition/intro-to-aspects-of-competition/" class="md-nav__link">
+      <a href="../../../frc-competition/intro-to-aspects-of-competition/" class="md-nav__link">
         Intro to Competition
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../frc-competition/aspects-of-competition/" class="md-nav__link">
+      <a href="../../../frc-competition/aspects-of-competition/" class="md-nav__link">
         Aspects of Competition
       </a>
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -462,10 +501,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
-      <label class="md-nav__link" for="__nav_3">
-        Programming
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Programming
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Programming" data-md-level="1">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
@@ -474,78 +517,91 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../learn-java/" class="md-nav__link">
+      <a href="../../../programming/learn-java/" class="md-nav__link">
         Introduction
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../version-control/" class="md-nav__link">
+      <a href="../../../programming/version-control/" class="md-nav__link">
         Intro to Git & Github
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../intro-to-robot-code/" class="md-nav__link">
+      <a href="../../../programming/intro-to-robot-code/" class="md-nav__link">
         Intro to Robot Code
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../git-flow/" class="md-nav__link">
+      <a href="../../../programming/git-flow/" class="md-nav__link">
         Git Flow
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../collaboration/" class="md-nav__link">
+      <a href="../../../programming/collaboration/" class="md-nav__link">
         Collaboration
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../resources/" class="md-nav__link">
+      <a href="../../../programming/resources/" class="md-nav__link">
         Resources
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -557,10 +613,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_7" type="checkbox" id="__nav_3_7" >
       
-      <label class="md-nav__link" for="__nav_3_7">
-        Robot Troubleshooting
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_7">
+          Robot Troubleshooting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Robot Troubleshooting" data-md-level="2">
         <label class="md-nav__title" for="__nav_3_7">
           <span class="md-nav__icon md-icon"></span>
@@ -569,34 +629,39 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../troubleshooting/problemsolving/" class="md-nav__link">
+      <a href="../../../programming/troubleshooting/problemsolving/" class="md-nav__link">
         Introduction
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../troubleshooting/common-issues/" class="md-nav__link">
+      <a href="../../../programming/troubleshooting/common-issues/" class="md-nav__link">
         Common Issues
       </a>
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -617,10 +682,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
-      <label class="md-nav__link" for="__nav_4">
-        Electronics
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Electronics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Electronics" data-md-level="1">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
@@ -629,40 +698,46 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../electronics/skills/" class="md-nav__link">
+      <a href="../../../electronics/skills/" class="md-nav__link">
         Skills
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../electronics/sensors/" class="md-nav__link">
+      <a href="../../../electronics/sensors/" class="md-nav__link">
         Sensors
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../electronics/arduino/" class="md-nav__link">
+      <a href="../../../electronics/arduino/" class="md-nav__link">
         Arduino
       </a>
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -683,10 +758,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
       
-      <label class="md-nav__link" for="__nav_5">
-        Construction
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Construction
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Construction" data-md-level="1">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
@@ -695,6 +774,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -706,10 +786,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_1" type="checkbox" id="__nav_5_1" >
       
-      <label class="md-nav__link" for="__nav_5_1">
-        Tools
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_1">
+          Tools
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Tools" data-md-level="2">
         <label class="md-nav__title" for="__nav_5_1">
           <span class="md-nav__icon md-icon"></span>
@@ -718,46 +802,53 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../construction/tools/fasteners/" class="md-nav__link">
+      <a href="../../../construction/tools/fasteners/" class="md-nav__link">
         Fasteners
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../construction/tools/handtools/" class="md-nav__link">
+      <a href="../../../construction/tools/handtools/" class="md-nav__link">
         Hand Tools
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../construction/tools/powertools/" class="md-nav__link">
+      <a href="../../../construction/tools/powertools/" class="md-nav__link">
         Power Tools
       </a>
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -778,10 +869,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
       
-      <label class="md-nav__link" for="__nav_6">
-        Onshape
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Onshape
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Onshape" data-md-level="1">
         <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
@@ -790,6 +885,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -801,10 +897,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_1" type="checkbox" id="__nav_6_1" >
       
-      <label class="md-nav__link" for="__nav_6_1">
-        Lessons
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_1">
+          Lessons
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Lessons" data-md-level="2">
         <label class="md-nav__title" for="__nav_6_1">
           <span class="md-nav__icon md-icon"></span>
@@ -813,72 +913,84 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../onshape/intro/" class="md-nav__link">
+      <a href="../../../onshape/intro/" class="md-nav__link">
         1. Intro to Onshape
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../onshape/sketching/" class="md-nav__link">
+      <a href="../../../onshape/sketching/" class="md-nav__link">
         2. Sketching
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../onshape/basic-parts/" class="md-nav__link">
+      <a href="../../../onshape/basic-parts/" class="md-nav__link">
         3. Creating Basic Parts
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../onshape/complex-parts/" class="md-nav__link">
+      <a href="../../../onshape/complex-parts/" class="md-nav__link">
         4. Creating Complex Parts
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../onshape/navigating-assemblies/" class="md-nav__link">
+      <a href="../../../onshape/navigating-assemblies/" class="md-nav__link">
         5. Navigating Assemblies
       </a>
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -890,10 +1002,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_2" type="checkbox" id="__nav_6_2" >
       
-      <label class="md-nav__link" for="__nav_6_2">
-        Misc
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_2">
+          Misc
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Misc" data-md-level="2">
         <label class="md-nav__title" for="__nav_6_2">
           <span class="md-nav__icon md-icon"></span>
@@ -902,22 +1018,25 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../onshape/useful-shortcuts/" class="md-nav__link">
+      <a href="../../../onshape/useful-shortcuts/" class="md-nav__link">
         Useful Shortcuts
       </a>
     </li>
   
 
+            
           
         </ul>
       </nav>
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -938,10 +1057,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
       
-      <label class="md-nav__link" for="__nav_7">
-        Robots
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Robots
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Robots" data-md-level="1">
         <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
@@ -950,16 +1073,18 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../robots/2020/" class="md-nav__link">
+      <a href="../../../robots/2020/" class="md-nav__link">
         2020
       </a>
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -980,10 +1105,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
       
-      <label class="md-nav__link" for="__nav_8">
-        Safety
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          Safety
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Safety" data-md-level="1">
         <label class="md-nav__title" for="__nav_8">
           <span class="md-nav__icon md-icon"></span>
@@ -992,124 +1121,253 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../safety/generalsafety/" class="md-nav__link">
+      <a href="../../../safety/generalsafety/" class="md-nav__link">
         General Safety Guidelines
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../safety/ppe/" class="md-nav__link">
+      <a href="../../../safety/ppe/" class="md-nav__link">
         PPE
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../safety/behavior/" class="md-nav__link">
+      <a href="../../../safety/behavior/" class="md-nav__link">
         Behavior
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../safety/programming/" class="md-nav__link">
+      <a href="../../../safety/programming/" class="md-nav__link">
         Programming
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../safety/electrical/" class="md-nav__link">
+      <a href="../../../safety/electrical/" class="md-nav__link">
         Electrical
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../safety/construction/" class="md-nav__link">
+      <a href="../../../safety/construction/" class="md-nav__link">
         Construction
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../safety/operations/" class="md-nav__link">
+      <a href="../../../safety/operations/" class="md-nav__link">
         Operations
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../safety/emergency/" class="md-nav__link">
+      <a href="../../../safety/emergency/" class="md-nav__link">
         Emergencies
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../safety/injuries/" class="md-nav__link">
+      <a href="../../../safety/injuries/" class="md-nav__link">
         Injury Protocol
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../safety/misc/" class="md-nav__link">
+      <a href="../../../safety/misc/" class="md-nav__link">
         Evacuation, Checklist, Injury Report Form
       </a>
     </li>
   
 
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          Tapioca
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Tapioca" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Tapioca
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_1" type="checkbox" id="__nav_9_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9_1">
+          Contributing
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Contributing" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_1">
+          <span class="md-nav__icon md-icon"></span>
+          Contributing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup/" class="md-nav__link">
+        Setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Building
+      </a>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
           
         </ul>
       </nav>
@@ -1128,66 +1386,78 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
       
-      <label class="md-nav__link" for="__nav_9">
-        Contributing
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10">
+          Contributing
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Contributing" data-md-level="1">
-        <label class="md-nav__title" for="__nav_9">
+        <label class="md-nav__title" for="__nav_10">
           <span class="md-nav__icon md-icon"></span>
           Contributing
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../contributing/contributing/" class="md-nav__link">
+      <a href="../../../contributing/contributing/" class="md-nav__link">
         Introduction
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../contributing/with-python/" class="md-nav__link">
+      <a href="../../../contributing/with-python/" class="md-nav__link">
         With Python
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../contributing/updating/" class="md-nav__link">
+      <a href="../../../contributing/updating/" class="md-nav__link">
         Up to Date
       </a>
     </li>
   
 
+            
           
             
+              
   
   
   
     <li class="md-nav__item">
-      <a href="../../contributing/contresources/" class="md-nav__link">
+      <a href="../../../contributing/contresources/" class="md-nav__link">
         Contributing Resources
       </a>
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -1202,83 +1472,15 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#installing-git" class="md-nav__link">
-    Installing git
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#using-github" class="md-nav__link">
-    Using Github
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#github-practices" class="md-nav__link">
-    Github Practices
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                <h1 id="git-and-github">Git and Github<a class="headerlink" href="#git-and-github" title="Permanent link">&para;</a></h1>
-<p>git is a tool our software team uses to collaborate</p>
-<!-- somebody please add more description ;-; -->
-
-<h2 id="installing-git">Installing git<a class="headerlink" href="#installing-git" title="Permanent link">&para;</a></h2>
-<p><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Instructions from the official git website.</a></p>
-<iframe width="400" height="225" src="https://www.youtube.com/embed/USjZcfj8yxE"> </iframe>
-
-<h2 id="using-github">Using Github<a class="headerlink" href="#using-github" title="Permanent link">&para;</a></h2>
-<p>If you don't already have one, create an account at <a href="https://github.com/">https://github.com/</a>.</p>
-<iframe width="400" height="225" src="https://www.youtube.com/embed/nhNq2kIvi9s"> </iframe>
-
-<h2 id="github-practices">Github Practices<a class="headerlink" href="#github-practices" title="Permanent link">&para;</a></h2>
-<p>The following is a set of guidelines for contributing on Github for our team. These are guidelines, not hard rules.</p>
-<ul>
-<li>The <code>master</code> branch is for competition ready code only. <strong>Do not use master for testing.</strong></li>
-<li>The <code>development</code> branch should consist of relatively recent development code. Experimental code should be branched off of here. Merge into the development branch if your code is deployable and functional. </li>
-<li>If writing test code, create a new branch or add onto another. </li>
-<li>The <code>README</code> should be updated with useful information about the repository or programming team (ie. branch descriptions, checklists, etc.)</li>
-<li>Write useful commit messages; Describe what changes you made. (&lt;action>, &lt;changes>) is a good format. For example,
-<code>"add initial drivetrain logic"</code> is good, <code>"robot drive haha yes"</code> is not good.<ul>
-<li>Keep commit messages in present-tense. ie: <del>"Added shooter PID""</del> should instead be <code>"Add shooter PID"</code></li>
-</ul>
-</li>
-</ul>
+                  <h1>Building</h1>
+                
+                
                 
                   
                     
@@ -1287,7 +1489,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-06-29
+      Last update: 2021-10-14
     
   </small>
 </div>
@@ -1308,14 +1510,51 @@
         
 <footer class="md-footer">
   
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../setup/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Setup" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Setup
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../../contributing/contributing/" class="md-footer__link md-footer__link--next" aria-label="Next: Introduction" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Introduction
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-footer-copyright">
         
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
         
       </div>
       
@@ -1358,10 +1597,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.477d984a.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.sections", "navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.82b56eb2.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.f89c2efe.min.js"></script>
       
     
   </body>
