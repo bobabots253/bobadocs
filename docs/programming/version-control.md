@@ -30,7 +30,7 @@ Navigate to this file in the repo (`docs/programming/version-control.md`) and ad
     Sabien Nguyen,
     Tyler Sheridan,
     Sabrina Li,
-    Johnathon Zheng :moyai:,
+    Johnathon Zheng,
     Kenny Xie,
     Joe Mamma,
 
