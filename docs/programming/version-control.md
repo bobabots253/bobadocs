@@ -23,7 +23,7 @@ Navigate to this file in the repo (`docs/programming/version-control.md`) and ad
     Example,
     Sebastian Law,
     [Nathan Choi](https://www.youtube.com/watch?v=dQw4w9WgXcQ),
-    William Bruce,
+    [William Bruce](https://www.youtube.com/watch?v=cjnzt_a0Wdk),
     James Rea,
     Wesley Tam,
     Ronit Barman,
