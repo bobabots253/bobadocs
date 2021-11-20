@@ -16,7 +16,7 @@
         <link rel="canonical" href="https://docs.bobabots253.org/programming/intro-to-robot-code/">
       
       <link rel="icon" href="../../assets/icons/bbalone_vectorized.svg">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.5">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.6">
     
     
       
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.cdeb8541.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a57b2b03.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
@@ -2115,14 +2115,20 @@ You can check if you have got the right project open by deploying the project to
 <p>Let's change the button to trigger the command continuously while it's held rather than when it's pressed.</p>
 <p>In the <code>TrainingRobot</code> project, find the <code>RobotContainer.java</code> file (<code>src/main/java/frc/robot/RobotContainer.java</code>).
 Currently, line 51 contains the method <code>whenPressed()</code>. Refer to the WPILib Javadocs to determine what you need to change <code>whenPressed()</code> to in order to run the command while the button is pressed.</p>
-<details class="question"><summary>Hint</summary><p><code>controller_X</code> is an instance of the <code>JoystickButton</code> class.</p>
+<details class="question">
+<summary>Hint</summary>
+<p><code>controller_X</code> is an instance of the <code>JoystickButton</code> class.</p>
 </details>
 <p>In the same project, you'll find the <code>RunMotor.java</code> file in the <code>commands/</code> directory. 
 In the <code>RunMotor</code> class, the <code>end()</code> method is currently empty. Add code to it that stops the motors.</p>
-<details class="question"><summary>Hint</summary><p>You might want to write something similar to what's in <code>execute()</code>.</p>
+<details class="question">
+<summary>Hint</summary>
+<p>You might want to write something similar to what's in <code>execute()</code>.</p>
 </details>
 <p>Once you think you figured it out, follow the above <a href="#deploying-code-to-the-robot">Deploying robot code</a> section again to deploy, and see if your code worked!</p>
-<details class="check"><summary>Solutions</summary><div class="tabbed-set" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1"><code>RobotContainer.java</code></label><div class="tabbed-content"></div>
+<details class="check">
+<summary>Solutions</summary>
+<div class="tabbed-set" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1"><code>RobotContainer.java</code></label><div class="tabbed-content"></div>
 </div>
 <div class="highlight"><pre><span></span><code><span class="kd">private</span> <span class="kt">void</span> <span class="nf">bindIO</span><span class="p">()</span> <span class="p">{</span>
     <span class="n">controller_X</span><span class="p">.</span><span class="na">whileHeld</span><span class="p">(</span><span class="k">new</span> <span class="n">RunMotor</span><span class="p">(</span><span class="n">motors</span><span class="p">));</span>
@@ -2140,12 +2146,18 @@ In the <code>RunMotor</code> class, the <code>end()</code> method is currently e
 <p>Right now, our motor only has two states: half power, or completely off. 
 Let's make the motor's speed correspond to more granular controller input using a joystick.</p>
 <p>Again in the <code>RobotContainer.java</code> file, modify the <code>bindIO()</code> method to set the default command of the <code>Motors</code> subsystem to the <code>RunMotors</code> command.</p>
-<details class="question"><summary>Hint</summary><p>Get the joystick's Y-value from the <code>XboxController</code> we already have defined.</p>
+<details class="question">
+<summary>Hint</summary>
+<p>Get the joystick's Y-value from the <code>XboxController</code> we already have defined.</p>
 </details>
-<details class="question"><summary>Hint</summary><p><code>Motors</code> is an implementation of the <a href="https://first.wpi.edu/wpilib/allwpilib/docs/release/java/edu/wpi/first/wpilibj2/command/Subsystem.html"><code>Subsystem</code></a> interface.</p>
+<details class="question">
+<summary>Hint</summary>
+<p><code>Motors</code> is an implementation of the <a href="https://first.wpi.edu/wpilib/allwpilib/docs/release/java/edu/wpi/first/wpilibj2/command/Subsystem.html"><code>Subsystem</code></a> interface.</p>
 <p>Pass the <code>Motors</code> subsystem into the command and have it drive the motors to the Y-value of the joystick when executed. Use the prewritten code, the <a href="https://docs.wpilib.org/en/latest/docs/software/commandbased/index.html#command-based-programming">command-based programming tutorial</a>, and the WPILib JavaDocs for help.</p>
 </details>
-<details class="check"><summary>Example Solution</summary><p>This is one way to implement this step. Yours may look a little different, but the same logic should appear here.</p>
+<details class="check">
+<summary>Example Solution</summary>
+<p>This is one way to implement this step. Yours may look a little different, but the same logic should appear here.</p>
 <div class="tabbed-set" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><label for="__tabbed_3_1"><code>Robotcontainer.java</code></label><div class="tabbed-content"></div>
 </div>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">edu.wpi.first.wpilibj.GenericHID</span><span class="p">;</span>
@@ -2179,7 +2191,7 @@ Once you're satisfied with your changes, read the <a href="../git-flow/">Git Flo
 <div class="md-source-date">
   <small>
     
-      Last update: 2021-10-27
+      Last update: 2021-11-19
     
   </small>
 </div>
@@ -2287,10 +2299,10 @@ Once you're satisfied with your changes, read the <a href="../git-flow/">Git Flo
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.1e84347e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.b1047164.min.js"></script>
       
     
   </body>
