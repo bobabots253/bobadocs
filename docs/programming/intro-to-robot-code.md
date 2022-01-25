@@ -306,7 +306,7 @@ Again in the `RobotContainer.java` file, modify the `bindIO()` method to set the
 
     public static double getMotorSpeed() {
         // the vertical axis of the left joystick of the XboxController
-        return controller.getY(GenericHID.Hand.kLeft);
+        return controller.getLeftY();
     }
     ```
 
