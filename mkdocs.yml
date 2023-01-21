@@ -33,6 +33,8 @@ nav:
       - Fasteners: construction/tools/fasteners.md
       - Hand Tools: construction/tools/handtools.md
       - Power Tools: construction/tools/powertools.md
+  - Operations:
+    - Imagery: operations/imagery.md
   - Onshape:
     - Lessons:
       - 1. Intro to Onshape: onshape/intro.md
