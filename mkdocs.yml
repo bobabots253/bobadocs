@@ -24,10 +24,12 @@ nav:
     - Robot Troubleshooting:
       - Introduction: programming/troubleshooting/problemsolving.md
       - Common Issues: programming/troubleshooting/common-issues.md
+    - FAQ: programming/faq.md
   - Electronics:
     - Skills: electronics/skills.md
     - Sensors: electronics/sensors.md
     - Arduino: electronics/arduino.md
+    - Signals: electronics/signals.md
   - Construction: 
     - Tools: 
       - Fasteners: construction/tools/fasteners.md
@@ -116,7 +118,6 @@ markdown_extensions:
 
 plugins:
   - search:
-      prebuild_index: true
   - git-revision-date
 
 extra:
