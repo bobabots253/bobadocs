@@ -13,11 +13,17 @@ Due to the importance of a consistent brand, the team brand cannot be majorly ch
 The official name is Boba Bots 253.
 
 Acceptable nicknames include:
+
 - Boba Bots
+
 - Team 253
+
 - Mills Robotics Team
+
 - Mills Robotics
+
 - MRT
+
 - MRT 253
 
 In verbal communication, the team number should be said as “two-five-three” or “two-fifty-three.” 
@@ -29,7 +35,7 @@ The team may not be referred to by any name or nickname that does not reflect a 
 ## Team Logo
 
 <div style="text-align: left">
-    <img src="../assets/icons/logo.png" alt="Boba Bot Logo" style="width:15%"/>
+    <img src="/assets/icons/logo.png" alt="Boba Bot Logo" style="width:15%"/>
 </div>
 The official team logo, for use in most situations. The logo should always stand out from the rest of the page: it should be printed on a contrasting background (ideally white), and always have clearance area around it. Care should be taken to make sure the logo remains recognizable and unaltered.
 
@@ -43,10 +49,10 @@ Some examples of unacceptable treatments include:
 
 ## Alternative Logos
 
-The alternative logos should only be used in specific situations. They Should be treated with the same requirements as the standard logo.
+The alternative logos should only be used in specific situations. They should be treated with the same requirements as the standard logo.
 
 <div style="text-align: left">
-    <img src="../assets/images/operations/hex_logo.png" alt="Boba Bot Hex Logo" style="width:15%"/>
+    <img src="/assets/images/operations/hex_logo.png" alt="Boba Bot Hex Logo" style="width:15%"/>
 </div>
 The hex logo, to be used in situations requiring a single color. This logo may only be used with approval of leadership, in specific situations.
 
