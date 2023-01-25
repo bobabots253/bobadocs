@@ -32,12 +32,12 @@ Shutter speed is a very important factor when considering what an image should l
     Use the [Dima Exposure Triangle Simulator 3.0](https://dima.fi/exposure/) to help aid your understanding of shutter speed. Notice how the ducks are blurry when you set a "slow" shutter speed and how the ducks are perfectly still when you set a "fast" shutter speed. This simulation is slightly overexagerated, as ducks do move faster than robots. (The exposure meter is located on the top right of the image.)
 
 <div style="text-align: left">
-    <img src="/assets/images/operations/slow_shutter.JPG" alt="2022 SFR 'Slow Shutter' Example" style="width:25%"/>
+    <img src="/assets/images/operations/slow_shutter.JPG" alt="2022 SFR 'Slow Shutter' Example" style="width:50%"/>
 </div>
 This image was taken with a slow shutter speed. Notice how the ball is "shooting out" and the ball isn't still in mid-air. The robot is stationary, which means that when the shutter was up, the robot wasn't moving.
 
 <div style="text-align: left">
-    <img src="/assets/images/operations/fast_shutter.JPG" alt="2022 CalGames 'Fast Shutter' Example" style="width:25%"/>
+    <img src="/assets/images/operations/fast_shutter.jpg" alt="2022 CalGames 'Fast Shutter' Example" style="width:50%"/>
 </div>
 This image was taken with a fast shutter speed. The subjects are still and no one has any "ghosting" artifacts on them.
 
@@ -60,7 +60,8 @@ The term ISO, which is an abbreviation of the International Organization for Sta
 
 Take for instance, a night-time photo. Under bright circumstances, an image can be exposed properly without the need to increase the sensitivity. But with a night-time photo, the physical limitations of a lens (aperture) and the limitations of a slow shutter speed require a third variable to change. This would be the ISO. By boosting the ISO, the shutter speed can keep a subject still or an image sharp. This comes at a cost though, as your image will begin to look grainier and details will begin to "smooth out" and deteriorate. When exposing an image, consider balancing out shutter speed and aperture first, before considering increasing your camera's sensitivity to light.
 
-!!! tip In the [Andersen Exposure Simulator](http://www.andersenimages.com/tutorials/exposure-simulator/), setting it to manual and putting the ISO to the highest level will help explain the adverse effects of increasing the light sensitivity. Be sure to balance out the shutter speed and aperture to properly show an image.
+!!! tip 
+    In the [Andersen Exposure Simulator](http://www.andersenimages.com/tutorials/exposure-simulator/), setting it to manual and putting the ISO to the highest level will help explain the adverse effects of increasing the light sensitivity. Be sure to balance out the shutter speed and aperture to properly show an image.
 
 ## Composition
 
@@ -74,7 +75,7 @@ derivative work: Teeks99, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/
 Composition also consists of getting the angle right and finding the best position to take the photo. With the right blend of a lens, photos can take on different meanings. For example, the photo below was taken during CalGames 2022. The person in the middle is strategizing for the next match, whilst on the side the teacher mentor and another member are discussing strategy. This image was deliberately framed to feel intense, but if taken from their bleacher level the image wouldn't feel the same.
 
 <div style="text-align: left">
-    <img src="/assets/images/operations/wide_composition.JPG" alt="2022 CalGames 'Wide Angle Composition' Example" style="width:25%"/>
+    <img src="/assets/images/operations/wide_composition.jpg" alt="2022 CalGames 'Wide Angle Composition' Example" style="width:50%"/>
 </div>
 
 ## Equipment
