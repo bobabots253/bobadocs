@@ -1,5 +1,5 @@
 # Media
-Photography is an art form. It has captured memories for over a century, from major historical events to a simple celebration of a 5 year old's birthday party. Many people are starting to embrace the desire to capture the moment, from platforms such as YouTube, to the introduction of smaller form factor cameras (i.e. smartphones.) For many, it's as simple as capturing a moment. They don't need to learn how to use it, they just want it to work.
+Photography is an art form. We use it day to day with social media platforms, capturing memories for over a century. Many people are starting to embrace photography to capture the moment, with many using their smartphones or GoPro's to record their own daily lives. For others, it's capturing a moment and posting it to show their friends. They don't need to learn how to use it, they just want it to work.
 
 The Boba Bots has had a different media person over time, each one with their own talent and each one with the own unique creative-process. People aren't necessarily restricted, nor confined, to the conventions that be within the modern media landscape. Photography is simply a tool to help aid publicity, one of many tools that can be used to help create a team's image. This documentation page is an introduction to advancing your photo taking skills and abilities.
 
@@ -22,7 +22,7 @@ There is a shutter, an aperture, and a light-sensitive sensor (or film) that cre
 
 ### Shutter Speed
 
-In many cameras, shutter speed is defined by "1/x". This is the movement of a "door" that allows light to pass through to the sensor for a set amount of time. Like how your eyelids cover your eyes, it's a brief yet short amount of time that light is being introduced to the sensor. 
+Like how your eyelids cover your eyes, shutter speed is a set amount of time that light is being introduced to the sensor. In many cameras, shutter speed is defined by "1/x". This is the movement of a "door" that allows light to pass through to the sensor for a set amount of time. 
 
 For a better explanation, let's use film as a better example. Film is a very delicate material that is extremely sensitive to light. It absorbs light through a lens for the length of time the shutter is open and then is locked out. Brighter colors are absorbed quicker, while darker colors take a little longer. Because of these varying colors, the light creates an image with a lot of contrast. If exposed to light for a prolonged amount of time, the film may overexpose and any contrast originally set by the original opening of light is gone.
 
@@ -65,6 +65,8 @@ Take for instance, a night-time photo. Under bright circumstances, an image can 
 
 ## Composition
 
+Compostion is very important. Comparisons between "ametuer versus professionals" always depend on how one composes their image. One can have a great camera, but poor composition ruins it. Like buying a $2,000 computer, but using it for tetris.
+
 Basic composition consists of the "rule of thirds" and balancing the image. Rule of thirds can be particularly useful in creating a balance in a photo, such as a close object versus a far object. It can create for more interesting photos, compared to having an object in the center of an image. The rule of thirds can be applied in many artistic applications, not just photography.
 
 <a title="Tadrart01.JPG: Pir6mon
@@ -82,9 +84,23 @@ Composition also consists of getting the angle right and finding the best positi
 
 Cameras are very expensive tools. The camera body should not be of concern, but the lenses are the most important. Camera bodies are capable of producing good images, but lenses are the ones creating sharp images. When creating this purchasing decision, the lens will always be the one that will help in the future.
 
-Good camera manufacters are: Canon, Nikon, and Sony (Minolta pre-2010's). FujiFilm has great photo-based cameras, but they have yet to improve in video. Panasonic has great video-based cameras (with unrivaled stablization), but it lacks decent photo-taking capabilities. Leica is expensive. Pentax is old. When it comes to "DSLR vs Mirrorless", mirrorless development will continue and DSLR production will inevitably stop. The idea of a resurgance of DSLR isn't entirely possible, as the feel of an old DSLR stems from the 2000's. 
+### Camera Body
 
-Camera bodies also are different in sensor size. Medium-format is big, but isn't neccessary. Full frame, or 35mm, is a form factor commonly used for photography due to its low light capabilities. APS-C is a smaller form factor that's common in FujiFilm. Every camera manufactuer, except Canon, is a 1.5x crop compared to full frame. Canon has a 1.6x crop. Full frame is very much ideal as it is the successor to 35mm film, with many lenses that were designed for the sensor size over the past century.
+The "big three" camera companies are:
+
+- Canon
+
+- Nikon
+
+- Sony
+
+There are other companies that produce more "photo" or "video" orientated cameras as well. FujiFilm has great photo-based cameras, but they have yet to improve in video. Panasonic has great video-based cameras (with unrivaled stablization), but it lacks decent photo-taking capabilities. Leica is expensive. Pentax is old. 
+
+When it comes to "DSLR vs Mirrorless", mirrorless development will continue and DSLR production will inevitably stop. The idea of a resurgance of DSLR isn't entirely impossible, but the feel of an old DSLR stems from the 2000's. 
+
+Camera bodies also differ in sensor size, with full frame and APS-C. Full frame, or 35mm, is a form factor commonly used for photography due to its low light capabilities. APS-C is a smaller form factor that's common for nature and wildlife photography. Every camera manufactuer, except Canon, is a 1.5x crop compared to full frame. Canon has a 1.6x crop. This means that the focal length of a full frame lens changes by that specific amount. Full frame is very much ideal as it is the successor to 35mm film, with many lenses that were designed for the sensor size over the past century.
+
+### Lenses
 
 Lenses can vary as each one has its own unique capabilities. When purchasing a lens, purchase one with the correct lens mount. Each lens also has its own field of view, with a wide lens having a wider field of view and telephoto lens having a tighter field of view. Camera lenses have differing perspectives, with a difference in wide and tele lenses. Understanding perspectives is very important when beginning portrait photography, but it is not as important in event photography.
 
