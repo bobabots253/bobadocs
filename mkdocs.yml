@@ -37,6 +37,7 @@ nav:
       - Power Tools: construction/tools/powertools.md
   - Operations:
     - Imagery: operations/imagery.md
+    - Media: operations/media.md
   - Onshape:
     - Lessons:
       - 1. Intro to Onshape: onshape/intro.md
