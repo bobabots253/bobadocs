@@ -19,6 +19,9 @@ There is a shutter, an aperture, and a light-sensitive sensor (or film) that cre
 
 <a href="https://commons.wikimedia.org/wiki/File:Exposure_triangle_-_aperture,_shutter_speed_and_ISO.svg">WClarke and Samsara</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
 
+!!! tip
+    The Carmel Clay Public Library in Carmel, Indiana, has a digital resource guide that can help with your understanding of the camera. Their Digital Media Lab offers a [Digital Photography Cheat Sheet](https://static.libnet.info/images/pdfs/carmel/dml/photography.pdf), open to access for anyone.
+
 
 ### Shutter Speed
 
@@ -110,6 +113,13 @@ There are more important factors when it comes to purchasing the right camera an
 
 ## Other Resources
 
-With a valid SMCL (San Mateo County Libraries) card, LinkedIn Learning resources are available for anyone to access. There are a variety of courses that can teach photography, videography, as well as advancing management skills and more. The following below are courses that cover the topics above.
+With a valid SMCL (San Mateo County Libraries) card, LinkedIn Learning resources are available for anyone to access. There are a variety of courses that can teach photography, videography, as well as advancing management skills and more. Treat these courses are visual guides to help aid your understanding of photography or videography, it is better to practice photography than watch it.
+
+Courses recommended are:
+
+- Introduction to Photography - Ben Long
+- Photography 101 - Joseph Linaschke
+
+If you would like to access LinkedIn Learning, go to [https://www.linkedin.com/learning-login/go/smcl](https://www.linkedin.com/learning-login/go/smcl).
 
 Adobe, Nikon and B&H also cover the topics above, albeit with a bias to sell camera equipment and products.
