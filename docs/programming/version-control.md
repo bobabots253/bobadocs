@@ -42,6 +42,7 @@ Navigate to this file in the repo (`docs/programming/version-control.md`) and ad
     Ian Lin °o°,
     Kaden Chow ._.,
     Michelle Yeung, 
+    Don Huang,
 
     
 
