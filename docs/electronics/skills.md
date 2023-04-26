@@ -3,7 +3,7 @@
 
 ![wire stripper](../assets/images/tools/electronics/wirestripper.png)
 #### Wire Stripper
- The wire stripper is used to strip the wires of the outer plastic insulator. To use this, first find 
+ The wire stripper is used to remove the outer plastic insulation of wires. To use this, first find 
  the gauge of the wire and place the wire into the appropriate groove. Then, squeeze the wire stripper
  like a scissor and pull on the wire to remove the plastic insulation. If you’re having trouble removing 
  the plastic, try going down one gauge and try again. You can find the specific instructions in this 
