@@ -3,10 +3,8 @@
 
 ![wire stripper](../assets/images/tools/electronics/wirestripper.png)
 #### Wire Stripper
- The wire stripper is used to remove the outer plastic insulation of wires. To use this, first find 
- the gauge of the wire and place the wire into the appropriate groove. Then, squeeze the wire stripper
- like a scissor and pull on the wire to remove the plastic insulation. If you’re having trouble removing 
- the plastic, try going down one gauge and try again. You can find the specific instructions in this 
+ The wire stripper is used to remove the outer plastic insulation of wires. There are two types of wire strippers: handheld strippers and ratchet strippers. To use the handheld stripper, place the wire into the appropriate groove, squeeze the handles and pull on the wire to remove the plastic insulation. If you’re having trouble removing 
+ the plastic, try going down one gauge and try again. To use the ratchet stripper, place the wire in the space under the metal blades and then squeeze the handles all the way through until the handles releases itself. You can find the specific instructions in this 
  link: https://www.youtube.com/watch?v=fDo-KbKRd4A.
 
 
