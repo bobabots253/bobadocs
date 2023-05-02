@@ -4,8 +4,7 @@
 ![wire stripper](../assets/images/tools/electronics/wirestripper.png)
 #### Wire Stripper
  The wire stripper is used to remove the outer plastic insulation of wires. There are two types of wire strippers: handheld strippers and ratchet strippers. To use the handheld stripper, place the wire into the appropriate groove, squeeze the handles and pull on the wire to remove the plastic insulation. If you’re having trouble removing 
- the plastic, try going down one gauge and try again. To use the ratchet stripper, place the wire in the space under the metal blades and then squeeze the handles all the way through until the handles releases itself. You can find the specific instructions in this 
- link: https://www.youtube.com/watch?v=fDo-KbKRd4A.
+ the plastic, try going down one gauge and try again. To use the ratchet stripper, place the wire in the space under the metal blades and then squeeze the handles all the way through until the handles releases itself. 
 
 
 ![soldering iron](../assets/images/tools/electronics/solderingiron.png)
@@ -14,13 +13,13 @@
  first heat up the soldering iron and obtain some solder. Second, Carefully use the heated tip of the soldering 
  iron to melt some solder onto the desired area of choice. An example is melting some solder on a wire to join two
  wires together. Make sure to not use too much solder so that the solder forms a solid connection. If desired, cover 
- up the soldered area with heat shrink or electrical tape. The specific instructions is in the link: https://www.youtube.com/watch?v=Qps9woUGkvI.
+ up the soldered area with heat shrink or electrical tape.
  
 
 
 ![crimper](../assets/images/tools/electronics/crimper.png)
 #### Crimper
- The crimper is used to combine a connector and a wire together through compression. To use the crimper properly, first place the stripped ends of the wires you would like to connect inside of the connector. Next, find the gauge of the connector and place it into the appropriate groove. Last, squeeze them like scissors. You can find specific instructions [here.](https://youtu.be/Svja8zEcKNQ?t=73)
+ The crimper is used to combine a connector and a wire together through compression. To use the crimper properly, first place the stripped ends of the wires you would like to connect inside of the connector. Next, find the gauge of the connector and place it into the appropriate groove. Last, squeeze them like scissors. 
 
 
 ![hammer crimp tool](../assets/images/tools/electronics/hammercrimptool.png)
