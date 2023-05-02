@@ -1,18 +1,16 @@
 # Intro to Power Tools
 
-In the next section of the Tools document, we will be covering the different types of power tools we use as well as how to handle them safely. Power tools are a very important part of robotics, but they are also very dangerous. Make sure to read through this section thoroughly and don't be afraid to ask for help if you don't understand or are unsure of anything. Safety is our number one concern!
+In the next section of the Tools document, we will be covering the different types of power tools we use as well as how to handle them safely. Power tools are a very important part of robotics, but they are also very dangerous. Make sure to read through this section thoroughly and don't be afraid to ask for help if you don't understand or are unsure of anything. Safety is our number one concern! DO NOT WEAR GLOVES WHEN USING POWER TOOLS. Especially heavy machinery such as the bandsaw, drill press, and the mitersaw, where they can suck you and/or crush you. 
 
 **Must-Read for ALL Power Tools: Always unplug after use, and only plug it in once you're ready to use**
 
 ### Drivers and Drills
 
-Drivers are great for quickly and conveniently securing fasteners such as screws while drills are used for making holes. When putting on the bits on the driver/drill, remember the phrase "righty-tighty, lefty, loosey". It's important that you take the proper bit for the job as well (if it’s a driver, match it up to the fastener head, if its a drill choose the right bit for the hole). For some, turn the chuck towards the left, so it’s loose enough to fit the bit in. Once it’s in place, secure the bit by tightening the chuck, usually twisting it right. Some drivers and drills allow you to push the chuck up, slide the bit in/out, and release, to secure it on.
-
-When finished using drills/drivers, always *put the bits back* before leaving the Maker Space. Return the bits to the box in their respective sections. The bit boxes stay near the drivers and drills storage area. Don't forget to return the drivers and drills back to the shelf as well. They should be connected to a battery, so that they can charge. Usually, you slide the battery on/off the drivers and drills. Drivers and drills are stored near the second door to the Maker Space on the shelves.
+Drivers are great for quickly and conveniently securing fasteners such as screws while drills are used for making holes. When putting on the bits on the driver/drill, remember the phrase "righty-tighty, lefty, loosey" - To tighten, hit the rightside button inwards and drill/drive. To loosen, hit the leftside button inwards to undrill/undrive. It's important to note that especialy while driving a screw or bolt in, that you put your bodyweight's pressure onto the screw (not too much!), otherwise you will strip the screw.  It's important that you take the proper bit for the job as well (if it’s a driver, match it up to the fastener head, if its a drill choose the right bit for the hole). Ask a lead to demonstrate how to take a driver or drill in and out because the lead that is writing this is too tired to write an essay on how to properly equip a drill or driver.
 
 ### Jigsaws
 
-Jigsaws are hand held power tools, so they're good for cutting irregular curves on big sheets/pieces that are hard to move. When switching out blades, choose which type of blade you need for the job before plugging the tool in. Blue blades are used for cutting metal while red/black blades are used for cutting wood. Another way to distinguish blades is to look at the teeth: smaller teeth (more TPI, or teeth per inch) is used for cutting metal while bigger teeth (less TPI) is used for cutting wood. Also note that the blade must be *facing outwards*  when you are securing it in.
+The jigsaw is a handheld power tool, so they're good for cutting irregular curves on big sheets/pieces that are hard to move. They're also ideal when you want to cut circles like boba. When switching out blades, choose which type of blade you need for the job before plugging the tool in. You can identify whehter or not it is a metal or wood blade the same way you identify types of handheld saws. Also note that the blade must be *facing outwards*  when you are securing it in.
 
 Here are some tips for using jigsaws:
 
@@ -34,11 +32,10 @@ Here are some tips for using circular saws:
 
 ### Miter Saws
 
-Miter saws have a blade mounted on a swing arm that pivots left or right to produce angled cuts. In other words, they're not restircted by angles! They are used when cutting wood and plastic, and can achieve quick and straight or angular cuts.
+Miter saws have a blade mounted on a swing arm that pivots left or right to produce angled cuts. In other words, they're not restircted by angles! They are used when cutting wood and plastic, and can achieve quick and straight or angular cuts. ASK a lead to either cut your piece or teach you how to cut the piece. Although they are not adults (yet), they do know how to use the miter saw well, but need a supervisor to guarantee safety. 
 
-Here are some tips as well as a link on how to use miter saws: 
+Here are some tips: 
 
-* [How to Use a Miter Saw](https://youtu.be/HHOfP8l7Ef0)
 * Secure it to table
 * Unplug from power saw, and install appropriate blade for what you’re cutting
     * Always use sharp blades to avoid kickback
@@ -51,7 +48,7 @@ Here are some tips as well as a link on how to use miter saws:
 
 Bandsaws are used for cutting smaller pieces that can fit on the stand or for cutting out smaller measurements. When using a bandsaw, make sure there is a blade in piece and that it's secured. Also make sure that the bandsaw cover is closed and secured. A key is needed to use the bandsaw, so DON'T LOSE IT! When using the bandsaw, whichever direction the blade is circling towards is the side you’ll push the small wood or metal piece in slowly. Too fast, and the blade will get stuck in the wood piece/melt the metal piece. Too slow, and the blade could burn the piece (especially if it's wood). 
 
-While using the bandsaw, wear gloves because the piece can get hot. Also use the excess pieces to push the piece you’re cutting through the saw (so your fingers aren’t close to the blade). If it gets stcuk on the piece, push it back a little (towards you) and then keep going (if this happens, it usually means you were going too fast). After you're done, always unplug the bandsaw. 
+In the event that the piece you are cutting can get dangerously hot, use two pieces of wood and slide them across the platform to replace your hands. If it gets stcuk on the piece, push it back a little (towards you) and then keep going (if this happens, it usually means you were going too fast). After you're done, always unplug the bandsaw. 
 
 Here are some tips for switching out the blades (do this if you want to switch from metal to wood blades or vice versa)
 
@@ -90,13 +87,9 @@ Here are some tips on how to use drill presses:
 
 Combination squares are used for drawing accurate 90 or 45-degree angles for cutting. To use a combination square, line it up on the edge of the square, one for 90 degrees, one for 45 degrees. You can adjust the ruler by loosening the screw that connects it. Always keep the metal ruler with the combination square.
 
-### Dremel
-
-Dremels are used for removing edges from metal pieces. While using the dremel, make sure not to touch the bit while it's moving. Remove a little bit of material at a time, lifting the bit away from the piece from time to time.
-
 ### Belt Sander
 
-Belt sanders are used for sanding down, cutting, or measurement errors on WOOD pieces to make them smoother or fit better on the robot. While using a belt sander, hold it with two hands: one on the handle and the other on the switch. Turn on the sander before making contact with the piece you are sanding. Always clamp down on the object you are sanding.
+Belt sanders are used for sanding down, cutting, or measurement errors on WOOD pieces to make them smoother or fit better on the robot. While using a belt sander, hold it with two hands: one on the handle and the other on the switch. Turn on the sander before making contact with the piece you are sanding. Always clamp down on the object you are sanding. With our current belt sander, please do not hold the side of the belt sander with the other hand. You do not want to sand your hand. 
 
 ### Arbor Press
 
