@@ -81,8 +81,6 @@ Here are some tips on how to use drill presses:
     * You can turn the handle to bring the drill down onto the piece (without turning the drill press on), to get a precise alignment for the hole you want to drill out
 * To remove the bit, use the key to loosen the chunk, allowing for removal of the drill bit.
 
-![Drill Press Key](../../assets/images/construction-skills/drill_press_key.png)
-
 ### Combination Square
 
 Combination squares are used for drawing accurate 90 or 45-degree angles for cutting. To use a combination square, line it up on the edge of the square, one for 90 degrees, one for 45 degrees. You can adjust the ruler by loosening the screw that connects it. Always keep the metal ruler with the combination square.
