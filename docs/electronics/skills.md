@@ -68,7 +68,7 @@ CAN means Controller Area Network. They allow microcontrollers to communicate wi
 
 ![anderson connectors](../assets/images/tools/electronics/andersonconnectors.png)
 #### Anderson Connectors (mini and regular)
-Anderson connectors are used to connect wires to one other through small insulated housings.They can also be used as the connecting plug from the battery to the robot. To use the connectors, start by placing the stripped ends of the wires you would like to connect in the metal Anderson contact. Next, crimp the wire to the contact securely for good circuit connection. Finally, fit/slide the wire and metal contact into the connector housing. You can view specific instructions [here.](https://www.youtube.com/watch?v=QzLvdR6X81k)
+Anderson connectors are used to connect wires to one other through small insulated housings.They can also be used as the connecting plug from the battery to the robot. To use the connectors, start by placing the stripped ends of the wires you would like to connect in the metal Anderson contact. Next, crimp the wire to the contact securely for good circuit connection. Finally, fit/slide the wire and metal contact into the connector housing. 
 
 
 ![electrical tape](../assets/images/tools/electronics/electricaltape.png)
