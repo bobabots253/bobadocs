@@ -1,7 +1,7 @@
 ### Minor Injuries 
-- Consult a safety captain, lead, or mentor in case of minor scrapes, burns or injuries
-- Keep calm in case of any injuries, increased heart rate creates chance of further injury
-- Take action, if bystanders crowd the area of injury, encourage them to make room for any safety captain, lead or mentor to attend to those injured, and prevent panic
+- Consult a safety captain, lead, or mentor in case of minor scrapes, burns or injuries.
+- Keep calm in case of any injuries, increased heart rate creates chance of further injury.
+- Take action, if bystanders crowd the area of injury, encourage them to make room for any safety captain, lead or mentor to attend to those injured, and prevent panic.
 
 ### Major Injuries
 - Consult a safety captain, lead, or mentor in case of injury
