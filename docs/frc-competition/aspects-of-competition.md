@@ -8,7 +8,7 @@ At competition, the team is typically divided into groups, each contributing dif
 
 The pit is an area where teams do robot maintenance between matches. Typically only a few members (dubbed the pit crew and typically from technical departments) are allowed in the pit at a time to prevent overcrowding. Sometimes, matches are closely knit for certain teams, and it should be taken into consideration that members who know what they are doing should do robot maintenance (if necessary) quickly to maximize robot performance during the actual matches, which is why we often see leads and veteran members in pit crew. Other general members not part of pit crew are seen bleacher scouting, pit scouting, or spending leisure time in the pit area.
 
-![Pit Crew 2016](../assets/images/frc/pit-crew-2016.png)
+![Pit Crew 2016](![IMG_1414](https://user-images.githubusercontent.com/63389441/236960625-7440949b-42b7-4209-abca-388f71d623e6.jpeg))
 
 *Team 253’s pit crew during the 2016 San Francisco Regionals.*
 
@@ -28,10 +28,9 @@ The drive team is a subgroup of the team that is focused on managing the robot o
 
 An important part of any team’s success at competition is scouting, where groups of students from one team collect information on other team’s robots. 
 
-**Scouting Lead:** The Scouting Lead is in charge of 
-**Pit Scouting:** Team scouting usually involves approaching the pit crew of another team and asking a set of questions about their robot. The information gleaned from scouting helps teams with forming pick lists and guides their match strategies.
+**Pit Scouting:** Team scouting usually involves approaching the pit crew of another team and asking a set of questions about their robot. Pit scouting helps the strategy team determine another team's robot's physical capabilities.
 
-**Bleacher Scouting:** Teams will also send scouters to record information about another team’s performance during matches. This is helpful for determining a team’s recent performance, which can change over the course of a competition (for example if a robot suffered a mechanism failure or if the driver was inconsistent).
+**Bleacher Scouting:** Teams will typically send scouters to record information about another team’s performance during matches. Our bleacher scouters are expected to know how to properly bleacher scout and pit scout regardless of what they want or do not want to do. The information taken from bleacher scouting is used by the strategy team to predict opposing team strategy. This is helpful for determining a team’s recent performance, which can change over the course of a competition (for example if a robot suffered a mechanism failure or if the driver was inconsistent).
 
 **Department Scouting:** The process of department scouting is the same as with team scouting, but the purpose differs in that it is done specifically to help departments learn about new techniques and mechanisms that other teams are using. Department scouts use different scouting forms than team scouts.
 
