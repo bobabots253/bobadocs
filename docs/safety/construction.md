@@ -10,17 +10,16 @@ These rules encompass the hazards that occur in the construction department, ran
 * Clamp everything down properly before drilling or cutting
 * Use the correct tool for the task at hand
 * Remember to follow PPE rules (see above)
+* Rules can be created because of you. Don't be that person. 
 
 ### Organization
-* Return all tools and bits to the power tool station
+* Return everything to their designated home. Nearly every shelf or cabinet has been re-labeled or cleared for labeling purposes.
 * Have a clean workspace by the end of the meeting
     * This includes returning tools to their designated storage areas and vacuuming any debris that may have been created during the meeting
-* Throw away any unneeded boxes or packaging
 
 ### Sanitation
 * Sweep debris off tables and ground after you finish working
 * Vacuum the bandsaw and drill press as well as their surrounding areas after use
-* No eating, especially in work areas, if needed, eat at designated Food Table
 
 ## Guidelines for Equipment  
 
@@ -93,16 +92,6 @@ These rules encompass the hazards that occur in the construction department, ran
 * When not drilling, be sure that the safety is on
 * Make sure that the drill bit is secure before drilling
 * Always wear safety glasses
-
-### Dremel
-![dremel](../assets/images/tools/construction/dremel.png)
-
-* Used to grind off edges on rough pieces of metal
-* Be wary of kickback when using the dremel, and position yourself away from the direction of kickback
-* Always wear safety goggles when using
-* Anyone within a 5 foot radius must also be wearing safety goggles
-* Never hold the object that you are working on and the dremel at the same time
-* Always clamp the object that you are working on onto a secure surface
 
 ### CNC Router
 ![cnc router](../assets/images/tools/construction/cncrouter.png)
