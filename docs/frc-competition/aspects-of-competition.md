@@ -8,7 +8,7 @@ At competition, the team is typically divided into groups, each contributing dif
 
 The pit is an area where teams do robot maintenance between matches. Typically only a few members (dubbed the pit crew and typically from technical departments) are allowed in the pit at a time to prevent overcrowding. Sometimes, matches are closely knit for certain teams, and it should be taken into consideration that members who know what they are doing should do robot maintenance (if necessary) quickly to maximize robot performance during the actual matches, which is why we often see leads and veteran members in pit crew. Other general members not part of pit crew are seen bleacher scouting, pit scouting, or spending leisure time in the pit area.
 
-![Pit Crew 2016](![IMG_1414](https://user-images.githubusercontent.com/63389441/236960879-f74c692d-6e4f-448b-b567-c185e6013e03.jpeg))
+![Pit Crew 2016](https://drive.google.com/file/d/1_d2l9NB9icdoQL9tiHfcf9mhyr75-dBX/view?usp=share_link)
 
 *Team 253’s pit crew during the 2016 San Francisco Regionals.*
 
@@ -41,12 +41,11 @@ Before a match, the drive teams of an alliance often come together and discuss s
 Listed below are some factors taken into account during strategy discussions.
 
 - teams’ strategy in prior matches
-- team rank 
 - recent team performance
 - strengths and weaknesses of robots
-- synergies among robots
+- synergy among robots
 
-Much of this information should already be documented in the team’s scouting data before alliance members meet. Teams should come into an alliance strategy discussion with their own strategy in mind. Alliance discussions can be seen as a way to mesh individual team strategies and identify synergies.
+Much of this information should already be documented in the team’s scouting data before alliance members meet. Our strategy comes together for a strategy discussion before the next alliance strategy discussion where the strategy lead, superscouters, and drive team meet with other teams in future matches to discuss strategy for those matches. Teams should come into an alliance strategy discussion with their own strategy in mind. 
 
 ### Alliance Selection
 
@@ -63,6 +62,7 @@ Teams are eligible to receive a number of awards at a competition event. These i
 
 and team attribute awards like the...
 
+- [Impact Award](https://www.firstinspires.org/resource-library/frc/submitted-awards)
 - [Safety Award](https://www.firstinspires.org/resource-library/frc/awards-based-on-team-attributes#safety)
 - [Gracious Professionalism Award](https://www.firstinspires.org/resource-library/frc/awards-based-on-team-attributes#gp) 
 - [Imagery Award](https://www.firstinspires.org/resource-library/frc/awards-based-on-team-attributes#imagery) 
