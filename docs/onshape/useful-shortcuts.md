@@ -1,38 +1,28 @@
-<!-- 
-    How to format keys:
-    https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#adding-keyboard-keys
-    https://facelessuser.github.io/pymdown-extensions/extensions/keys/
--->
+### CAD Shortcuts
 
-++shift+question-mark++
-Keyboard shortcuts Opens a list of all Onshape Shortcuts
+CTRL + Z
+Undo: Undoes the most recent action 
 
-++ctrl+z++
-Undo Undoes the most recent action 
-
-++ctrl+y++
+CTRL + Y
 Redo: Redoes a recently undone action 
 
-++space++
-Clear selection: Clears the selected object
+SPACE
+Clear selection: Clear selection of current item 
 
-++shift+enter++
-Accept and repeat a command: Applies the activated command and reactivates it to be used again. 
-
-++d++
+D
 Dimension: Activates the dimension command
 
-++e++
+E
 Equal: Makes a selection equal in size to another
 
-++h++
+H
 Horizontal: Places a selection in the horizontal position 
 
-++v++
- Vertical: Places a selection in the vertical position
+V
+Vertical: Places a selection in the vertical position
 
-++q++
-Toggle construction: Creates construction geometry
+Q
+Toggle construction lines: Creates construction geometry
 
 ++f++
 Zoom to fit: Zooms the drawing to fit the screen 
