@@ -78,6 +78,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#cad-shortcuts" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1152,9 +1157,38 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Useful Shortcuts
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Useful Shortcuts
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cad-shortcuts" class="md-nav__link">
+    CAD Shortcuts
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1606,6 +1640,21 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cad-shortcuts" class="md-nav__link">
+    CAD Shortcuts
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1621,32 +1670,23 @@
 
   <h1>Useful Shortcuts</h1>
 
-<!-- 
-    How to format keys:
-    https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#adding-keyboard-keys
-    https://facelessuser.github.io/pymdown-extensions/extensions/keys/
--->
-
-<p><span class="keys"><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-question">?</kbd></span>
-Keyboard shortcuts Opens a list of all Onshape Shortcuts</p>
-<p><span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-z">Z</kbd></span>
-Undo Undoes the most recent action </p>
-<p><span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-y">Y</kbd></span>
+<h3 id="cad-shortcuts">CAD Shortcuts<a class="headerlink" href="#cad-shortcuts" title="Permanent link">&para;</a></h3>
+<p>CTRL + Z
+Undo: Undoes the most recent action </p>
+<p>CTRL + Y
 Redo: Redoes a recently undone action </p>
-<p><span class="keys"><kbd class="key-space">Space</kbd></span>
-Clear selection: Clears the selected object</p>
-<p><span class="keys"><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-enter">Enter</kbd></span>
-Accept and repeat a command: Applies the activated command and reactivates it to be used again. </p>
-<p><span class="keys"><kbd class="key-d">D</kbd></span>
+<p>SPACE
+Clear selection: Clear selection of current item </p>
+<p>D
 Dimension: Activates the dimension command</p>
-<p><span class="keys"><kbd class="key-e">E</kbd></span>
+<p>E
 Equal: Makes a selection equal in size to another</p>
-<p><span class="keys"><kbd class="key-h">H</kbd></span>
+<p>H
 Horizontal: Places a selection in the horizontal position </p>
-<p><span class="keys"><kbd class="key-v">V</kbd></span>
- Vertical: Places a selection in the vertical position</p>
-<p><span class="keys"><kbd class="key-q">Q</kbd></span>
-Toggle construction: Creates construction geometry</p>
+<p>V
+Vertical: Places a selection in the vertical position</p>
+<p>Q
+Toggle construction lines: Creates construction geometry</p>
 <p><span class="keys"><kbd class="key-f">F</kbd></span>
 Zoom to fit: Zooms the drawing to fit the screen </p>
 <p><span class="keys"><kbd class="key-m">M</kbd></span>
