@@ -1,24 +1,31 @@
 ### CAD Shortcuts
 
 CTRL + Z
+
 Undo: Undoes the most recent action 
 
 CTRL + Y
+
 Redo: Redoes a recently undone action 
 
 SPACE
+
 Clear selection: Clear selection of current item 
 
 D
+
 Dimension: Activates the dimension command
 
 E
+
 Equal: Makes a selection equal in size to another
 
 H
+
 Horizontal: Places a selection in the horizontal position 
 
 V
+
 Vertical: Places a selection in the vertical position
 
 Q
