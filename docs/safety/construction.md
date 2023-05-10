@@ -16,10 +16,9 @@ These rules encompass the hazards that occur in the construction department, ran
 * Return everything to their designated home. Nearly every shelf or cabinet has been re-labeled or cleared for labeling purposes.
 * Have a clean workspace by the end of the meeting
     * This includes returning tools to their designated storage areas and vacuuming any debris that may have been created during the meeting
-
+    * 
 ### Sanitation
 * Sweep debris off tables and ground after you finish working
-* Vacuum the bandsaw and drill press as well as their surrounding areas after use
 
 ## Guidelines for Equipment  
 
