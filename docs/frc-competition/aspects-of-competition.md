@@ -8,7 +8,7 @@ At competition, the team is typically divided into groups, each contributing dif
 
 The pit is an area where teams do robot maintenance between matches. Typically only a few members (dubbed the pit crew and typically from technical departments) are allowed in the pit at a time to prevent overcrowding. Sometimes, matches are closely knit for certain teams, and it should be taken into consideration that members who know what they are doing should do robot maintenance (if necessary) quickly to maximize robot performance during the actual matches, which is why we often see leads and veteran members in pit crew. Other general members not part of pit crew are seen bleacher scouting, pit scouting, or spending leisure time in the pit area.
 
-![Pit Crew 2016](docs/assets/images/frc/IMG_1414.jpeg)
+![Pit Crew 2016](../assets/images/frc/IMG_1414.jpeg)
 
 *Team 253’s pit crew during the 2016 San Francisco Regionals.*
 
