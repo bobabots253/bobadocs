@@ -4,7 +4,7 @@ FIRST (For Inspiration and Recognition of Science and Technology) Robotics is an
 Each year, teams of students are challenged to raise funds, design a team brand, and engineer an industrial-sized robot to compete in a field game against other teams.
 Teams can also have mentors, who are professionals that volunteer and lend their expertise to guide the team.
 
-"" Quote from the FIRST Website
+"" 
     *“It’s as close to real-world engineering as a student can get.”*
 
     \- FIRST Website
