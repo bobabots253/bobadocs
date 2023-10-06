@@ -42,7 +42,8 @@ Navigate to this file in the repo (`docs/programming/version-control.md`) and ad
     Kaden Chow ._.,
     Michelle Yeung, 
     Don Huang,
-    Adam Situ
+    Adam Situ,
+    [David Li](discord://-/reset)
 
     
 
